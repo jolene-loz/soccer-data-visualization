@@ -3,7 +3,7 @@ let team2 = document.querySelector("#Team2").value;
 
 let margin = { top: 40, right: 20, bottom: 40, left: 90 },
 width =
-  340 -
+  500 -
   margin.left -
   margin.right,
 height = 300 - margin.top - margin.bottom;
@@ -70,69 +70,76 @@ height = 300 - margin.top - margin.bottom;
     
             let yAxisGroup2 = svg2.append("g").attr("class", "y-axis2 axis");
 
-            let svg3 = d3
-                .select(".assistVis3")
-                .append("svg")
-                .attr("width", width + margin.left + margin.right)
-                .attr("height", height + margin.top + margin.bottom)
-                .append("g")
-                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+            // let svg3 = d3
+            //     .select(".assistVis3")
+            //     .append("svg")
+            //     .attr("width", width + margin.left + margin.right)
+            //     .attr("height", height + margin.top + margin.bottom)
+            //     .append("g")
+            //     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
         
-                // AXIS
+            //     // AXIS
         
-                let x3 = d3
-                .scaleBand()
-                .range([0, width])
-                .paddingInner(0.1);
+            //     let x3 = d3
+            //     .scaleBand()
+            //     .range([0, width])
+            //     .paddingInner(0.1);
         
-                let y3 = d3.scaleLinear().range([height, 0]);
+            //     let y3 = d3.scaleLinear().range([height, 0]);
         
-                let xAxis3 = d3
-                .axisBottom()
-                .scale(x3)
-                .tickFormat(function(d) {
-                    return returnString(d,50);
-                });
+            //     let xAxis3 = d3
+            //     .axisBottom()
+            //     .scale(x3)
+            //     .tickFormat(function(d) {
+            //         return returnString(d,50);
+            //     });
         
-                let yAxis3 = d3.axisLeft().scale(y3);
+            //     let yAxis3 = d3.axisLeft().scale(y3);
         
-                let xAxisGroup3 = svg3.append("g").attr("class", "x-axis3 axis");
+            //     let xAxisGroup3 = svg3.append("g").attr("class", "x-axis3 axis");
         
-                let yAxisGroup3 = svg3.append("g").attr("class", "y-axis3 axis");
+            //     let yAxisGroup3 = svg3.append("g").attr("class", "y-axis3 axis");
 
         
-                let svg4 = d3
-                .select(".assistVis4")
-                .append("svg")
-                .attr("width", width + margin.left + margin.right)
-                .attr("height", height + margin.top + margin.bottom)
-                .append("g")
-                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+                // let svg4 = d3
+                // .select(".assistVis4")
+                // .append("svg")
+                // .attr("width", width + margin.left + margin.right)
+                // .attr("height", height + margin.top + margin.bottom)
+                // .append("g")
+                // .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
         
-                // AXIS
+                // // AXIS
         
-                let x4 = d3
-                .scaleBand()
-                .range([0, width])
-                .paddingInner(0.1);
+                // let x4 = d3
+                // .scaleBand()
+                // .range([0, width])
+                // .paddingInner(0.1);
         
-                let y4 = d3.scaleLinear().range([height, 0]);
+                // let y4 = d3.scaleLinear().range([height, 0]);
         
-                let xAxis4 = d3
-                .axisBottom()
-                .scale(x4)
-                .tickFormat(function(d) {
-                    return returnString(d,50);
-                });
+                // let xAxis4 = d3
+                // .axisBottom()
+                // .scale(x4)
+                // .tickFormat(function(d) {
+                //     return returnString(d,50);
+                // });
         
-                let yAxis4 = d3.axisLeft().scale(y4);
+                // let yAxis4 = d3.axisLeft().scale(y4);
         
-                let xAxisGroup4 = svg4.append("g").attr("class", "x-axis4 axis");
+                // let xAxisGroup4 = svg4.append("g").attr("class", "x-axis4 axis");
         
-                let yAxisGroup4 = svg4.append("g").attr("class", "y-axis4 axis");
+                // let yAxisGroup4 = svg4.append("g").attr("class", "y-axis4 axis");
 
       function returnString(content) {
         return content;}
+
+    let svgAssist = d3
+      .select(".assistVis3")
+      .append("svg")
+      .attr('height',120)
+      .attr('width', 300)
+      .attr('border', 4)
 
 function update(){
     team1 = document.querySelector("#Team1").value;
@@ -140,10 +147,10 @@ function update(){
 d3.csv('assists.csv', d3.autoType).then(data => {
     
     //filter team1
-    data1 = data.filter(data => data.event_team == team1)
-    data2 = data.filter(data => data.event_team == team2)
+    data = data.filter(data => data.event_team == team1 || data.event_team == team2)
+   //data2 = data.filter(data => data.event_team == team2)
 
-    console.log(data1, data2)
+    console.log(data)
     //console.log(data1[0].assist4)
 
    
@@ -160,12 +167,17 @@ d3.csv('assists.csv', d3.autoType).then(data => {
             })
           ]);
 
+          svg.selectAll("text")
+                .remove()
+                .exit()
+                .data(data)
+    
         // ---- DRAW BARS ----
         let bars = svg
             .selectAll(".bar")
             .remove()
             .exit()
-            .data(data1);
+            .data(data);
 
         //console.log(x.domain())
 
@@ -173,9 +185,19 @@ d3.csv('assists.csv', d3.autoType).then(data => {
             .enter()
             .append("rect")
             .attr("class", "bar")
-            .attr("fill","blue")
+            .attr("fill",function(d) {
+                if (d.event_team == team1){
+                    return 'blue';
+                } else {
+                    return 'red';
+                }
+            })
             .attr("x", function(d) {
-                return x(d.assists);
+                if (d.event_team == team1){
+                    return x(d.assists);
+                } else {
+                    return x(d.assists) + 36;
+                }
               })
               .attr("y", function(d) {
                 return y(d.goals);
@@ -183,33 +205,8 @@ d3.csv('assists.csv', d3.autoType).then(data => {
               .attr("height", function(d) {
                 return height - y(d.goals);
               })
-            .attr("width", x.bandwidth())
-            // .on("mouseover", function(event, d) {
-            // //Get this bar's x/y values, then augment for the tooltip
-            // let xPosition =
-            //     margin.left +
-            //     width / 2 +
-            //     parseFloat(d3.select(this).attr("x")) +
-            //     x.bandwidth() / 2;
-            // let yPosition =
-            //     margin.top + parseFloat(d3.select(this).attr("y")) / 2 + height;
-            // })
-            //Update the tooltip position and value
-            // d3.select("#tooltip")
-            //     .style("left", xPosition + "px")
-            //     .style("top", yPosition + "px")
-            //     .select("#value")
-            //     .text(d.Visitors);
-
-            // //Show the tooltip
-            // d3.select("#tooltip").classed("hidden", false);
-            // })
-            // .on("mouseout", function(d) {
-            // //Hide the tooltip
-            // d3.select("#tooltip").classed("hidden", true);
-            // });
-
-        // ---- DRAW AXIS	----
+            .attr("width", x.bandwidth()/2)
+    
         xAxisGroup = svg
             .select(".x-axis")
             .attr("transform", "translate(0," + height + ")")
@@ -221,14 +218,63 @@ d3.csv('assists.csv', d3.autoType).then(data => {
         svg
             .append("text")
             .attr("class", "axis-title")
-            .attr("x", 150)
+            .attr("x", 290)
             .attr("y", -15)
             .attr("dy", ".1em")
             .style("text-anchor", "end")
-            .text("Sucessful Assist Types Team 1");
+            .text("Number of Sucessful Assist Types Teams 1 and 2");
 
+            svg
+            .enter()
+            .append('g')
+            .attr("class", "legend")
+            .attr('x', '10px')
+            .attr('y','40px')
+            .attr('height', '30px')
+            .attr('width', '30px')
+
+            svg.selectAll('.legend')
+            .data(data)
+            .enter()
+            .append('rect')
+            .attr('fill', function(d){
+                if (d.event_team == team1){
+                    return 'blue'
+                } else {
+                    return 'red'
+                }
+            }) 
+            .attr('x', 250)
+            .attr('y', function(d){
+                
+                    if (d.event_team == team1){
+                return 25}
+                    else{
+                       return 55}
+                    }
+
+            )
+            .attr('height', '20px')
+            .attr('width','20px')
             
-    
+            svg.selectAll('.legend')
+            .data(data)
+            .enter()
+            .append('text')
+            .attr('x', 280)
+            .attr('y', function(d){
+                if (d.event_team == team1){
+                    return 42}
+                        else{
+                           return 70}
+            })
+            .text(function(d){
+                if (d.event_team == team1){
+                    return team1}
+                        else{
+                           return team2}
+            })
+
             x2.domain(
                 data.map(function(d) {
                   return d.assists;
@@ -237,12 +283,179 @@ d3.csv('assists.csv', d3.autoType).then(data => {
               y2.domain([
                 0,
                 d3.max(data, function(d) {
-                  return d.goals;
+                  return d.fails;
                 })
               ]);
     
+              svg2
+                .selectAll("text")
+                .remove()
+                .exit()
+                .data(data)
+
             // ---- DRAW BARS ----
             let bars2 = svg2
+                .selectAll(".bar2")
+                .remove()
+                .exit()
+                .data(data);
+
+                
+
+                
+            //console.log(x.domain())
+    
+            bars2
+                .enter()
+                .append("rect")
+                .attr("class", "bar2")
+                .attr("fill",function(d) {
+                    if (d.event_team == team1){
+                        return 'blue';
+                    } else {
+                        return 'red';
+                    }
+                })
+                .attr("x", function(d) {
+                    if (d.event_team == team1){
+                        return x2(d.assists);
+                    } else {
+                        return x2(d.assists) + 36;
+                    }
+                  })
+                  .attr("y", function(d) {
+                    return y2(d.fails);
+                  })
+                  .attr("height", function(d) {
+                    return height - y2(d.fails);
+                  })
+                .attr("width", x2.bandwidth()/2)
+        
+            xAxisGroup2 = svg2
+                .select(".x-axis2")
+                .attr("transform", "translate(0," + height + ")")
+                .call(xAxis2);
+    
+            yAxisGroup2 = svg2.select(".y-axis2").call(yAxis2);
+    
+            svg2.select("text.axis-title").remove();
+            svg2
+                .append("text")
+                .attr("class", "axis-title")
+                .attr("x", 280)
+                .attr("y", -15)
+                .attr("dy", ".1em")
+                .style("text-anchor", "end")
+                .text("Number of Failed Assist Types Teams 1 and 2");
+
+                svg2
+                .enter()
+                .append('g')
+                .attr("class", "legend")
+                .attr('x', '10px')
+                .attr('y','40px')
+                .attr('height', '30px')
+                .attr('width', '30px')
+    
+                svg2.selectAll('.legend')
+                .data(data)
+                .enter()
+                .append('rect')
+                .attr('fill', function(d){
+                    if (d.event_team == team1){
+                        return 'blue'
+                    } else {
+                        return 'red'
+                    }
+                }) 
+                .attr('x', 250)
+                .attr('y', function(d){
+                    
+                        if (d.event_team == team1){
+                    return 25}
+                        else{
+                           return 55}
+                        }
+    
+                )
+                .attr('height', '20px')
+                .attr('width','20px')
+                
+                svg2.selectAll('.legend')
+                .data(data)
+                .enter()
+                .append('text')
+                .attr('x', 280)
+                .attr('y', function(d){
+                    if (d.event_team == team1){
+                        return 42}
+                            else{
+                               return 70}
+                })
+                .text(function(d){
+                    if (d.event_team == team1){
+                        return team1}
+                            else{
+                               return team2}
+                })
+
+                svgAssist
+                .append('text')
+                .attr('x', 30)
+                .attr('y',20)
+                .text("Assist 0 = Unassisted goal")
+
+                svgAssist
+                .append('text')
+                .attr('x', 30)
+                .attr('y',40)
+                .text("Assist 1 = Pass")
+
+                svgAssist
+                .append('text')
+                .attr('x', 30)
+                .attr('y',60)
+                .text("Assist 2 = Cross")
+
+                svgAssist
+                .append('text')
+                .attr('x', 30)
+                .attr('y',80)
+                .text("Assist 3 = Headed Pass")
+
+                svgAssist
+                .append('text')
+                .attr('x', 30)
+                .attr('y',100)
+                .text("Assist 4 = Through Ball")
+
+                // svgAssist.append("rect")
+       			// .attr("x", 0)
+       			// .attr("y", 0)
+       			// .attr("height", 100)
+       			// .attr("width", 100)
+       			// .style("stroke", black)
+       			// .style("fill", "none")
+       			// .style("stroke-width", 4);
+            
+
+            
+            
+    
+            // x2.domain(
+            //     data.map(function(d) {
+            //       return d.assists;
+            //     })
+            //   );
+            //   y2.domain([
+            //     0,
+            //     d3.max(data, function(d) {
+            //       return d.goals;
+            //     })
+            //   ]);
+    
+            // ---- DRAW BARS ----
+           /* let bars2 = svg2
                 .selectAll(".bar")
                 .remove()
                 .exit()
@@ -469,7 +682,7 @@ d3.csv('assists.csv', d3.autoType).then(data => {
                     .attr("dy", ".1em")
                     .style("text-anchor", "end")
                     .text("Failed Assist Types Team 2");
-
+*/
             
 
 })
