@@ -1,0 +1,641 @@
+﻿assists,goals,attempts,event_team
+0,24,116,Troyes
+1,15,229,Troyes
+2,13,112,Troyes
+3,2,11,Troyes
+4,5,9,Troyes
+0,65,596,Lorient
+1,80,1131,Lorient
+2,56,365,Lorient
+3,9,58,Lorient
+4,13,54,Lorient
+0,36,322,Mallorca
+1,30,422,Mallorca
+2,27,257,Mallorca
+3,4,67,Mallorca
+4,6,30,Mallorca
+0,58,552,Malaga
+1,67,908,Malaga
+2,50,404,Malaga
+3,5,55,Malaga
+4,12,72,Malaga
+0,62,644,Werder Bremen
+1,98,928,Werder Bremen
+2,38,370,Werder Bremen
+3,11,85,Werder Bremen
+4,18,45,Werder Bremen
+0,79,657,Borussia Dortmund
+1,150,1206,Borussia Dortmund
+2,43,390,Borussia Dortmund
+3,6,76,Borussia Dortmund
+4,22,70,Borussia Dortmund
+0,54,417,Sochaux
+1,34,576,Sochaux
+2,42,342,Sochaux
+3,5,55,Sochaux
+4,12,39,Sochaux
+0,48,402,Stade de Reims
+1,46,603,Stade de Reims
+2,36,331,Stade de Reims
+3,3,54,Stade de Reims
+4,9,39,Stade de Reims
+0,59,472,Valenciennes
+1,41,670,Valenciennes
+2,31,346,Valenciennes
+3,6,45,Valenciennes
+4,9,43,Valenciennes
+0,46,423,AC Ajaccio
+1,55,619,AC Ajaccio
+2,38,243,AC Ajaccio
+3,5,49,AC Ajaccio
+4,5,40,AC Ajaccio
+0,56,348,Bastia
+1,30,513,Bastia
+2,42,266,Bastia
+3,6,42,Bastia
+4,8,45,Bastia
+0,61,513,Stade Rennes
+1,77,1005,Stade Rennes
+2,49,371,Stade Rennes
+3,11,67,Stade Rennes
+4,20,86,Stade Rennes
+0,69,471,VfL Wolfsburg
+1,91,1035,VfL Wolfsburg
+2,67,446,VfL Wolfsburg
+3,8,76,VfL Wolfsburg
+4,14,51,VfL Wolfsburg
+0,74,499,VfB Stuttgart
+1,77,819,VfB Stuttgart
+2,42,376,VfB Stuttgart
+3,10,87,VfB Stuttgart
+4,9,25,VfB Stuttgart
+0,35,387,Nurnberg
+1,44,604,Nurnberg
+2,46,292,Nurnberg
+3,2,51,Nurnberg
+4,10,31,Nurnberg
+0,50,530,Hamburg SV
+1,63,899,Hamburg SV
+2,30,383,Hamburg SV
+3,9,86,Hamburg SV
+4,12,37,Hamburg SV
+0,85,600,Lille
+1,88,1132,Lille
+2,54,506,Lille
+3,4,58,Lille
+4,20,88,Lille
+0,68,531,Nice
+1,66,791,Nice
+2,39,389,Nice
+3,5,55,Nice
+4,9,36,Nice
+0,75,571,Mainz
+1,76,895,Mainz
+2,33,313,Mainz
+3,12,79,Mainz
+4,11,48,Mainz
+0,47,404,SC Freiburg
+1,64,802,SC Freiburg
+2,30,233,SC Freiburg
+3,11,61,SC Freiburg
+4,13,34,SC Freiburg
+0,95,670,Juventus
+1,107,1464,Juventus
+2,48,484,Juventus
+3,14,68,Juventus
+4,40,173,Juventus
+0,85,563,Parma
+1,55,998,Parma
+2,54,474,Parma
+3,4,59,Parma
+4,21,78,Parma
+0,86,582,Udinese
+1,67,971,Udinese
+2,52,372,Udinese
+3,7,73,Udinese
+4,21,86,Udinese
+0,73,635,Fiorentina
+1,94,1299,Fiorentina
+2,57,421,Fiorentina
+3,11,78,Fiorentina
+4,17,89,Fiorentina
+0,63,611,Rayo Vallecano
+1,66,969,Rayo Vallecano
+2,51,379,Rayo Vallecano
+3,4,68,Rayo Vallecano
+4,11,59,Rayo Vallecano
+0,57,458,Real Betis
+1,42,768,Real Betis
+2,30,258,Real Betis
+3,3,42,Real Betis
+4,28,96,Real Betis
+0,13,146,SpVgg Greuther Furth
+1,16,211,SpVgg Greuther Furth
+2,6,77,SpVgg Greuther Furth
+3,0,10,SpVgg Greuther Furth
+4,1,4,SpVgg Greuther Furth
+0,83,535,Bayern Munich
+1,175,1217,Bayern Munich
+2,65,434,Bayern Munich
+3,12,76,Bayern Munich
+4,11,51,Bayern Munich
+0,52,521,FC Augsburg
+1,62,909,FC Augsburg
+2,43,350,FC Augsburg
+3,8,86,FC Augsburg
+4,7,33,FC Augsburg
+0,18,110,Fortuna Dusseldorf
+1,9,159,Fortuna Dusseldorf
+2,15,79,Fortuna Dusseldorf
+3,3,18,Fortuna Dusseldorf
+4,2,5,Fortuna Dusseldorf
+0,68,588,Toulouse
+1,64,884,Toulouse
+2,45,452,Toulouse
+3,12,86,Toulouse
+4,12,68,Toulouse
+0,27,253,AS Nancy Lorraine
+1,31,545,AS Nancy Lorraine
+2,30,186,AS Nancy Lorraine
+3,2,43,AS Nancy Lorraine
+4,5,39,AS Nancy Lorraine
+0,55,467,Espanyol
+1,60,806,Espanyol
+2,44,347,Espanyol
+3,14,88,Espanyol
+4,24,97,Espanyol
+0,35,281,Real Zaragoza
+1,17,463,Real Zaragoza
+2,23,180,Real Zaragoza
+3,2,24,Real Zaragoza
+4,7,23,Real Zaragoza
+0,63,406,Borussia Monchengladbach
+1,106,1060,Borussia Monchengladbach
+2,32,269,Borussia Monchengladbach
+3,4,47,Borussia Monchengladbach
+4,17,58,Borussia Monchengladbach
+0,87,605,TSG Hoffenheim
+1,85,1013,TSG Hoffenheim
+2,33,305,TSG Hoffenheim
+3,2,72,TSG Hoffenheim
+4,17,63,TSG Hoffenheim
+0,80,659,Real Sociedad
+1,65,882,Real Sociedad
+2,57,518,Real Sociedad
+3,14,93,Real Sociedad
+4,33,87,Real Sociedad
+0,43,420,Celta Vigo
+1,51,763,Celta Vigo
+2,30,277,Celta Vigo
+3,6,35,Celta Vigo
+4,19,87,Celta Vigo
+0,53,371,Eintracht Frankfurt
+1,66,691,Eintracht Frankfurt
+2,34,291,Eintracht Frankfurt
+3,9,55,Eintracht Frankfurt
+4,8,26,Eintracht Frankfurt
+0,74,580,Bayer Leverkusen
+1,125,1124,Bayer Leverkusen
+2,37,376,Bayer Leverkusen
+3,12,90,Bayer Leverkusen
+4,17,64,Bayer Leverkusen
+0,42,469,Palermo
+1,62,847,Palermo
+2,38,271,Palermo
+3,10,55,Palermo
+4,19,80,Palermo
+0,98,649,Napoli
+1,119,1348,Napoli
+2,52,386,Napoli
+3,6,58,Napoli
+4,38,147,Napoli
+0,105,683,Real Madrid
+1,166,1407,Real Madrid
+2,85,539,Real Madrid
+3,7,48,Real Madrid
+4,55,196,Real Madrid
+0,44,514,Getafe
+1,60,809,Getafe
+2,49,333,Getafe
+3,3,52,Getafe
+4,8,63,Getafe
+0,75,625,Marseille
+1,66,1085,Marseille
+2,76,590,Marseille
+3,10,86,Marseille
+4,13,73,Marseille
+0,95,657,Montpellier
+1,78,983,Montpellier
+2,45,419,Montpellier
+3,6,93,Montpellier
+4,25,82,Montpellier
+0,84,592,Sevilla
+1,80,1002,Sevilla
+2,55,481,Sevilla
+3,10,76,Sevilla
+4,27,115,Sevilla
+0,59,538,Granada
+1,35,723,Granada
+2,25,341,Granada
+3,4,55,Granada
+4,16,52,Granada
+0,78,665,AS Roma
+1,96,1438,AS Roma
+2,60,377,AS Roma
+3,6,62,AS Roma
+4,34,147,AS Roma
+0,59,547,Catania
+1,40,791,Catania
+2,40,319,Catania
+3,11,48,Catania
+4,15,90,Catania
+0,67,458,Torino
+1,53,898,Torino
+2,48,310,Torino
+3,4,45,Torino
+4,12,59,Torino
+0,36,236,Siena
+1,15,348,Siena
+2,28,167,Siena
+3,5,34,Siena
+4,9,39,Siena
+0,72,540,Cagliari
+1,54,1042,Cagliari
+2,38,424,Cagliari
+3,8,72,Cagliari
+4,13,64,Cagliari
+0,68,577,Genoa
+1,60,898,Genoa
+2,48,416,Genoa
+3,19,77,Genoa
+4,24,93,Genoa
+0,109,742,AC Milan
+1,105,1382,AC Milan
+2,43,406,AC Milan
+3,9,58,AC Milan
+4,17,102,AC Milan
+0,65,488,Sampdoria
+1,52,845,Sampdoria
+2,23,251,Sampdoria
+3,8,42,Sampdoria
+4,17,54,Sampdoria
+0,37,449,Osasuna
+1,28,643,Osasuna
+2,49,356,Osasuna
+3,9,76,Osasuna
+4,7,34,Osasuna
+0,119,596,Barcelona
+1,191,1227,Barcelona
+2,48,297,Barcelona
+3,4,35,Barcelona
+4,67,231,Barcelona
+0,78,585,St Etienne
+1,80,947,St Etienne
+2,59,509,St Etienne
+3,9,76,St Etienne
+4,20,71,St Etienne
+0,34,247,Brest
+1,28,531,Brest
+2,9,142,Brest
+3,1,28,Brest
+4,7,34,Brest
+0,13,134,US Pescara
+1,9,205,US Pescara
+2,7,80,US Pescara
+3,0,11,US Pescara
+4,1,11,US Pescara
+0,74,572,Internazionale
+1,76,1301,Internazionale
+2,70,475,Internazionale
+3,15,74,Internazionale
+4,29,116,Internazionale
+0,90,665,Valencia
+1,66,918,Valencia
+2,76,464,Valencia
+3,11,69,Valencia
+4,26,130,Valencia
+0,41,282,Deportivo La Coruna
+1,33,496,Deportivo La Coruna
+2,12,174,Deportivo La Coruna
+3,5,37,Deportivo La Coruna
+4,3,31,Deportivo La Coruna
+0,62,489,Atalanta
+1,47,772,Atalanta
+2,49,449,Atalanta
+3,10,96,Atalanta
+4,11,47,Atalanta
+0,83,635,Lazio
+1,82,1120,Lazio
+2,52,411,Lazio
+3,10,68,Lazio
+4,16,61,Lazio
+0,57,526,Bologna
+1,36,737,Bologna
+2,33,331,Bologna
+3,6,72,Bologna
+4,15,48,Bologna
+0,48,472,Chievo Verona
+1,51,847,Chievo Verona
+2,36,376,Chievo Verona
+3,4,65,Chievo Verona
+4,18,59,Chievo Verona
+0,31,231,Real Valladolid
+1,36,432,Real Valladolid
+2,35,212,Real Valladolid
+3,2,35,Real Valladolid
+4,7,25,Real Valladolid
+0,64,509,Levante
+1,50,661,Levante
+2,41,316,Levante
+3,7,63,Levante
+4,13,64,Levante
+0,85,536,Atletico Madrid
+1,79,922,Atletico Madrid
+2,71,526,Atletico Madrid
+3,18,78,Atletico Madrid
+4,16,75,Atletico Madrid
+0,58,567,Athletic Bilbao
+1,52,850,Athletic Bilbao
+2,82,536,Athletic Bilbao
+3,7,73,Athletic Bilbao
+4,27,95,Athletic Bilbao
+0,93,677,Lyon
+1,91,1022,Lyon
+2,67,392,Lyon
+3,6,65,Lyon
+4,20,94,Lyon
+0,76,557,Evian Thonon Gaillard
+1,52,848,Evian Thonon Gaillard
+2,48,370,Evian Thonon Gaillard
+3,6,70,Evian Thonon Gaillard
+4,29,73,Evian Thonon Gaillard
+0,72,608,Bordeaux
+1,72,1093,Bordeaux
+2,65,495,Bordeaux
+3,8,77,Bordeaux
+4,11,30,Bordeaux
+0,69,486,Schalke 04
+1,116,933,Schalke 04
+2,49,401,Schalke 04
+3,4,65,Schalke 04
+4,11,48,Schalke 04
+0,68,513,Hannover 96
+1,65,785,Hannover 96
+2,44,349,Hannover 96
+3,10,59,Hannover 96
+4,7,35,Hannover 96
+0,114,630,Paris Saint-Germain
+1,101,1047,Paris Saint-Germain
+2,72,477,Paris Saint-Germain
+3,9,71,Paris Saint-Germain
+4,38,157,Paris Saint-Germain
+0,10,156,Kaiserslautern
+1,13,230,Kaiserslautern
+2,5,106,Kaiserslautern
+3,1,23,Kaiserslautern
+4,0,7,Kaiserslautern
+0,44,297,Caen
+1,27,402,Caen
+2,21,186,Caen
+3,1,28,Caen
+4,11,49,Caen
+0,44,330,Hertha Berlin
+1,50,549,Hertha Berlin
+2,28,203,Hertha Berlin
+3,2,42,Hertha Berlin
+4,4,29,Hertha Berlin
+0,25,181,FC Cologne
+1,37,376,FC Cologne
+2,10,96,FC Cologne
+3,4,30,FC Cologne
+4,1,18,FC Cologne
+0,20,186,AJ Auxerre
+1,18,222,AJ Auxerre
+2,18,122,AJ Auxerre
+3,3,22,AJ Auxerre
+4,0,26,AJ Auxerre
+0,20,164,Dijon FCO
+1,8,192,Dijon FCO
+2,14,88,Dijon FCO
+3,2,18,Dijon FCO
+4,0,8,Dijon FCO
+0,19,156,Sporting Gijon
+1,14,221,Sporting Gijon
+2,9,88,Sporting Gijon
+3,2,18,Sporting Gijon
+4,3,17,Sporting Gijon
+0,6,117,Racing Santander
+1,13,189,Racing Santander
+2,15,94,Racing Santander
+3,1,20,Racing Santander
+4,4,12,Racing Santander
+0,56,411,Villarreal
+1,64,764,Villarreal
+2,21,251,Villarreal
+3,2,39,Villarreal
+4,17,85,Villarreal
+0,21,146,Novara
+1,9,225,Novara
+2,13,127,Novara
+3,4,30,Novara
+4,1,33,Novara
+0,30,233,Cesena
+1,20,407,Cesena
+2,9,131,Cesena
+3,6,44,Cesena
+4,4,19,Cesena
+0,20,133,Lecce
+1,10,231,Lecce
+2,13,88,Lecce
+3,2,13,Lecce
+4,5,32,Lecce
+0,36,279,AS Monaco
+1,47,541,AS Monaco
+2,30,255,AS Monaco
+3,1,35,AS Monaco
+4,12,41,AS Monaco
+0,26,241,Guingamp
+1,17,304,Guingamp
+2,29,228,Guingamp
+3,3,54,Guingamp
+4,4,20,Guingamp
+0,24,216,Nantes
+1,22,388,Nantes
+2,24,212,Nantes
+3,2,43,Nantes
+4,4,31,Nantes
+0,34,242,Almeria
+1,19,359,Almeria
+2,22,178,Almeria
+3,0,23,Almeria
+4,9,24,Almeria
+0,24,252,Elche
+1,20,395,Elche
+2,20,176,Elche
+3,5,20,Elche
+4,2,11,Elche
+0,34,237,Hellas Verona
+1,43,435,Hellas Verona
+2,28,227,Hellas Verona
+3,7,42,Hellas Verona
+4,10,26,Hellas Verona
+0,37,332,Sassuolo
+1,31,477,Sassuolo
+2,22,173,Sassuolo
+3,0,33,Sassuolo
+4,7,24,Sassuolo
+0,22,170,Livorno
+1,13,295,Livorno
+2,7,79,Livorno
+3,5,17,Livorno
+4,3,8,Livorno
+0,8,135,TSV Eintracht Braunschweig
+1,20,220,TSV Eintracht Braunschweig
+2,5,61,TSV Eintracht Braunschweig
+3,1,15,TSV Eintracht Braunschweig
+4,0,1,TSV Eintracht Braunschweig
+0,20,212,Aston Villa
+1,23,390,Aston Villa
+2,17,147,Aston Villa
+3,4,55,Aston Villa
+4,3,7,Aston Villa
+0,30,231,Hull
+1,22,339,Hull
+2,23,211,Hull
+3,3,36,Hull
+4,0,6,Hull
+0,12,117,Fulham
+1,20,203,Fulham
+2,9,77,Fulham
+3,1,16,Fulham
+4,1,5,Fulham
+0,36,254,Stoke City
+1,29,455,Stoke City
+2,19,194,Stoke City
+3,10,55,Stoke City
+4,6,11,Stoke City
+0,29,216,Sunderland
+1,25,442,Sunderland
+2,20,154,Sunderland
+3,1,32,Sunderland
+4,4,24,Sunderland
+0,50,274,Manchester Utd
+1,43,475,Manchester Utd
+2,23,219,Manchester Utd
+3,4,33,Manchester Utd
+4,10,51,Manchester Utd
+0,64,324,Liverpool
+1,48,682,Liverpool
+2,26,153,Liverpool
+3,1,29,Liverpool
+4,17,48,Liverpool
+0,33,217,Crystal Palace
+1,25,385,Crystal Palace
+2,21,177,Crystal Palace
+3,3,48,Crystal Palace
+4,4,11,Crystal Palace
+0,53,270,Manchester City
+1,69,738,Manchester City
+2,26,233,Manchester City
+3,3,27,Manchester City
+4,21,61,Manchester City
+0,34,282,Everton
+1,40,553,Everton
+2,25,155,Everton
+3,4,25,Everton
+4,10,33,Everton
+0,30,290,Newcastle
+1,33,488,Newcastle
+2,21,156,Newcastle
+3,3,42,Newcastle
+4,1,30,Newcastle
+0,7,118,Cardiff
+1,10,160,Cardiff
+2,12,108,Cardiff
+3,1,16,Cardiff
+4,4,7,Cardiff
+0,34,260,West Brom
+1,29,479,West Brom
+2,22,191,West Brom
+3,4,46,West Brom
+4,9,28,West Brom
+0,34,258,Arsenal
+1,57,550,Arsenal
+2,25,176,Arsenal
+3,7,32,Arsenal
+4,12,80,Arsenal
+0,26,232,West Ham
+1,33,368,West Ham
+2,20,225,West Ham
+3,9,56,West Ham
+4,4,21,West Ham
+0,47,276,Tottenham
+1,42,590,Tottenham
+2,23,151,Tottenham
+3,4,28,Tottenham
+4,2,20,Tottenham
+0,41,276,Chelsea
+1,64,674,Chelsea
+2,20,166,Chelsea
+3,2,29,Chelsea
+4,11,28,Chelsea
+0,9,116,Norwich City
+1,10,211,Norwich City
+2,6,83,Norwich City
+3,1,13,Norwich City
+4,1,12,Norwich City
+0,30,247,Swansea
+1,40,514,Swansea
+2,24,189,Swansea
+3,0,14,Swansea
+4,10,21,Swansea
+0,32,253,Southampton
+1,41,498,Southampton
+2,21,245,Southampton
+3,9,52,Southampton
+4,9,24,Southampton
+0,14,121,Metz
+1,11,190,Metz
+2,5,69,Metz
+3,0,15,Metz
+4,1,4,Metz
+0,17,117,Lens
+1,8,208,Lens
+2,12,109,Lens
+3,1,9,Lens
+4,0,12,Lens
+0,15,146,QPR
+1,12,270,QPR
+2,13,106,QPR
+3,4,28,QPR
+4,2,8,QPR
+0,18,133,Leicester City
+1,13,188,Leicester City
+2,9,96,Leicester City
+3,3,23,Leicester City
+4,1,12,Leicester City
+0,11,134,Burnley
+1,12,199,Burnley
+2,10,101,Burnley
+3,4,36,Burnley
+4,1,4,Burnley
+0,14,131,SC Paderborn
+1,13,225,SC Paderborn
+2,8,89,SC Paderborn
+3,1,16,SC Paderborn
+4,1,6,SC Paderborn
+0,8,115,Eibar
+1,12,119,Eibar
+2,8,62,Eibar
+3,0,9,Eibar
+4,1,7,Eibar
+0,10,82,Cordoba
+1,6,175,Cordoba
+2,5,80,Cordoba
+3,2,25,Cordoba
+4,0,6,Cordoba
+0,11,140,Empoli
+1,14,305,Empoli
+2,14,91,Empoli
+3,7,10,Empoli
+4,5,19,Empoli
