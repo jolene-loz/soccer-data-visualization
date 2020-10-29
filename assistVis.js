@@ -204,6 +204,22 @@ d3.csv('assists.csv', d3.autoType).then(data => {
                 return height - y(d.goals);
               })
             .attr("width", x.bandwidth()/2)
+            .on("mouseenter", (event, d) => {
+                const pos = d3.pointer(event, window)
+                d3.selectAll('.tooltipAssist')
+                    .style('display','inline-block')
+                    .style('position','fixed')
+                    .style('top', pos[1]+'px')
+                    .style('left', pos[0]+'px')
+                    .html(
+                        'Successes: ' + d.goals 
+                    )
+            })
+            .on("mouseleave", (event, d) => {
+                d3.selectAll('.tooltipAssist')
+                    .style('display','none')
+                //console.log("HERE")
+            });
     
         xAxisGroup = svg
             .select(".x-axis")
@@ -329,6 +345,23 @@ d3.csv('assists.csv', d3.autoType).then(data => {
                     return height - y2(d.fails);
                   })
                 .attr("width", x2.bandwidth()/2)
+                .on("mouseenter", (event, d) => {
+                    const pos = d3.pointer(event, window)
+                    d3.selectAll('.tooltipAssist')
+                        .style('display','inline-block')
+                        .style('position','fixed')
+                        .style('top', pos[1]+'px')
+                        .style('left', pos[0]+'px')
+                        .html(
+                            'Fails: ' + d.fails 
+                        )
+                })
+                .on("mouseleave", (event, d) => {
+                    d3.selectAll('.tooltipAssist')
+                        .style('display','none')
+                    //console.log("HERE")
+                });
+                
         
             xAxisGroup2 = svg2
                 .select(".x-axis2")
