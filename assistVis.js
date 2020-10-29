@@ -153,8 +153,6 @@ d3.csv('assists.csv', d3.autoType).then(data => {
     console.log(data)
     //console.log(data1[0].assist4)
 
-   
-
         x.domain(
             data.map(function(d) {
               return d.assists;
@@ -167,7 +165,7 @@ d3.csv('assists.csv', d3.autoType).then(data => {
             })
           ]);
 
-          svg.selectAll("text")
+          svg.selectAll(".legend")
                 .remove()
                 .exit()
                 .data(data)
@@ -261,6 +259,7 @@ d3.csv('assists.csv', d3.autoType).then(data => {
             .data(data)
             .enter()
             .append('text')
+            .attr('class', 'legend')
             .attr('x', 280)
             .attr('y', function(d){
                 if (d.event_team == team1){
@@ -288,7 +287,7 @@ d3.csv('assists.csv', d3.autoType).then(data => {
               ]);
     
               svg2
-                .selectAll("text")
+                .selectAll(".legend")
                 .remove()
                 .exit()
                 .data(data)
@@ -351,7 +350,7 @@ d3.csv('assists.csv', d3.autoType).then(data => {
                 svg2
                 .enter()
                 .append('g')
-                .attr("class", "legend")
+                .attr("class", ".legend")
                 .attr('x', '10px')
                 .attr('y','40px')
                 .attr('height', '30px')
@@ -385,6 +384,7 @@ d3.csv('assists.csv', d3.autoType).then(data => {
                 .data(data)
                 .enter()
                 .append('text')
+                .attr('class', 'legend')
                 .attr('x', 280)
                 .attr('y', function(d){
                     if (d.event_team == team1){
