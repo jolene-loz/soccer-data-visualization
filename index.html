@@ -3,6 +3,7 @@
   <head>
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <script defer src="assistVis.js"></script>
+    <link rel="stylesheet" href="style.css">
     
     <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
@@ -282,14 +283,12 @@
     <option value="Empoli">Empoli</option>
     </select>
 </div>
-<center><button class="sort" onclick="update()">Go!</button></center>
-<center>
-<div class="assistVis1" style = "display: flex; float: left"> </div>
-<div class="assistVis2" style = "display: flex; float: left"> </div>
+<center><button class="sort" onclick="callUpdate()">Go!</button></center>
+<div class="assistVis1"> </div>
+<div class="assistVis2"> </div>
 <strong>
-<div class="assistVis3" style = "display: flex; float: left"></div></strong>
-</center>
-
+  <div class="assistVis3" style = "display: flex; float: left"></div></strong>
+<div class="goalLocation"> </div>
     
     
   </body>
