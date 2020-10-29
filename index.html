@@ -20,7 +20,7 @@
   </div>
   <div style="width: 50%; display: flex; float: left">
       <label for="Team1" style="left: 50%; width: 150px; float:initial">Pick Team 1</label>
-  <select id="Team1" onchange="callUpdate()" >
+  <select id="Team1" >
     <option value="Troyes">Troyes</option>
     <option value="Lorient">Lorient</option>
     <option value="Mallorca">Mallorca</option>
@@ -152,7 +152,7 @@
   </div>
   <div style="width: 50%; display: flex; float: right;">
       <label for="Team2" style="left: 50%; float: initial; width: 150px;">Pick Team 2</label>
-  <select id="Team2" onchange="callUpdate()" >
+  <select id="Team2" >
     <option value="Troyes">Troyes</option>
     <option value="Lorient">Lorient</option>
     <option value="Mallorca">Mallorca</option>
@@ -282,9 +282,11 @@
     <option value="Empoli">Empoli</option>
     </select>
 </div>
-<center><button class="sort" onclick="callUpdate()">Go!</button></center>
-<div class="assistVis1"> </div>
-<div class="assistVis2"> </div>
+<center><button class="sort" onclick="update()">Go!</button></center>
+<div class="assistVis1" style = "display: flex; float: left"> </div>
+<div class="assistVis2" style = "display: flex; float: left"> </div>
+<div class="assistVis3" style = "display: flex; float: left"> </div>
+<div class="assistVis4" style = "display: flex; float: left"> </div>
     
     
   </body>
