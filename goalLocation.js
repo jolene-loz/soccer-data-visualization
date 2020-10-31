@@ -1,7 +1,8 @@
 
-function update_goal(){
 
-  let margin = { top: 1000, right: 20, bottom: 40, left: 90 },
+function update(){
+
+  let margin = { top: 40, right: 20, bottom: 40, left: 90 },
   width = 1000 - margin.left - margin.right,
   height = 700 - margin.top - margin.bottom;
 
@@ -54,7 +55,7 @@ function update_goal(){
 
       //=== Team 1 ===
 
-      // count how much each city occurs in list and store in countObj
+      // count how much each location occurs in goals made and store in location_dict
       data1.forEach(function(d) {
           var location = d.location;
           var keyname = location_info[location];
@@ -70,16 +71,6 @@ function update_goal(){
           var keyname = location_info[location];
           d.count = location_dict_1[keyname];
       });
-
-      // let keys = Object.keys(location_dict_1)
-
-      // keys.forEach(key => {
-      //   console.log("Key", key)
-      //   location_dict_1[location_info[key]] = location_dict_1[key]
-      // });
-
-      
-
 
       console.log("Location 1", location_dict_1)
 
@@ -125,35 +116,21 @@ function update_goal(){
         .data(values1)
         .enter()
         .append("circle")
-        .attr('cx', 300)
-        .attr("cy", 300)
+        .attr('cx', d=> {return d.x})
+        .attr("cy", d=> {return d.y})
         .attr("fill", "blue")
         .attr('r', function(d) {return d*5;});
         
-      var circles2 = svg.selectAll("circle")
+      var circles = svg.selectAll("circle")
         .data(values2)
         .enter()
         .append("circle")
-        .attr('cx', 400)
-        .attr("cy", 400)
+        .attr('cx', d=> {return d.x})
+        .attr("cy", d=> {return d.y})
         .attr("fill", "red")
-        .attr('r', function(d) {return d*5;});
+        .attr('r', function(d) {return d+10;});
 
-      sim.on("tick", ()=>{
-          circles.attr("cx", d=>{
-            return 100;
-          });
-          
-          circles.attr("cy", d=>{
-            return 100;
-          });
-        });
-
-
-
-        
-
-
+      svg.exit().remove()
         
   })
 }
