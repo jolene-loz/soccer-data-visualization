@@ -1,30 +1,159 @@
 
+function update_goal(){
 
-    // width = 500 - margin.left - margin.right,
-    // height = 300 - margin.top - margin.bottom;
-
-d3.csv('game_goals_location_ontarget.csv', d3.autoType).then(data => {
-    //filter team1
-    // data = data.filter(data => data.team2 == team2)
-    //data2 = data.filter(data => data.event_team == team2)
-    console.log(data)
-
-    const svg = d3.select('.goalLocation')
-        .append('svg')
-        .attr('width', width)
-        .attr('height', height);
-
-    // let circles = svg.selectAll("circle")
-    //     .data(data.location)
-    //     .enter()
-    //     .append("circle")
-    //     .attr('cx', function(d, i){
-    //         return d.x;
-    //     })
-    //     .attr("cy", (d,i)=>d.y)
-    //     .attr("fill", "skyblue")
-    //     .attr('r', 4);
+  let margin = { top: 1000, right: 20, bottom: 40, left: 90 },
+  width = 1000 - margin.left - margin.right,
+  height = 700 - margin.top - margin.bottom;
 
 
-    
-})
+  const svg = d3.select('.goalLocation')
+    .append('svg')
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+
+  let team1 = document.querySelector("#Team1").value;
+  let team2 = document.querySelector("#Team2").value;
+
+  console.log(team1)
+
+  d3.csv('game_goals_location_ontarget.csv', d3.autoType).then(data => {
+
+      data1 = data.filter(data => data.team1_name == team1)
+      data2 = data.filter(data => data.team2_name == team2)
+
+      console.log(data2)
+      console.log("Team 1 Data", data1)
+      console.log("Team 2 Data", data2)
+
+      let location_dict_1 = {};
+      let location_dict_2 = {};
+
+      let location_info = {
+        1: "Attacking half",
+        2: "Defensive half",
+        3: "Centre of the box",
+        4: "Left Wing",
+        5:	"Right wing",
+        6:	"Difficult angle and long range",
+        7:	"Difficult angle on the left",
+        8:	"Difficult angle on the right",
+        9:	"Left side of the box",
+        10:	"Left side of the six yard box",
+        11:	"Right side of the box",
+        12:	"Right side of the six yard box",
+        13:	"Very close range",
+        14:	"Penalty spot",
+        15:	"Outside the box",
+        16:	"Long range",
+        17:	"More than 35 yards",
+        18:	"More than 40 yards",
+        19:	"Not recorded"
+      }
+
+      // let keyname = location_info[key]
+
+      //=== Team 1 ===
+
+      // count how much each city occurs in list and store in countObj
+      data1.forEach(function(d) {
+          var location = d.location;
+          var keyname = location_info[location];
+          if(location_dict_1[keyname] === undefined) {
+            location_dict_1[keyname] = 0;
+          } else {
+            location_dict_1[keyname] = location_dict_1[keyname] + 1;
+          }
+      });
+      // now store the count in each data member
+      data1.forEach(function(d) {
+          var location = d.location;
+          var keyname = location_info[location];
+          d.count = location_dict_1[keyname];
+      });
+
+      // let keys = Object.keys(location_dict_1)
+
+      // keys.forEach(key => {
+      //   console.log("Key", key)
+      //   location_dict_1[location_info[key]] = location_dict_1[key]
+      // });
+
+      
+
+
+      console.log("Location 1", location_dict_1)
+
+      let values1 = Object.keys(location_dict_1).map(function(key){
+        return location_dict_1[key];
+      });
+
+
+      // === Team 2 ===
+      // count how much each city occurs in list and store in countObj
+      data2.forEach(function(d) {
+        var location = d.location;
+        var keyname = location_info[location];
+        if(location_dict_2[keyname] === undefined) {
+          location_dict_2[keyname] = 0;
+        } else {
+          location_dict_2[keyname] = location_dict_2[keyname] + 1;
+        }
+      });
+      // now store the count in each data member
+      data1.forEach(function(d) {
+          var location = d.location;
+          var keyname = location_info[location];
+          d.count = location_dict_2[keyname];
+      });
+
+      console.log("Location 2", location_dict_2)
+
+      let values2 = Object.keys(location_dict_2).map(function(key){
+        return location_dict_2[key];
+      });
+
+      console.log(values2)
+
+      const sim = d3.forceSimulation(data1)
+      .force('charge', d3.forceManyBody().strength(5))
+      .force('center', d3.forceCenter())
+      .force('collide', d3.forceCollide().radius(function(d) {
+        return 100;
+      }))
+
+      var circles = svg.selectAll("circle")
+        .data(values1)
+        .enter()
+        .append("circle")
+        .attr('cx', 300)
+        .attr("cy", 300)
+        .attr("fill", "blue")
+        .attr('r', function(d) {return d*5;});
+        
+      var circles2 = svg.selectAll("circle")
+        .data(values2)
+        .enter()
+        .append("circle")
+        .attr('cx', 400)
+        .attr("cy", 400)
+        .attr("fill", "red")
+        .attr('r', function(d) {return d*5;});
+
+      sim.on("tick", ()=>{
+          circles.attr("cx", d=>{
+            return 100;
+          });
+          
+          circles.attr("cy", d=>{
+            return 100;
+          });
+        });
+
+
+
+        
+
+
+        
+  })
+}
