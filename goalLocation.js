@@ -18,7 +18,7 @@ function updateGoal(){
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
       let svg5 = d3
-      .select(".goalLocation")
+      .select(".goalLocation2")
       .append("svg")
       .attr("width", width + margin.left + margin.right)
       .attr("height", height + margin.top + margin.bottom)
@@ -137,7 +137,12 @@ function updateGoal(){
   
     function ticked1() {
 
-      svg.selectAll(".goalLocation")
+      svg4.selectAll(".goalLocation")
+                .remove()
+                .exit()
+                .data(totalRadiusVals)
+
+                svg5.selectAll(".goalLocation")
                 .remove()
                 .exit()
                 .data(totalRadiusVals)
@@ -149,7 +154,7 @@ function updateGoal(){
                 .data(totalRadiusVals);
 
       let team2 = svg5
-                .selectAll(".svgTeam1")
+                .selectAll(".svgTeam2")
                 .remove()
                 .exit()
                 .data(totalRadiusVals);
@@ -186,7 +191,7 @@ function updateGoal(){
           .attr('cy', function(d) {
             return d.y
           })
-          .attr('fill', 'blue')
+          .attr('fill', 'red')
     
       //team1.exit().remove()
 
@@ -203,7 +208,7 @@ function updateGoal(){
     .on('tick', ticked);
 
   function ticked() {
-    var team1 = d3.select('.goalLocation')
+    var team1 = d3.select('.goalLocation1')
       .selectAll('circle')
       .data(radiusVals1)
 
@@ -223,15 +228,15 @@ function updateGoal(){
 
   //team1.exit().remove()
 
-  var team2 = d3.select('.goalLocation2')
-      .selectAll('circle')
-      .data(radiusVals2)
+  // var team2 = d3.select('.goalLocation2')
+  //     .selectAll('circle')
+  //     .data(radiusVals2)
 
   // var team2 = d3.select('.goalLocation')
   //     .selectAll('circle')
   //     .data(radiusVals2)
 
-      team2.enter()
+      /*team2.enter()
       .append('circle')
       .attr('r', function(d) {
         return d.radius
@@ -243,7 +248,7 @@ function updateGoal(){
       .attr('cy', function(d) {
         return d.y
       })
-      .attr('fill', 'red')
+      .attr('fill', 'red')*/
      
      // team2.exit().remove()
     }
