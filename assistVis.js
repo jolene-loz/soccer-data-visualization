@@ -3,7 +3,7 @@ let team2 = document.querySelector("#Team2").value;
 
 let margin = { top: 40, right: 20, bottom: 40, left: 90 },
 width =
-  500 -
+  550 -
   margin.left -
   margin.right,
 height = 300 - margin.top - margin.bottom;
