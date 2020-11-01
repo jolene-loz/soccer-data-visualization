@@ -1,4 +1,23 @@
 
+let svg4 = d3
+  .select(".goalLocation")
+  .append("svg")
+  .attr("width", width + margin.left + margin.right)
+  .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+let svg5 = d3
+  .select(".goalLocation2")
+  .append("svg")
+  .attr("width", width + margin.left + margin.right)
+  .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+d3.select('svg4').remove()
+d3.select('svg5').remove()
 
 function updateGoal(){
 
@@ -6,22 +25,8 @@ function updateGoal(){
   width = 500 - margin.left - margin.right,
   height = 300 - margin.top - margin.bottom;
 
-  let svg4 = d3
-      .select(".goalLocation")
-      .append("svg")
-      .attr("width", width + margin.left + margin.right)
-      .attr("height", height + margin.top + margin.bottom)
-      .append("g")
-      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-      let svg5 = d3
-      .select(".goalLocation2")
-      .append("svg")
-      .attr("width", width + margin.left + margin.right)
-      .attr("height", height + margin.top + margin.bottom)
-      .append("g")
-      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
+  
   let team1 = document.querySelector("#Team1").value;
   let team2 = document.querySelector("#Team2").value;
 
@@ -145,6 +150,8 @@ function updateGoal(){
       .text((d) => d.name)
       .attr('text-anchor', "middle")
       .attr('font-size', 10)
+    
+    
 
     function ticked1() {
 
@@ -161,8 +168,6 @@ function updateGoal(){
       var team1 = svg4
         .selectAll('circle')
         .data(radiusVals1)
-
-      
 
       team1.enter()
         .append('circle')
@@ -188,6 +193,7 @@ function updateGoal(){
       });
 
       team1.exit().remove()
+      labels1.exit().remove()
     }
 
     var simulation2 = d3.forceSimulation(radiusVals2)
@@ -240,6 +246,10 @@ function updateGoal(){
         
       team2.exit().remove()
     }
+
          
   })
+
+ 
 }
+
