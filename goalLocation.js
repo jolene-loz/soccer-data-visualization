@@ -121,7 +121,7 @@ function updateGoal(){
       console.log(totalRadiusVals)
 
 
-    var simulation1 = d3.forceSimulation(radiusVals1)
+    var simulation1 = d3.forceSimulation(totalRadiusVals)
       .force('charge', d3.forceManyBody().strength(5))
       .force('center', d3.forceCenter(width / 2, height / 2))
       .force('collision', d3.forceCollide().radius(function(d) {
@@ -132,7 +132,7 @@ function updateGoal(){
     function ticked1() {
       let team1 = d3.select('svg')
           .selectAll('.svgTeam1')
-          .data(radiusVals1)
+          .data(totalRadiusVals)
           team1.enter()
           .append('circle')
           .attr('r', function(d) {
@@ -181,8 +181,6 @@ function updateGoal(){
 
       team2.exit().remove()
     }
-
-
 
         
   })
