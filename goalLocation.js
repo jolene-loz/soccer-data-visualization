@@ -244,10 +244,10 @@ function updateGoal(){
         return d.y
       })
       .attr('fill', 'red')
-
+     
      // team2.exit().remove()
     }
 
-        
+         
   })
 }
