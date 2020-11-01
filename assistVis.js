@@ -70,67 +70,6 @@ height = 300 - margin.top - margin.bottom;
     
             let yAxisGroup2 = svg2.append("g").attr("class", "y-axis2 axis");
 
-            // let svg3 = d3
-            //     .select(".assistVis3")
-            //     .append("svg")
-            //     .attr("width", width + margin.left + margin.right)
-            //     .attr("height", height + margin.top + margin.bottom)
-            //     .append("g")
-            //     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-        
-            //     // AXIS
-        
-            //     let x3 = d3
-            //     .scaleBand()
-            //     .range([0, width])
-            //     .paddingInner(0.1);
-        
-            //     let y3 = d3.scaleLinear().range([height, 0]);
-        
-            //     let xAxis3 = d3
-            //     .axisBottom()
-            //     .scale(x3)
-            //     .tickFormat(function(d) {
-            //         return returnString(d,50);
-            //     });
-        
-            //     let yAxis3 = d3.axisLeft().scale(y3);
-        
-            //     let xAxisGroup3 = svg3.append("g").attr("class", "x-axis3 axis");
-        
-            //     let yAxisGroup3 = svg3.append("g").attr("class", "y-axis3 axis");
-
-        
-                // let svg4 = d3
-                // .select(".assistVis4")
-                // .append("svg")
-                // .attr("width", width + margin.left + margin.right)
-                // .attr("height", height + margin.top + margin.bottom)
-                // .append("g")
-                // .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-        
-                // // AXIS
-        
-                // let x4 = d3
-                // .scaleBand()
-                // .range([0, width])
-                // .paddingInner(0.1);
-        
-                // let y4 = d3.scaleLinear().range([height, 0]);
-        
-                // let xAxis4 = d3
-                // .axisBottom()
-                // .scale(x4)
-                // .tickFormat(function(d) {
-                //     return returnString(d,50);
-                // });
-        
-                // let yAxis4 = d3.axisLeft().scale(y4);
-        
-                // let xAxisGroup4 = svg4.append("g").attr("class", "x-axis4 axis");
-        
-                // let yAxisGroup4 = svg4.append("g").attr("class", "y-axis4 axis");
-
       function returnString(content) {
         return content;}
 
@@ -141,10 +80,11 @@ height = 300 - margin.top - margin.bottom;
       .attr('width', 300)
       .attr('border', 4)
 
-function update(){
+function updateAssist(){
+  console.log("HERE")
     team1 = document.querySelector("#Team1").value;
     team2 = document.querySelector("#Team2").value;
-d3.csv('assists.csv', d3.autoType).then(data => {
+    d3.csv('assists.csv', d3.autoType).then(data => {
     
     //filter team1
     data = data.filter(data => data.event_team == team1 || data.event_team == team2)
