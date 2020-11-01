@@ -77,7 +77,7 @@ height = 300 - margin.top - margin.bottom;
       .select(".assistVis3")
       .append("svg")
       .attr('height',120)
-      .attr('width', 300)
+      .attr('width', 230)
       .attr('border', 4)
 
 function updateAssist(){
