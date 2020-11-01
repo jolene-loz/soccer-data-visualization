@@ -138,32 +138,32 @@ function updateGoal(){
     function ticked1() {
 
       svg4.selectAll(".goalLocation")
-                .remove()
-                .exit()
-                .data(totalRadiusVals)
+            .remove()
+            .exit()
+            .data(radiusVals1)
 
-                svg5.selectAll(".goalLocation")
-                .remove()
-                .exit()
-                .data(totalRadiusVals)
+      svg5.selectAll(".goalLocation")
+        .remove()
+        .exit()
+        .data(radiusVals2)
 
       let team1 = svg4
                 .selectAll(".svgTeam1")
                 .remove()
                 .exit()
-                .data(totalRadiusVals);
+                .data(radiusVals1);
 
       let team2 = svg5
                 .selectAll(".svgTeam2")
                 .remove()
                 .exit()
-                .data(totalRadiusVals);
+                .data(radiusVals2);
 
       //let team1 = //d3.select('svg4')
           // .selectAll('.svgTeam1')
           
           team1.enter()
-          .data(totalRadiusVals)
+          .data(radiusVals1)
           .append('circle')
           .attr('r', function(d) {
             return d.radius
@@ -179,12 +179,12 @@ function updateGoal(){
 
 
           team2.enter()
-          .data(totalRadiusVals)
+          .data(radiusVals2)
           .append('circle')
           .attr('r', function(d) {
             return d.radius
           })
-          .merge(team1)
+          .merge(team2)
           .attr('cx', function(d) {
             return d.x
           })
