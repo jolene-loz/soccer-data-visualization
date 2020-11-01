@@ -127,77 +127,123 @@ function updateGoal(){
       console.log(totalRadiusVals)
 
 
-    var simulation1 = d3.forceSimulation(totalRadiusVals)
+    // var simulation1 = d3.forceSimulation(radiusVals1)
+    //   .force('charge', d3.forceManyBody().strength(5))
+    //   .force('center', d3.forceCenter(width / 2, height / 2))
+    //   .force('collision', d3.forceCollide().radius(function(d) {
+    //     return d.radius
+    //   }))
+    //   .on('tick', ticked1)
+  
+    // function ticked1() {
+
+    //   svg4.selectAll(".goalLocation")
+    //         .remove()
+    //         .exit()
+    //         .data(radiusVals1)
+
+    //   svg5.selectAll(".goalLocation2")
+    //     .remove()
+    //     .exit()
+    //     .data(radiusVals2)
+
+    //   let team1 = svg4
+    //             .selectAll(".svgTeam1")
+    //             .remove()
+    //             .exit()
+    //             .data(radiusVals1);
+
+    //   let team2 = svg5
+    //             .selectAll(".svgTeam2")
+    //             .remove()
+    //             .exit()
+    //             .data(radiusVals2);
+
+    //   team1.enter()
+    //       .data(radiusVals1)
+    //       .append('circle')
+    //       .attr('r', function(d) {
+    //         return d.radius
+    //       })
+    //       .merge(team1)
+    //       .attr('cx', function(d) {
+    //         return d.x
+    //       })
+    //       .attr('cy', function(d) {
+    //         return d.y
+    //       })
+    //       .attr('fill', 'blue')
+
+    // team1.exit().remove()
+
+    //  team2.enter()
+    //       .data(radiusVals2)
+    //       .append('circle')
+    //       .attr('r', function(d) {
+    //         return d.radius
+    //       })
+    //       .merge(team2)
+    //       .attr('cx', function(d) {
+    //         return d.x
+    //       })
+    //       .attr('cy', function(d) {
+    //         return d.y
+    //       })
+    //       .attr('fill', 'red')
+    
+      
+    //   team2.exit().remove()
+
+ 
+    //   }
+
+
+    var simulation1 = d3.forceSimulation(radiusVals1)
       .force('charge', d3.forceManyBody().strength(5))
       .force('center', d3.forceCenter(width / 2, height / 2))
       .force('collision', d3.forceCollide().radius(function(d) {
         return d.radius
       }))
-      .on('tick', ticked1)
-  
+      .on('tick', ticked1);
+
     function ticked1() {
 
       svg4.selectAll(".goalLocation")
-            .remove()
-            .exit()
-            .data(radiusVals1)
+        .remove()
+        .exit()
+        .data(radiusVals1)
 
-      svg5.selectAll(".goalLocation")
+      svg5.selectAll(".goalLocation2")
         .remove()
         .exit()
         .data(radiusVals2)
 
-      let team1 = svg4
-                .selectAll(".svgTeam1")
-                .remove()
-                .exit()
-                .data(radiusVals1);
+      var team1 = svg4
+        .selectAll('circle')
+        .data(radiusVals1)
 
-      let team2 = svg5
-                .selectAll(".svgTeam2")
-                .remove()
-                .exit()
-                .data(radiusVals2);
+          //   let team1 = svg4
+    //             .selectAll(".svgTeam1")
+    //             .remove()
+    //             .exit()
+    //             .data(radiusVals1);
 
-      //let team1 = //d3.select('svg4')
-          // .selectAll('.svgTeam1')
-          
-          team1.enter()
-          .data(radiusVals1)
-          .append('circle')
-          .attr('r', function(d) {
-            return d.radius
-          })
-          .merge(team1)
-          .attr('cx', function(d) {
-            return d.x
-          })
-          .attr('cy', function(d) {
-            return d.y
-          })
-          .attr('fill', 'blue')
+      team1.enter()
+        .append('circle')
+        .attr('r', function(d) {
+          return d.radius
+        })
+        .merge(team1)
+        .attr('cx', function(d) {
+          return d.x
+        })
+        .attr('cy', function(d) {
+          return d.y
+        })
+        .attr('fill', 'blue')
 
-
-          team2.enter()
-          .data(radiusVals2)
-          .append('circle')
-          .attr('r', function(d) {
-            return d.radius
-          })
-          .merge(team2)
-          .attr('cx', function(d) {
-            return d.x
-          })
-          .attr('cy', function(d) {
-            return d.y
-          })
-          .attr('fill', 'red')
-    
-      //team1.exit().remove()
-
- 
-      }
-
+      team1.exit().remove()
+    }
 
     var simulation2 = d3.forceSimulation(radiusVals2)
     .force('charge', d3.forceManyBody().strength(5))
@@ -205,54 +251,37 @@ function updateGoal(){
     .force('collision', d3.forceCollide().radius(function(d) {
       return d.radius
     }))
-    .on('tick', ticked);
+    .on('tick', ticked2);
 
-  function ticked() {
-    var team1 = d3.select('.goalLocation1')
-      .selectAll('circle')
-      .data(radiusVals1)
 
-    team1.enter()
-      .append('circle')
-      .attr('r', function(d) {
-        return d.radius
-      })
-      .merge(team1)
-      .attr('cx', function(d) {
-        return d.x
-      })
-      .attr('cy', function(d) {
-        return d.y
-      })
-      .attr('fill', "blue")
+    function ticked2() {
+      svg5.selectAll(".goalLocation2")
+        .remove()
+        .exit()
+        .data(radiusVals2)
 
-  //team1.exit().remove()
 
-  // var team2 = d3.select('.goalLocation2')
-  //     .selectAll('circle')
-  //     .data(radiusVals2)
 
-  // var team2 = d3.select('.goalLocation')
-  //     .selectAll('circle')
-  //     .data(radiusVals2)
+      var team2 = svg5
+                .selectAll("circle")
+                .data(radiusVals2);
 
-      /*team2.enter()
-      .append('circle')
-      .attr('r', function(d) {
-        return d.radius
-      })
-      .merge(team2)
-      .attr('cx', function(d) {
-        return d.x
-      })
-      .attr('cy', function(d) {
-        return d.y
-      })
-      .attr('fill', 'red')*/
-     
-     // team2.exit().remove()
+       team2.enter()
+            .append('circle')
+            .attr('r', function(d) {
+              return d.radius
+            })
+            .merge(team2)
+            .attr('cx', function(d) {
+              return d.x
+            })
+            .attr('cy', function(d) {
+              return d.y
+            })
+            .attr('fill', 'red')
+        
+      team2.exit().remove()
     }
-
          
   })
 }
