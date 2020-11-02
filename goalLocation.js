@@ -17,11 +17,18 @@ let svg5 = d3
   .append("g")
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-
+  var labelList1 = []
+  var labelList2 = []
 d3.select('svg4').remove()
 d3.select('svg5').remove()
 
 function updateGoal(){
+
+  svg5.selectAll('.label2').remove()
+  svg4.selectAll('.label1').remove()
+  labelList2 =[]
+  labelList1 = []
+
 
   let margin = { top: 40, right: 20, bottom: 40, left: 90 },
 width = 500 - margin.left - margin.right,
@@ -120,7 +127,7 @@ height = 300 - margin.top - margin.bottom;
 
 
       let radiusVals1 = Object.keys(location_dict_1).map(function(key){
-        return {radius: location_dict_1[key]*5 + 30, name: key};
+        return {radius: location_dict_1[key] + 20, name: key};
       });
 
       console.log("Radius Values", radiusVals1)
@@ -149,7 +156,7 @@ height = 300 - margin.top - margin.bottom;
       console.log("Location 2", location_dict_2)
 
       let radiusVals2 = Object.keys(location_dict_2).map(function(key){
-        return {radius: location_dict_2[key]*5 + 30, name: key};
+        return {radius: location_dict_2[key]+ 20, name: key};
       });
 
       console.log("Radius Values 2", radiusVals2)
@@ -157,15 +164,6 @@ height = 300 - margin.top - margin.bottom;
       let totalRadiusVals = Object.assign([], radiusVals2, radiusVals2);
 
       console.log(totalRadiusVals)
-
-
-      var labels1 = svg4.selectAll('circle')
-      .data(radiusVals1)
-      .enter()
-      .append("text")
-      .text((d,i) => d.name)
-      .attr('text-anchor', "middle")
-      .attr('font-size', 10)
     
       
     var simulation1 = d3.forceSimulation(radiusVals1)
@@ -177,13 +175,15 @@ height = 300 - margin.top - margin.bottom;
       .on('tick', ticked1)
       .restart();
 
-    
+
     
 
     // labels1.select("text").remove();
     
 
     function ticked1() {
+
+      //labelList1 = []
 
       svg4.selectAll(".goalLocation")
         .remove()
@@ -198,6 +198,7 @@ height = 300 - margin.top - margin.bottom;
       var team1 = svg4
         .selectAll('circle')
         .data(radiusVals1)
+      
 
       team1.enter()
         .append('circle')
@@ -212,6 +213,7 @@ height = 300 - margin.top - margin.bottom;
           return d.y
         })
         .attr('fill', 'blue')
+        .attr('class', 'circle1')
         .on("mouseenter", (event, d) => {
           const pos = d3.pointer(event, window)
           d3.selectAll('.tooltipAssist')
@@ -228,6 +230,20 @@ height = 300 - margin.top - margin.bottom;
                       .style('display','none')
                   //console.log("HERE")
               });
+
+              var labels1 = svg4.selectAll('circle1')
+              .data(radiusVals1)
+              .enter()
+              .append("text")
+              .attr('class', 'label1')
+              .text(function (d){
+                if (!labelList1.includes(d.name)){
+                  labelList1.push(d.name)
+                  // console.log(labelList2)
+                  return d.name
+                }})
+              .attr('text-anchor', "middle")
+              .attr('font-size', 10)
 
       labels1.attr('x',(d) => {
         return d.x
@@ -249,13 +265,7 @@ height = 300 - margin.top - margin.bottom;
       .on('tick', ticked2)
       .restart()
 
-      var labels2 = svg5.selectAll('circle')
-      .data(radiusVals2)
-      .enter()
-      .append("text")
-      .text((d) => d.name)
-      .attr('text-anchor', "middle")
-      .attr('font-size', 10)
+     
 
     function ticked2() {
       svg5.selectAll(".goalLocation2")
@@ -263,9 +273,13 @@ height = 300 - margin.top - margin.bottom;
         .exit()
         .data(radiusVals2)
 
+      
+
       var team2 = svg5
                 .selectAll("circle")
                 .data(radiusVals2);
+
+                
 
        team2.enter()
             .append('circle')
@@ -280,6 +294,7 @@ height = 300 - margin.top - margin.bottom;
               return d.y
             })
             .attr('fill', 'red')
+            .attr('class','circle2')
             .on("mouseenter", (event, d) => {
               const pos = d3.pointer(event, window)
               d3.selectAll('.tooltipAssist')
@@ -296,6 +311,20 @@ height = 300 - margin.top - margin.bottom;
                           .style('display','none')
                       //console.log("HERE")
                   });
+          
+          var labels2 = svg5.selectAll('circle2')
+                  .data(radiusVals2)
+                  .enter()
+                  .append("text")
+                  .attr('class', 'label2')
+                  .text(function (d){
+                    if (!labelList2.includes(d.name)){
+                      labelList2.push(d.name)
+                      // console.log(labelList2)
+                      return d.name
+                    }})
+                  .attr('text-anchor', "middle")
+                  .attr('font-size', 10)
 
         
       labels2.attr('x',(d) => {
@@ -304,7 +333,7 @@ height = 300 - margin.top - margin.bottom;
       .attr('y', (d) => {
         return d.y
       });
-        
+ 
       team2.exit().remove()
     }
 
