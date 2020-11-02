@@ -218,9 +218,10 @@ height = 400 - margin.top - margin.bottom;
         .on("mouseenter", (event, d) => {
           const pos = d3.pointer(event, window)
           d3.selectAll('.tooltipAssist')
-              .style('display','inline-block')
+              .style('display','block')
               .style('position','fixed')
-              .style('top', pos[1]+'px')
+              .style('top', event.clientY + 'px')
+              // .style('top', pos[1]+'px')
               .style('left', pos[0]+'px')
               .html(
                   '# of Goals: ' + d.radius
@@ -299,11 +300,14 @@ height = 400 - margin.top - margin.bottom;
             .attr('fill', 'red')
             .attr('class','circle2')
             .on("mouseenter", (event, d) => {
+              console.log(event);
+              console.log(d);
               const pos = d3.pointer(event, window)
               d3.selectAll('.tooltipAssist')
-                  .style('display','inline-block')
+                  .style('display','block')
                   .style('position','fixed')
-                  .style('top', pos[1]+'px')
+                  .style('top', event.clientY + 'px')
+                  // .style('top', pos[1]+'px')
                   .style('left', pos[0]+'px')
                   .html(
                       '# of Goals: ' + d.radius

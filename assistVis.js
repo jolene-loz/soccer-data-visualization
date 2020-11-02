@@ -147,9 +147,10 @@ function updateAssist(){
             .on("mouseenter", (event, d) => {
                 const pos = d3.pointer(event, window)
                 d3.selectAll('.tooltipAssist')
-                    .style('display','inline-block')
+                    .style('display','block')
                     .style('position','fixed')
-                    .style('top', pos[1]+'px')
+                    .style('top', event.clientY +'px')
+                    // .style('top', pos[1]+'px')
                     .style('left', pos[0]+'px')
                     .html(
                         'Successes: ' + d.goals 
@@ -288,9 +289,10 @@ function updateAssist(){
                 .on("mouseenter", (event, d) => {
                     const pos = d3.pointer(event, window)
                     d3.selectAll('.tooltipAssist')
-                        .style('display','inline-block')
+                        .style('display','block')
                         .style('position','fixed')
-                        .style('top', pos[1]+'px')
+                        .style('top', event.clientY + 'px')
+                        // .style('top', pos[1]+'px')
                         .style('left', pos[0]+'px')
                         .html(
                             'Fails: ' + d.fails 

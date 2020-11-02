@@ -62,12 +62,17 @@ export function HeatMap(container){// selector for a chart container e.g., ".cha
         return pt1 + pt2;
     }
     var mouseover = function(d) {
-        const pos = d3.pointer(event);
-        console.log(pos);
+        // console.log(d);
+        const pos = d3.pointer(event, window);
+        // console.log(pos);
+        // console.log(Math.round(window.pageYOffset));
+        // console.log(d.clientY);
+        // var y_from_top = d.target.getBoundingClientRect().y;
+        // console.log(d.getBoundingClientRect());
         tooltip
             .style('display', 'block')
             .html(tooltiptext(d))
-            .style('top', pos[1] + "px")
+            .style('top', d.clientY + "px")
             .style('left', pos[0] + "px");
     };
     var mouseleave = function(d) {
