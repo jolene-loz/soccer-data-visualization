@@ -216,6 +216,8 @@ function updateGoal(){
              return d.y - 130
           } else if (d.name === 'Very close range'){
             return d.y 
+          } else if (d.name === "Penalty spot"){
+            return d.y - 50
           }
         })
         .attr('fill', 'blue')
