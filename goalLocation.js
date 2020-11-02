@@ -201,7 +201,8 @@ export function updateGoal(team1, team2){
             return d.y - 50
           }
         })
-        .attr('fill', 'blue')
+        .attr('fill', d3.color('rgb(103, 0, 31)'))
+        .attr('opacity', 0.8)
         .attr('class', 'circle1')
         .on("mouseenter", (event, d) => {
           const pos = d3.pointer(event, window)
@@ -286,7 +287,8 @@ export function updateGoal(team1, team2){
             .attr('cy', function(d) {
               return d.y - 10
             })
-            .attr('fill', 'red')
+            .attr('fill', d3.color('rgb(5, 48, 97)'))
+            .attr('opacity', 0.8)
             .attr('class','circle2')
             .on("mouseenter", (event, d) => {
               console.log(event);
