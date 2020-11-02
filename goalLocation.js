@@ -204,7 +204,7 @@ height = 400 - margin.top - margin.bottom;
       team1.enter()
         .append('circle')
         .attr('r', function(d) {
-          return d.radius * 3
+          return d.radius 
         })
         .merge(team1)
         .attr('cx', function(d) {
@@ -288,7 +288,7 @@ height = 400 - margin.top - margin.bottom;
        team2.enter()
             .append('circle')
             .attr('r', function(d) {
-              return d.radius * 3
+              return d.radius
             })
             .merge(team2)
             .attr('cx', function(d) {
