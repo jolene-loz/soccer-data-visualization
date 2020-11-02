@@ -253,6 +253,7 @@ export function updateGoal(team1, team2){
           else if (d.name == "Right Side of the Six Yard Box") {
             return d.y - 10
           }
+        })
 
         .attr('fill', d3.color('rgb(103, 0, 31)'))
         .attr('opacity', 0.8)
