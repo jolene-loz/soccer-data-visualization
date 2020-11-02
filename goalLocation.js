@@ -30,7 +30,7 @@ function updateGoal(){
   labelList1 = []
 
 
-  let margin = { top: 40, right: 20, bottom: 40, left: 90 },
+  let margin = { top: 40, right: 20, bottom: 100, left: 90 },
 width = 800 - margin.left - margin.right,
 height = 400 - margin.top - margin.bottom;
 
@@ -204,7 +204,7 @@ height = 400 - margin.top - margin.bottom;
       team1.enter()
         .append('circle')
         .attr('r', function(d) {
-          return d.radius * 2
+          return d.radius * 3
         })
         .merge(team1)
         .attr('cx', function(d) {
@@ -287,7 +287,7 @@ height = 400 - margin.top - margin.bottom;
        team2.enter()
             .append('circle')
             .attr('r', function(d) {
-              return d.radius * 2
+              return d.radius * 3
             })
             .merge(team2)
             .attr('cx', function(d) {
