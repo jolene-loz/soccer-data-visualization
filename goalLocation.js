@@ -2,8 +2,8 @@
 let svg4 = d3
   .select(".goalLocation")
   .append("svg")
-  .attr("width", width + margin.left + margin.right)
-  .attr("height", height + margin.top + margin.bottom)
+  .attr("width", 400 + margin.left + margin.right)
+  .attr("height", 800 + margin.top + margin.bottom)
   .append("g")
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -11,8 +11,8 @@ let svg4 = d3
 let svg5 = d3
   .select(".goalLocation2")
   .append("svg")
-  .attr("width", width + margin.left + margin.right)
-  .attr("height", height + margin.top + margin.bottom)
+  .attr("width", 400 + margin.left + margin.right)
+  .attr("height", 600 + margin.top + margin.bottom)
   .append("g")
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -30,8 +30,8 @@ function updateGoal(){
 
 
   let margin = { top: 40, right: 20, bottom: 100, left: 90 },
-width = 800 - margin.left - margin.right,
-height = 400 - margin.top - margin.bottom;
+  width = 800 - margin.left - margin.right,
+  height = 400 - margin.top - margin.bottom;
 
   
   let team1 = document.querySelector("#Team1").value;
@@ -100,8 +100,7 @@ height = 400 - margin.top - margin.bottom;
         15:	"Outside the box",
         16:	"Long range",
         17:	"More than 35 yards",
-        18:	"More than 40 yards",
-        19:	"Not recorded"
+        18:	"More than 40 yards"
       }
 
       // let keyname = location_info[key]
@@ -180,9 +179,6 @@ height = 400 - margin.top - margin.bottom;
       .on('tick', ticked1)
       .restart();
 
-
-    
-
     // labels1.select("text").remove();
     
 
@@ -216,7 +212,11 @@ height = 400 - margin.top - margin.bottom;
           return d.x - 200
         })
         .attr('cy', function(d) {
-          return d.y - 10
+          if (d.name === "Centre of the box"){
+             return d.y - 130
+          } else if (d.name === 'Very close range'){
+            return d.y 
+          }
         })
         .attr('fill', 'blue')
         .attr('class', 'circle1')
@@ -229,7 +229,7 @@ height = 400 - margin.top - margin.bottom;
               // .style('top', pos[1]+'px')
               .style('left', pos[0]+'px')
               .html(
-                  '# of Goals: ' + d.radius
+                  '# of Goals: ' + (d.radius - 20)
                 )
               })
               .on("mouseleave", (event, d) => {
@@ -316,7 +316,7 @@ height = 400 - margin.top - margin.bottom;
                   // .style('top', pos[1]+'px')
                   .style('left', pos[0]+'px')
                   .html(
-                      '# of Goals: ' + d.radius
+                      '# of Goals: ' + (d.radius - 20)
                     )
                   })
                   .on("mouseleave", (event, d) => {
