@@ -202,7 +202,19 @@ export function updateGoal(team1, team2){
           return d.x - 70
         } else if (d.name === 'Difficult angle on the left'){
           return d.x - 400
-        }else if (d.name === "Penalty spot"){
+        } else if (d.name === 'Difficult angle on the right'){
+          return d.x - 10
+        } else if (d.name === 'Left side of the box'){
+          return d.x - 10
+        } else if (d.name === 'Left side of the six yard box'){
+          return d.x - 10
+        } else if (d.name === 'Right side of the box'){
+          return d.x - 10
+        } else if (d.name === 'Right side of the six yard box'){
+          return d.x - 10
+        } else if (d.name === 'Very close range'){
+          return d.x - 10
+        } else if (d.name === "Penalty spot"){
           return d.x - 260
         } else if (d.name === "Outside the box"){
           return d.x - 130
@@ -226,6 +238,18 @@ export function updateGoal(team1, team2){
           } else if (d.name === 'Difficult angle and long range'){
             return d.y + 20
           } else if (d.name === 'Difficult angle on the left'){
+            return d.y - 10
+          } else if (d.name === 'Difficult angle on the right'){
+            return d.y - 10
+          } else if (d.name === 'Left side of the box'){
+            return d.y - 10
+          } else if (d.name === 'Left side of the six yard box'){
+            return d.y - 10
+          } else if (d.name === 'Right side of the box'){
+            return d.y - 10
+          } else if (d.name === 'Right side of the six yard box'){
+            return d.y - 10
+          } else if (d.name === 'Very close range'){
             return d.y - 10
           } else if (d.name === "Penalty spot"){ //done
             return d.y - 150
@@ -398,7 +422,7 @@ export function updateGoal(team1, team2){
               } else if (d.name === "Penalty spot"){ //done
                 return d.y - 150
               } else if (d.name === "Outside the box"){ //done
-                return d.y - 10
+                return d.y * .4
               } else if (d.name === "Long range"){ 
                 return d.y + 20
               } else if (d.name === "More than 35 yards"){
