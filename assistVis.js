@@ -173,7 +173,7 @@ function updateAssist(){
         svg
             .append("text")
             .attr("class", "axis-title")
-            .attr("x", margin.left)
+            .attr("x", 0)
             .attr("y", -15)
             .attr("dy", ".1em")
             .style("text-anchor", "begin")
@@ -316,7 +316,7 @@ function updateAssist(){
             svg2
                 .append("text")
                 .attr("class", "axis-title")
-                .attr("x", margin.left)
+                .attr("x", 0)
                 .attr("y", -15)
                 .attr("dy", ".1em")
                 .style("text-anchor", "begin")

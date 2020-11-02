@@ -1,5 +1,4 @@
 
-
 let svg4 = d3
   .select(".goalLocation")
   .append("svg")
@@ -46,7 +45,7 @@ height = 400 - margin.top - margin.bottom;
   svg4
   .append("text")
   .attr("class", "axis-title")
-  .attr("x", margin.left)
+  .attr("x",0)
   .attr("y", -15)
   .attr("dy", ".1em")
   .style("text-anchor", "begin")
@@ -56,7 +55,7 @@ height = 400 - margin.top - margin.bottom;
   svg5
     .append("text")
     .attr("class", "axis-title")
-    .attr("x", margin.left )
+    .attr("x", 0 )
     .attr("y", -15)
     .attr("dy", ".1em")
     .style("text-anchor", "begin")
