@@ -252,9 +252,7 @@ export function updateGoal(team1, team2){
           }
           else if (d.name == "Right Side of the Six Yard Box") {
             return d.y - 10
-          }
-        })
-
+          }})
         .attr('fill', d3.color('rgb(103, 0, 31)'))
         .attr('opacity', 0.8)
         .attr('class', 'circle1')
@@ -337,7 +335,17 @@ export function updateGoal(team1, team2){
             .merge(team2)
             .attr('cx', function(d) {
               if (d.name === "Centre of the box"){
-                return d.y - 130
+                return d.x - 275
+             } else if (d.name === 'Very close range'){
+               return d.x - 278
+             } else if (d.name === 'Left wing'){
+              return d.x - 400
+            } else if(d.name === 'Right wing'){
+              return d.x - 150
+            } else if (d.name === 'Difficult angle and long range'){
+              return d.x - 70
+            } else if (d.name === 'Difficult angle on the left'){
+              return d.x - 400
             }else if (d.name === "Penalty spot"){
               return d.x - 260
             } else if (d.name === "Outside the box"){
@@ -347,13 +355,22 @@ export function updateGoal(team1, team2){
             } else if (d.name === "More than 35 yards"){
               return d.x - 100
             } else if (d.name === "More than 40 yards"){
-              return d.y - 200
-            }})
+              return d.x - 200
+            }
+          })
             .attr('cy', function(d) {
               if (d.name === "Centre of the box"){
-                 return d.y - 130
+                return d.y - 10
               } else if (d.name === 'Very close range'){
-                return d.y 
+                return d.y - 110
+              } else if (d.name === 'Left wing'){
+                return d.y +150
+              } else if(d.name === 'Right wing'){
+                return d.y + 150
+              } else if (d.name === 'Difficult angle and long range'){
+                return d.y + 20
+              } else if (d.name === 'Difficult angle on the left'){
+                return d.y - 10
               } else if (d.name === "Penalty spot"){ //done
                 return d.y - 150
               } else if (d.name === "Outside the box"){ //done
@@ -365,7 +382,21 @@ export function updateGoal(team1, team2){
               } else if (d.name === "More than 40 yards"){
                 return d.y + 100
               }
-            })
+              else if (d.name == "Difficult Angle on the Right") {
+                  return d.y - 10
+              }
+              else if (d.name == "Left Side of the Box") {
+                return d.y - 10
+              }
+              else if (d.name == "Left Side of the Six Yard Box") {
+                return d.y - 10
+              }
+              else if (d.name == "Right Side of the Box") {
+                return d.y - 10
+              }
+              else if (d.name == "Right Side of the Six Yard Box") {
+                return d.y - 10
+              }})
             .attr('fill', d3.color('rgb(5, 48, 97)'))
             .attr('opacity', 0.8)
             .attr('class','circle2')
