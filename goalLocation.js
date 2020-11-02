@@ -26,7 +26,7 @@ function updateGoal(){
 
   svg5.selectAll('.label2').remove()
   svg4.selectAll('.label1').remove()
-  labelList2 =[]
+  labelList2 = []
   labelList1 = []
 
 
@@ -236,6 +236,7 @@ height = 300 - margin.top - margin.bottom;
               .enter()
               .append("text")
               .attr('class', 'label1')
+              .style('font-weight', 'bold')
               .text(function (d){
                 if (!labelList1.includes(d.name)){
                   labelList1.push(d.name)
@@ -317,6 +318,8 @@ height = 300 - margin.top - margin.bottom;
                   .enter()
                   .append("text")
                   .attr('class', 'label2')
+                  .attr('width', 20)
+                  .style('font-weight', 'bold')
                   .text(function (d){
                     if (!labelList2.includes(d.name)){
                       labelList2.push(d.name)
