@@ -10,6 +10,7 @@ height = 300 - margin.top - margin.bottom;
 
       width = width > 600 ? 600 : width;
 
+var tickLabels = ['Unassisted', 'Pass', 'Cross', 'Headed Pass', 'Through Ball']
       let svg = d3
       .select(".assistVis1")
       .append("svg")
@@ -30,9 +31,7 @@ height = 300 - margin.top - margin.bottom;
       let xAxis = d3
       .axisBottom()
       .scale(x)
-      .tickFormat(function(d) {
-          return returnString(d,50);
-      });
+      .tickFormat(function(d,i){ return tickLabels[i]; });
 
       let yAxis = d3.axisLeft().scale(y);
 
@@ -60,9 +59,8 @@ height = 300 - margin.top - margin.bottom;
             let xAxis2 = d3
             .axisBottom()
             .scale(x2)
-            .tickFormat(function(d) {
-                return returnString(d,50);
-            });
+            .tickFormat(function(d,i){ return tickLabels[i] }
+            );
     
             let yAxis2 = d3.axisLeft().scale(y2);
     
@@ -73,12 +71,12 @@ height = 300 - margin.top - margin.bottom;
       function returnString(content) {
         return content;}
 
-    let svgAssist = d3
-      .select(".assistVis3")
-      .append("svg")
-      .attr('height',120)
-      .attr('width', 230)
-      .attr('border', 4)
+    // let svgAssist = d3
+    //   .select(".assistVis3")
+    //   .append("svg")
+    //   .attr('height',120)
+    //   .attr('width', 230)
+    //   .attr('border', 4)
 
 export function updateAssist(team1, team2){
   console.log("HERE")
@@ -378,35 +376,35 @@ export function updateAssist(team1, team2){
                                return team2}
                 })
 
-                svgAssist
-                .append('text')
-                .attr('x', 30)
-                .attr('y',20)
-                .text("Assist 0 = Unassisted goal")
+                // svgAssist
+                // .append('text')
+                // .attr('x', 30)
+                // .attr('y',20)
+                // .text("Assist 0 = Unassisted goal")
 
-                svgAssist
-                .append('text')
-                .attr('x', 30)
-                .attr('y',40)
-                .text("Assist 1 = Pass")
+                // svgAssist
+                // .append('text')
+                // .attr('x', 30)
+                // .attr('y',40)
+                // .text("Assist 1 = Pass")
 
-                svgAssist
-                .append('text')
-                .attr('x', 30)
-                .attr('y',60)
-                .text("Assist 2 = Cross")
+                // svgAssist
+                // .append('text')
+                // .attr('x', 30)
+                // .attr('y',60)
+                // .text("Assist 2 = Cross")
 
-                svgAssist
-                .append('text')
-                .attr('x', 30)
-                .attr('y',80)
-                .text("Assist 3 = Headed Pass")
+                // svgAssist
+                // .append('text')
+                // .attr('x', 30)
+                // .attr('y',80)
+                // .text("Assist 3 = Headed Pass")
 
-                svgAssist
-                .append('text')
-                .attr('x', 30)
-                .attr('y',100)
-                .text("Assist 4 = Through Ball")
+                // svgAssist
+                // .append('text')
+                // .attr('x', 30)
+                // .attr('y',100)
+                // .text("Assist 4 = Through Ball")
 
                 // svgAssist.append("rect")
        			// .attr("x", 0)

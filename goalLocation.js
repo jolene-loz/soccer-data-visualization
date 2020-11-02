@@ -68,7 +68,7 @@ export function updateGoal(team1, team2){
         2: "Defensive half",
         3: "Centre of the box",
         4: "Left Wing",
-        5:	"Right wing",
+        5:  "Right wing",
         6:	"Difficult angle and long range",
         7:	"Difficult angle on the left",
         8:	"Difficult angle on the right",
@@ -206,7 +206,7 @@ export function updateGoal(team1, team2){
       })
         .attr('cy', function(d) {
           if (d.name === "Centre of the box"){
-             return d.y - 130
+             return d.y - 50
           } else if (d.name === 'Very close range'){
             return d.y 
           } else if (d.name === "Penalty spot"){ //done
@@ -220,8 +220,26 @@ export function updateGoal(team1, team2){
           } else if (d.name === "More than 40 yards"){
             return d.y + 100
           }
+            else if (d.name == "Difficult Angle on the Right") {
+              return d.y - 10
+          }
+          else if (d.name == "Left Side of the Box") {
+            return d.y - 10
+          }
+          else if (d.name == "Left Side of the Six Yard Box") {
+            return d.y - 10
+          }
+          else if (d.name == "Right Side of the Box") {
+            return d.y - 10
+          }
+          else if (d.name == "Right Side of the Six Yard Box") {
+            return d.y - 10
+          }
+
+            
         })
-        .attr('fill', 'blue')
+        .attr('fill', d3.color('rgb(103, 0, 31)'))
+        .attr('opacity', 0.8)
         .attr('class', 'circle1')
         .on("mouseenter", (event, d) => {
           const pos = d3.pointer(event, window)
@@ -331,7 +349,8 @@ export function updateGoal(team1, team2){
                 return d.y + 100
               }
             })
-            .attr('fill', 'red')
+            .attr('fill', d3.color('rgb(5, 48, 97)'))
+            .attr('opacity', 0.8)
             .attr('class','circle2')
             .on("mouseenter", (event, d) => {
               console.log(event);
