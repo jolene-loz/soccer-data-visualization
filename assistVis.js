@@ -3,7 +3,7 @@ let team2 = document.querySelector("#Team2").value;
 
 let margin = { top: 40, right: 20, bottom: 40, left: 90 },
 width =
-  550 -
+  500 -
   margin.left -
   margin.right,
 height = 300 - margin.top - margin.bottom;
@@ -172,7 +172,7 @@ function updateAssist(){
         svg
             .append("text")
             .attr("class", "axis-title")
-            .attr("x", 290)
+            .attr("x", 280)
             .attr("y", -15)
             .attr("dy", ".1em")
             .style("text-anchor", "end")
@@ -198,13 +198,13 @@ function updateAssist(){
                     return 'red'
                 }
             }) 
-            .attr('x', 250)
+            .attr('x', 230)
             .attr('y', function(d){
                 
                     if (d.event_team == team1){
-                return 25}
+                return 5}
                     else{
-                       return 55}
+                       return 32}
                     }
 
             )
@@ -216,12 +216,12 @@ function updateAssist(){
             .enter()
             .append('text')
             .attr('class', 'legend')
-            .attr('x', 280)
+            .attr('x', 260)
             .attr('y', function(d){
                 if (d.event_team == team1){
-                    return 42}
+                    return 20}
                         else{
-                           return 70}
+                           return 50}
             })
             .text(function(d){
                 if (d.event_team == team1){
@@ -314,7 +314,7 @@ function updateAssist(){
             svg2
                 .append("text")
                 .attr("class", "axis-title")
-                .attr("x", 280)
+                .attr("x", 290)
                 .attr("y", -15)
                 .attr("dy", ".1em")
                 .style("text-anchor", "end")
@@ -340,13 +340,13 @@ function updateAssist(){
                         return 'red'
                     }
                 }) 
-                .attr('x', 250)
+                .attr('x', 230)
                 .attr('y', function(d){
                     
                         if (d.event_team == team1){
-                    return 25}
+                    return 5}
                         else{
-                           return 55}
+                           return 32}
                         }
     
                 )
@@ -358,12 +358,12 @@ function updateAssist(){
                 .enter()
                 .append('text')
                 .attr('class', 'legend')
-                .attr('x', 280)
+                .attr('x', 260)
                 .attr('y', function(d){
                     if (d.event_team == team1){
-                        return 42}
+                        return 20}
                             else{
-                               return 70}
+                               return 50}
                 })
                 .text(function(d){
                     if (d.event_team == team1){
