@@ -346,7 +346,19 @@ export function updateGoal(team1, team2){
               return d.x - 70
             } else if (d.name === 'Difficult angle on the left'){
               return d.x - 400
-            }else if (d.name === "Penalty spot"){
+            } else if (d.name === 'Difficult angle on the right'){
+              return d.y - 10
+            } else if (d.name === 'Left side of the box'){
+              return d.y - 10
+            } else if (d.name === 'Left side of the six yard box'){
+              return d.y - 10
+            } else if (d.name === 'Right side of the box'){
+              return d.y - 10
+            } else if (d.name === 'Right side of the six yard box'){
+              return d.y - 10
+            } else if (d.name === 'Very close range'){
+              return d.y - 10
+            } else if (d.name === "Penalty spot"){
               return d.x - 260
             } else if (d.name === "Outside the box"){
               return d.x - 130
@@ -371,6 +383,18 @@ export function updateGoal(team1, team2){
                 return d.y + 20
               } else if (d.name === 'Difficult angle on the left'){
                 return d.y - 10
+              } else if (d.name === 'Difficult angle on the right'){
+                return d.y - 10
+              } else if (d.name === 'Left side of the box'){
+                return d.y - 10
+              } else if (d.name === 'Left side of the six yard box'){
+                return d.y - 10
+              } else if (d.name === 'Right side of the box'){
+                return d.y - 10
+              } else if (d.name === 'Right side of the six yard box'){
+                return d.y - 10
+              } else if (d.name === 'Very close range'){
+                return d.y - 10
               } else if (d.name === "Penalty spot"){ //done
                 return d.y - 150
               } else if (d.name === "Outside the box"){ //done
@@ -382,21 +406,7 @@ export function updateGoal(team1, team2){
               } else if (d.name === "More than 40 yards"){
                 return d.y + 100
               }
-              else if (d.name == "Difficult Angle on the Right") {
-                  return d.y - 10
-              }
-              else if (d.name == "Left Side of the Box") {
-                return d.y - 10
-              }
-              else if (d.name == "Left Side of the Six Yard Box") {
-                return d.y - 10
-              }
-              else if (d.name == "Right Side of the Box") {
-                return d.y - 10
-              }
-              else if (d.name == "Right Side of the Six Yard Box") {
-                return d.y - 10
-              }})
+              })
             .attr('fill', d3.color('rgb(5, 48, 97)'))
             .attr('opacity', 0.8)
             .attr('class','circle2')
