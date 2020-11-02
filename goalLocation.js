@@ -1,4 +1,6 @@
-
+let margin = { top: 40, right: 20, bottom: 100, left: 90 };
+let width = 800 - margin.left - margin.right;
+let height = 400 - margin.top - margin.bottom;
 let svg4 = d3
   .select(".goalLocation")
   .append("svg")
@@ -21,7 +23,7 @@ let svg5 = d3
 d3.select('svg4').remove()
 d3.select('svg5').remove()
 
-function updateGoal(){
+export function updateGoal(team1, team2){
 
   svg5.selectAll('.label2').remove()
   svg4.selectAll('.label1').remove()
@@ -34,8 +36,8 @@ width = 800 - margin.left - margin.right,
 height = 400 - margin.top - margin.bottom;
 
   
-  let team1 = document.querySelector("#Team1").value;
-  let team2 = document.querySelector("#Team2").value;
+  // let team1 = document.querySelector("#Team1").value;
+  // let team2 = document.querySelector("#Team2").value;
 
   console.log(team1)
  
@@ -72,8 +74,8 @@ height = 400 - margin.top - margin.bottom;
     console.log(data)
 
 
-      data1 = data.filter(data => data.team1_name == team1)
-      data2 = data.filter(data => data.team2_name == team2)
+      var data1 = data.filter(data => data.team1_name == team1)
+      var data2 = data.filter(data => data.team2_name == team2)
 
       console.log(data2)
       console.log("Team 1 Data", data1)
@@ -357,4 +359,3 @@ height = 400 - margin.top - margin.bottom;
 
  
 }
-
