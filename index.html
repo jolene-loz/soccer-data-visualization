@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script defer type="module" src='main.js'></script>
     <script defer src="assistVis.js"></script>
     <script defer src="goalLocation.js"></script>
     <link rel="stylesheet" href="style.css">
@@ -21,7 +22,18 @@
     <h1>European Soccer Visualizations</h1>
     <em><h3>What makes a team successful?</h3></em>
  
-
+  <div class = "heatmap">
+    <select id="league">
+      <option value="England">England and Wales</option>
+      <option value="Germany">Germany</option>
+      <option value="France">France</option>
+      <option value="Italy">Italy</option>
+    </select>
+    <div class="tooltip">
+      <!-- filled in by script -->
+    </div>
+  </div>
+  
   <div style="width: 50%; display: flex; float: left">
       <label for="Team1" style="left: 50%; width: 150px; float:initial">Pick Team 1</label>
   <select id="Team1" >

@@ -1,0 +1,3097 @@
+﻿team1,team2,league,num_games,num_won,win_ratio
+AC Ajaccio,AJ Auxerre,France,2,1,0.5
+AC Ajaccio,AS Monaco,France,1,0,0
+AC Ajaccio,AS Nancy Lorraine,France,3,1,0.333333333333333
+AC Ajaccio,Bastia,France,2,0,0
+AC Ajaccio,Bordeaux,France,3,0,0
+AC Ajaccio,Brest,France,2,0,0
+AC Ajaccio,Caen,France,1,0,0
+AC Ajaccio,Dijon FCO,France,2,1,0.5
+AC Ajaccio,Evian Thonon Gaillard,France,5,0,0
+AC Ajaccio,Guingamp,France,2,0,0
+AC Ajaccio,Lille,France,4,0,0
+AC Ajaccio,Lorient,France,3,0,0
+AC Ajaccio,Lyon,France,5,2,0.4
+AC Ajaccio,Marseille,France,2,0,0
+AC Ajaccio,Montpellier,France,3,1,0.333333333333333
+AC Ajaccio,Nantes,France,1,0,0
+AC Ajaccio,Nice,France,1,0,0
+AC Ajaccio,Paris Saint-Germain,France,4,0,0
+AC Ajaccio,Sochaux,France,2,1,0.5
+AC Ajaccio,St Etienne,France,3,0,0
+AC Ajaccio,Stade de Reims,France,3,1,0.333333333333333
+AC Ajaccio,Stade Rennes,France,4,1,0.25
+AC Ajaccio,Toulouse,France,4,1,0.25
+AC Ajaccio,Troyes,France,1,0,0
+AC Ajaccio,Valenciennes,France,5,3,0.6
+AC Milan,AS Roma,Italy,6,3,0.5
+AC Milan,Atalanta,Italy,3,1,0.333333333333333
+AC Milan,Bologna,Italy,5,2,0.4
+AC Milan,Cagliari,Italy,5,3,0.6
+AC Milan,Catania,Italy,4,3,0.75
+AC Milan,Cesena,Italy,2,1,0.5
+AC Milan,Chievo Verona,Italy,2,2,1
+AC Milan,Crotone,Italy,1,1,1
+AC Milan,Empoli,Italy,5,2,0.4
+AC Milan,Fiorentina,Italy,5,0,0
+AC Milan,Frosinone,Italy,2,1,0.5
+AC Milan,Genoa,Italy,4,2,0.5
+AC Milan,Hellas Verona,Italy,5,1,0.2
+AC Milan,Internazionale,Italy,4,0,0
+AC Milan,Juventus,Italy,4,0,0
+AC Milan,Lazio,Italy,8,2,0.25
+AC Milan,Lecce,Italy,1,1,1
+AC Milan,Livorno,Italy,1,0,0
+AC Milan,Napoli,Italy,7,0,0
+AC Milan,Novara,Italy,1,1,1
+AC Milan,Palermo,Italy,4,3,0.75
+AC Milan,Parma,Italy,7,4,0.571428571428571
+AC Milan,Sampdoria,Italy,3,1,0.333333333333333
+AC Milan,Sassuolo,Italy,6,3,0.5
+AC Milan,Siena,Italy,3,3,1
+AC Milan,Torino,Italy,7,2,0.285714285714286
+AC Milan,Udinese,Italy,6,2,0.333333333333333
+AC Milan,US Pescara,Italy,1,1,1
+AJ Auxerre,AC Ajaccio,France,2,1,0.5
+AJ Auxerre,AS Nancy Lorraine,France,1,0,0
+AJ Auxerre,Bordeaux,France,2,0,0
+AJ Auxerre,Caen,France,2,0,0
+AJ Auxerre,Dijon FCO,France,1,0,0
+AJ Auxerre,Evian Thonon Gaillard,France,1,0,0
+AJ Auxerre,Lille,France,2,0,0
+AJ Auxerre,Lorient,France,2,0,0
+AJ Auxerre,Lyon,France,1,0,0
+AJ Auxerre,Marseille,France,1,0,0
+AJ Auxerre,Montpellier,France,2,0,0
+AJ Auxerre,Nice,France,1,1,1
+AJ Auxerre,Paris Saint-Germain,France,2,0,0
+AJ Auxerre,Sochaux,France,1,1,1
+AJ Auxerre,St Etienne,France,1,0,0
+AJ Auxerre,Stade Rennes,France,1,0,0
+AJ Auxerre,Valenciennes,France,1,0,0
+Alaves,Atletico Madrid,"Spain ",1,0,0
+Alaves,Barcelona,"Spain ",1,1,1
+Alaves,Granada,"Spain ",1,1,1
+Alaves,Las Palmas,"Spain ",1,0,0
+Alaves,Leganes,"Spain ",1,0,0
+Alaves,Malaga,"Spain ",1,0,0
+Alaves,Real Madrid,"Spain ",1,0,0
+Alaves,Sevilla,"Spain ",1,0,0
+Alaves,Valencia,"Spain ",1,0,0
+Almeria,Athletic Bilbao,Spain,2,0,0
+Almeria,Atletico Madrid,Spain,1,0,0
+Almeria,Barcelona,Spain,1,0,0
+Almeria,Celta Vigo,Spain,3,0,0
+Almeria,Cordoba,Spain,2,1,0.5
+Almeria,Eibar,Spain,1,0,0
+Almeria,Elche,Spain,2,0,0
+Almeria,Espanyol,Spain,2,1,0.5
+Almeria,Getafe,Spain,1,0,0
+Almeria,Levante,Spain,2,0,0
+Almeria,Malaga,Spain,2,1,0.5
+Almeria,Osasuna,Spain,1,0,0
+Almeria,Rayo Vallecano,Spain,1,0,0
+Almeria,Real Betis,Spain,1,1,1
+Almeria,Real Madrid,Spain,1,0,0
+Almeria,Real Sociedad,Spain,3,2,0.666666666666667
+Almeria,Sevilla,Spain,3,0,0
+Almeria,Valencia,Spain,4,1,0.25
+Almeria,Villarreal,Spain,1,0,0
+Angers,AS Monaco,France,1,0,0
+Angers,Bastia,France,1,1,1
+Angers,Bordeaux,France,3,1,0.333333333333333
+Angers,Caen,France,1,1,1
+Angers,Dijon FCO,France,1,1,1
+Angers,Guingamp,France,1,0,0
+Angers,Lorient,France,3,1,0.333333333333333
+Angers,Marseille,France,2,1,0.5
+Angers,Montpellier,France,1,0,0
+Angers,Nice,France,2,0,0
+Angers,Paris Saint-Germain,France,1,0,0
+Angers,St Etienne,France,2,0,0
+Angers,Stade de Reims,France,1,0,0
+Angers,Stade Rennes,France,1,0,0
+Angers,Toulouse,France,1,1,1
+Arsenal,Aston Villa,England,1,1,1
+Arsenal,Bournemouth,England,2,1,0.5
+Arsenal,Burnley,England,1,1,1
+Arsenal,Crystal Palace,England,4,3,0.75
+Arsenal,Everton,England,4,1,0.25
+Arsenal,Hull,England,3,2,0.666666666666667
+Arsenal,Leicester City,England,4,3,0.75
+Arsenal,Liverpool,England,5,1,0.2
+Arsenal,Manchester City,England,6,1,0.166666666666667
+Arsenal,Manchester Utd,England,4,0,0
+Arsenal,Newcastle,England,2,2,1
+Arsenal,Norwich City,England,2,1,0.5
+Arsenal,QPR,England,2,2,1
+Arsenal,Southampton,England,2,1,0.5
+Arsenal,Stoke City,England,2,1,0.5
+Arsenal,Sunderland,England,3,3,1
+Arsenal,Swansea,England,4,1,0.25
+Arsenal,Tottenham,England,5,0,0
+Arsenal,Watford,England,1,1,1
+Arsenal,West Brom,England,3,1,0.333333333333333
+Arsenal,West Ham,England,5,4,0.8
+AS Monaco,AC Ajaccio,France,1,1,1
+AS Monaco,Angers,France,1,1,1
+AS Monaco,Bastia,France,2,2,1
+AS Monaco,Bordeaux,France,4,0,0
+AS Monaco,Caen,France,4,1,0.25
+AS Monaco,Dijon FCO,France,1,0,0
+AS Monaco,Evian Thonon Gaillard,France,2,1,0.5
+AS Monaco,GFC Ajaccio,France,1,0,0
+AS Monaco,Guingamp,France,4,1,0.25
+AS Monaco,Lille,France,4,1,0.25
+AS Monaco,Lorient,France,3,0,0
+AS Monaco,Lyon,France,6,2,0.333333333333333
+AS Monaco,Marseille,France,5,3,0.6
+AS Monaco,Montpellier,France,4,3,0.75
+AS Monaco,Nantes,France,1,1,1
+AS Monaco,Nice,France,1,1,1
+AS Monaco,Paris Saint-Germain,France,4,1,0.25
+AS Monaco,Sochaux,France,2,1,0.5
+AS Monaco,St Etienne,France,5,1,0.2
+AS Monaco,Stade de Reims,France,5,2,0.4
+AS Monaco,Stade Rennes,France,3,0,0
+AS Monaco,Toulouse,France,3,1,0.333333333333333
+AS Monaco,Troyes,France,1,1,1
+AS Monaco,Valenciennes,France,2,1,0.5
+AS Nancy Lorraine,AC Ajaccio,France,3,0,0
+AS Nancy Lorraine,AJ Auxerre,France,1,1,1
+AS Nancy Lorraine,Bastia,France,2,0,0
+AS Nancy Lorraine,Bordeaux,France,4,0,0
+AS Nancy Lorraine,Brest,France,2,2,1
+AS Nancy Lorraine,Caen,France,1,0,0
+AS Nancy Lorraine,Dijon FCO,France,1,0,0
+AS Nancy Lorraine,Evian Thonon Gaillard,France,3,1,0.333333333333333
+AS Nancy Lorraine,Lille,France,4,0,0
+AS Nancy Lorraine,Lorient,France,3,1,0.333333333333333
+AS Nancy Lorraine,Lyon,France,2,0,0
+AS Nancy Lorraine,Marseille,France,1,0,0
+AS Nancy Lorraine,Nantes,France,1,0,0
+AS Nancy Lorraine,Nice,France,2,0,0
+AS Nancy Lorraine,Paris Saint-Germain,France,3,1,0.333333333333333
+AS Nancy Lorraine,Sochaux,France,3,1,0.333333333333333
+AS Nancy Lorraine,St Etienne,France,1,1,1
+AS Nancy Lorraine,Stade de Reims,France,1,0,0
+AS Nancy Lorraine,Stade Rennes,France,2,0,0
+AS Nancy Lorraine,Toulouse,France,2,0,0
+AS Nancy Lorraine,Troyes,France,1,0,0
+AS Nancy Lorraine,Valenciennes,France,2,0,0
+AS Roma,AC Milan,Italy,6,1,0.166666666666667
+AS Roma,Atalanta,Italy,9,4,0.444444444444444
+AS Roma,Bologna,Italy,5,0,0
+AS Roma,Cagliari,Italy,6,2,0.333333333333333
+AS Roma,Carpi,Italy,2,2,1
+AS Roma,Catania,Italy,4,0,0
+AS Roma,Cesena,Italy,2,2,1
+AS Roma,Chievo Verona,Italy,2,1,0.5
+AS Roma,Empoli,Italy,3,2,0.666666666666667
+AS Roma,Fiorentina,Italy,6,4,0.666666666666667
+AS Roma,Frosinone,Italy,1,1,1
+AS Roma,Genoa,Italy,4,3,0.75
+AS Roma,Hellas Verona,Italy,4,1,0.25
+AS Roma,Internazionale,Italy,6,3,0.5
+AS Roma,Juventus,Italy,5,1,0.2
+AS Roma,Lazio,Italy,6,2,0.333333333333333
+AS Roma,Lecce,Italy,2,1,0.5
+AS Roma,Napoli,Italy,5,3,0.6
+AS Roma,Novara,Italy,1,1,1
+AS Roma,Palermo,Italy,5,3,0.6
+AS Roma,Parma,Italy,4,3,0.75
+AS Roma,Sampdoria,Italy,5,2,0.4
+AS Roma,Sassuolo,Italy,4,1,0.25
+AS Roma,Siena,Italy,2,1,0.5
+AS Roma,Torino,Italy,7,3,0.428571428571429
+AS Roma,Udinese,Italy,7,5,0.714285714285714
+AS Roma,US Pescara,Italy,2,1,0.5
+Aston Villa,Arsenal,England,1,0,0
+Aston Villa,Bournemouth,England,1,0,0
+Aston Villa,Burnley,England,1,0,0
+Aston Villa,Chelsea,England,1,0,0
+Aston Villa,Crystal Palace,England,1,0,0
+Aston Villa,Everton,England,3,1,0.333333333333333
+Aston Villa,Fulham,England,1,0,0
+Aston Villa,Hull,England,2,2,1
+Aston Villa,Leicester City,England,3,1,0.333333333333333
+Aston Villa,Liverpool,England,2,0,0
+Aston Villa,Manchester City,England,1,0,0
+Aston Villa,Manchester Utd,England,3,0,0
+Aston Villa,Newcastle,England,1,0,0
+Aston Villa,Norwich City,England,1,1,1
+Aston Villa,QPR,England,1,0,0
+Aston Villa,Southampton,England,5,1,0.2
+Aston Villa,Stoke City,England,4,0,0
+Aston Villa,Sunderland,England,2,0,0
+Aston Villa,Swansea,England,3,0,0
+Aston Villa,Tottenham,England,2,0,0
+Aston Villa,Watford,England,2,0,0
+Aston Villa,West Brom,England,3,2,0.666666666666667
+Aston Villa,West Ham,England,1,0,0
+Atalanta,AC Milan,Italy,3,2,0.666666666666667
+Atalanta,AS Roma,Italy,9,2,0.222222222222222
+Atalanta,Bologna,Italy,4,1,0.25
+Atalanta,Cagliari,Italy,5,2,0.4
+Atalanta,Carpi,Italy,1,0,0
+Atalanta,Catania,Italy,4,1,0.25
+Atalanta,Cesena,Italy,3,2,0.666666666666667
+Atalanta,Chievo Verona,Italy,5,2,0.4
+Atalanta,Crotone,Italy,1,1,1
+Atalanta,Empoli,Italy,2,1,0.5
+Atalanta,Fiorentina,Italy,4,0,0
+Atalanta,Genoa,Italy,5,0,0
+Atalanta,Hellas Verona,Italy,4,0,0
+Atalanta,Internazionale,Italy,8,4,0.5
+Atalanta,Juventus,Italy,4,0,0
+Atalanta,Lazio,Italy,5,2,0.4
+Atalanta,Lecce,Italy,1,1,1
+Atalanta,Napoli,Italy,7,1,0.142857142857143
+Atalanta,Novara,Italy,1,1,1
+Atalanta,Palermo,Italy,5,2,0.4
+Atalanta,Parma,Italy,3,2,0.666666666666667
+Atalanta,Sampdoria,Italy,4,2,0.5
+Atalanta,Sassuolo,Italy,3,1,0.333333333333333
+Atalanta,Siena,Italy,3,1,0.333333333333333
+Atalanta,Torino,Italy,5,1,0.2
+Atalanta,Udinese,Italy,6,0,0
+Atalanta,US Pescara,Italy,1,1,1
+Athletic Bilbao,Almeria,Spain,2,2,1
+Athletic Bilbao,Atletico Madrid,Spain,5,0,0
+Athletic Bilbao,Barcelona,Spain,5,0,0
+Athletic Bilbao,Celta Vigo,Spain,6,4,0.666666666666667
+Athletic Bilbao,Deportivo La Coruna,Spain,5,1,0.2
+Athletic Bilbao,Eibar,Spain,2,2,1
+Athletic Bilbao,Elche,Spain,3,1,0.333333333333333
+Athletic Bilbao,Espanyol,Spain,7,1,0.142857142857143
+Athletic Bilbao,Getafe,Spain,2,1,0.5
+Athletic Bilbao,Granada,Spain,4,2,0.5
+Athletic Bilbao,Las Palmas,Spain,2,0,0
+Athletic Bilbao,Levante,Spain,4,2,0.5
+Athletic Bilbao,Malaga,Spain,3,1,0.333333333333333
+Athletic Bilbao,Mallorca,Spain,2,1,0.5
+Athletic Bilbao,Osasuna,Spain,4,2,0.5
+Athletic Bilbao,Racing Santander,Spain,1,0,0
+Athletic Bilbao,Rayo Vallecano,Spain,6,2,0.333333333333333
+Athletic Bilbao,Real Betis,Spain,7,3,0.428571428571429
+Athletic Bilbao,Real Madrid,Spain,7,0,0
+Athletic Bilbao,Real Sociedad,Spain,6,2,0.333333333333333
+Athletic Bilbao,Real Valladolid,Spain,3,2,0.666666666666667
+Athletic Bilbao,Real Zaragoza,Spain,2,2,1
+Athletic Bilbao,Sevilla,Spain,6,4,0.666666666666667
+Athletic Bilbao,Sporting Gijon,Spain,3,0,0
+Athletic Bilbao,Valencia,Spain,7,2,0.285714285714286
+Athletic Bilbao,Villarreal,Spain,4,0,0
+Atletico Madrid,Alaves,Spain,1,0,0
+Atletico Madrid,Almeria,Spain,1,1,1
+Atletico Madrid,Athletic Bilbao,Spain,5,4,0.8
+Atletico Madrid,Barcelona,Spain,8,0,0
+Atletico Madrid,Celta Vigo,Spain,3,2,0.666666666666667
+Atletico Madrid,Deportivo La Coruna,Spain,2,1,0.5
+Atletico Madrid,Eibar,Spain,3,3,1
+Atletico Madrid,Espanyol,Spain,3,2,0.666666666666667
+Atletico Madrid,Getafe,Spain,1,0,0
+Atletico Madrid,Granada,Spain,2,2,1
+Atletico Madrid,Levante,Spain,6,3,0.5
+Atletico Madrid,Malaga,Spain,5,3,0.6
+Atletico Madrid,Mallorca,Spain,3,0,0
+Atletico Madrid,Osasuna,Spain,2,2,1
+Atletico Madrid,Rayo Vallecano,Spain,5,4,0.8
+Atletico Madrid,Real Betis,Spain,3,2,0.666666666666667
+Atletico Madrid,Real Madrid,Spain,6,1,0.166666666666667
+Atletico Madrid,Real Sociedad,Spain,2,1,0.5
+Atletico Madrid,Real Valladolid,Spain,1,1,1
+Atletico Madrid,Real Zaragoza,Spain,2,2,1
+Atletico Madrid,Sevilla,Spain,3,1,0.333333333333333
+Atletico Madrid,Sporting Gijon,Spain,2,0,0
+Atletico Madrid,Valencia,Spain,5,2,0.4
+Atletico Madrid,Villarreal,Spain,1,0,0
+Barcelona,Alaves,Spain,1,0,0
+Barcelona,Almeria,Spain,1,1,1
+Barcelona,Athletic Bilbao,Spain,5,3,0.6
+Barcelona,Atletico Madrid,Spain,8,6,0.75
+Barcelona,Celta Vigo,Spain,5,2,0.4
+Barcelona,Deportivo La Coruna,Spain,3,1,0.333333333333333
+Barcelona,Eibar,Spain,1,1,1
+Barcelona,Espanyol,Spain,3,2,0.666666666666667
+Barcelona,Getafe,Spain,4,3,0.75
+Barcelona,Granada,Spain,3,3,1
+Barcelona,Las Palmas,Spain,2,2,1
+Barcelona,Leganes,Spain,1,1,1
+Barcelona,Levante,Spain,3,2,0.666666666666667
+Barcelona,Malaga,Spain,5,5,1
+Barcelona,Mallorca,Spain,1,1,1
+Barcelona,Osasuna,Spain,3,2,0.666666666666667
+Barcelona,Rayo Vallecano,Spain,4,4,1
+Barcelona,Real Betis,Spain,7,6,0.857142857142857
+Barcelona,Real Madrid,Spain,8,3,0.375
+Barcelona,Real Sociedad,Spain,7,3,0.428571428571429
+Barcelona,Real Valladolid,Spain,3,3,1
+Barcelona,Real Zaragoza,Spain,2,2,1
+Barcelona,Sevilla,Spain,8,6,0.75
+Barcelona,Sporting Gijon,Spain,2,2,1
+Barcelona,Valencia,Spain,8,3,0.375
+Barcelona,Villarreal,Spain,5,3,0.6
+Bastia,AC Ajaccio,France,2,1,0.5
+Bastia,Angers,France,1,0,0
+Bastia,AS Monaco,France,2,0,0
+Bastia,AS Nancy Lorraine,France,2,2,1
+Bastia,Bordeaux,France,4,1,0.25
+Bastia,Caen,France,2,0,0
+Bastia,Evian Thonon Gaillard,France,3,1,0.333333333333333
+Bastia,GFC Ajaccio,France,2,0,0
+Bastia,Guingamp,France,2,1,0.5
+Bastia,Lens,France,2,0,0
+Bastia,Lille,France,7,1,0.142857142857143
+Bastia,Lorient,France,5,2,0.4
+Bastia,Lyon,France,5,1,0.2
+Bastia,Marseille,France,6,1,0.166666666666667
+Bastia,Metz,France,1,0,0
+Bastia,Montpellier,France,3,1,0.333333333333333
+Bastia,Nice,France,5,1,0.2
+Bastia,Paris Saint-Germain,France,2,1,0.5
+Bastia,Sochaux,France,2,0,0
+Bastia,St Etienne,France,2,0,0
+Bastia,Stade de Reims,France,5,2,0.4
+Bastia,Stade Rennes,France,3,2,0.666666666666667
+Bastia,Toulouse,France,4,3,0.75
+Bastia,Troyes,France,2,1,0.5
+Bastia,Valenciennes,France,3,1,0.333333333333333
+Bayer Leverkusen,Bayern Munich,Germany,5,1,0.2
+Bayer Leverkusen,Borussia Dortmund,Germany,2,0,0
+Bayer Leverkusen,Borussia Monchengladbach,Germany,7,0,0
+Bayer Leverkusen,Eintracht Frankfurt,Germany,6,2,0.333333333333333
+Bayer Leverkusen,FC Augsburg,Germany,9,6,0.666666666666667
+Bayer Leverkusen,FC Cologne,Germany,5,1,0.2
+Bayer Leverkusen,FC Ingolstadt 04,Germany,1,0,0
+Bayer Leverkusen,Fortuna Dusseldorf,Germany,2,2,1
+Bayer Leverkusen,Hamburg SV,Germany,5,2,0.4
+Bayer Leverkusen,Hannover 96,Germany,4,2,0.5
+Bayer Leverkusen,Hertha Berlin,Germany,7,4,0.571428571428571
+Bayer Leverkusen,Kaiserslautern,Germany,1,1,1
+Bayer Leverkusen,Mainz,Germany,6,4,0.666666666666667
+Bayer Leverkusen,Nurnberg,Germany,2,2,1
+Bayer Leverkusen,RB Leipzig,Germany,1,0,0
+Bayer Leverkusen,SC Freiburg,Germany,2,0,0
+Bayer Leverkusen,SC Paderborn,Germany,1,0,0
+Bayer Leverkusen,Schalke 04,Germany,4,1,0.25
+Bayer Leverkusen,SV Darmstadt 98,Germany,2,2,1
+Bayer Leverkusen,TSG Hoffenheim,Germany,4,3,0.75
+Bayer Leverkusen,TSV Eintracht Braunschweig,Germany,1,0,0
+Bayer Leverkusen,VfB Stuttgart,Germany,6,3,0.5
+Bayer Leverkusen,VfL Wolfsburg,Germany,10,3,0.3
+Bayer Leverkusen,Werder Bremen,Germany,6,2,0.333333333333333
+Bayern Munich,Bayer Leverkusen,Germany,5,3,0.6
+Bayern Munich,Borussia Dortmund,Germany,4,2,0.5
+Bayern Munich,Borussia Monchengladbach,Germany,5,1,0.2
+Bayern Munich,Eintracht Frankfurt,Germany,1,0,0
+Bayern Munich,FC Augsburg,Germany,5,5,1
+Bayern Munich,FC Cologne,Germany,4,2,0.5
+Bayern Munich,FC Ingolstadt 04,Germany,2,2,1
+Bayern Munich,Fortuna Dusseldorf,Germany,1,1,1
+Bayern Munich,Hamburg SV,Germany,5,4,0.8
+Bayern Munich,Hannover 96,Germany,4,3,0.75
+Bayern Munich,Hertha Berlin,Germany,2,2,1
+Bayern Munich,Mainz,Germany,6,4,0.666666666666667
+Bayern Munich,Nurnberg,Germany,1,0,0
+Bayern Munich,SC Freiburg,Germany,1,1,1
+Bayern Munich,Schalke 04,Germany,4,2,0.5
+Bayern Munich,SV Darmstadt 98,Germany,1,1,1
+Bayern Munich,TSG Hoffenheim,Germany,5,3,0.6
+Bayern Munich,VfB Stuttgart,Germany,4,4,1
+Bayern Munich,VfL Wolfsburg,Germany,4,3,0.75
+Bayern Munich,Werder Bremen,Germany,4,4,1
+Bologna,AC Milan,Italy,5,0,0
+Bologna,AS Roma,Italy,5,1,0.2
+Bologna,Atalanta,Italy,4,2,0.5
+Bologna,Cagliari,Italy,2,1,0.5
+Bologna,Carpi,Italy,1,1,1
+Bologna,Catania,Italy,1,0,0
+Bologna,Chievo Verona,Italy,2,0,0
+Bologna,Empoli,Italy,1,0,0
+Bologna,Fiorentina,Italy,2,1,0.5
+Bologna,Genoa,Italy,2,1,0.5
+Bologna,Hellas Verona,Italy,1,0,0
+Bologna,Internazionale,Italy,5,0,0
+Bologna,Juventus,Italy,4,0,0
+Bologna,Lazio,Italy,3,0,0
+Bologna,Livorno,Italy,1,0,0
+Bologna,Napoli,Italy,5,2,0.4
+Bologna,Palermo,Italy,4,1,0.25
+Bologna,Parma,Italy,3,0,0
+Bologna,Sampdoria,Italy,4,1,0.25
+Bologna,Sassuolo,Italy,2,0,0
+Bologna,Siena,Italy,2,0,0
+Bologna,Torino,Italy,4,1,0.25
+Bologna,Udinese,Italy,4,0,0
+Bologna,US Pescara,Italy,2,1,0.5
+Bordeaux,AC Ajaccio,France,3,0,0
+Bordeaux,AJ Auxerre,France,2,1,0.5
+Bordeaux,Angers,France,3,0,0
+Bordeaux,AS Monaco,France,4,3,0.75
+Bordeaux,AS Nancy Lorraine,France,4,1,0.25
+Bordeaux,Bastia,France,4,0,0
+Bordeaux,Brest,France,2,0,0
+Bordeaux,Caen,France,3,1,0.333333333333333
+Bordeaux,Dijon FCO,France,2,1,0.5
+Bordeaux,Evian Thonon Gaillard,France,5,4,0.8
+Bordeaux,GFC Ajaccio,France,1,0,0
+Bordeaux,Guingamp,France,5,2,0.4
+Bordeaux,Lens,France,2,2,1
+Bordeaux,Lille,France,5,1,0.2
+Bordeaux,Lorient,France,7,3,0.428571428571429
+Bordeaux,Lyon,France,6,2,0.333333333333333
+Bordeaux,Marseille,France,5,1,0.2
+Bordeaux,Metz,France,1,0,0
+Bordeaux,Montpellier,France,4,2,0.5
+Bordeaux,Nantes,France,3,1,0.333333333333333
+Bordeaux,Nice,France,7,2,0.285714285714286
+Bordeaux,Paris Saint-Germain,France,4,1,0.25
+Bordeaux,Sochaux,France,3,1,0.333333333333333
+Bordeaux,St Etienne,France,7,2,0.285714285714286
+Bordeaux,Stade de Reims,France,3,0,0
+Bordeaux,Stade Rennes,France,6,1,0.166666666666667
+Bordeaux,Toulouse,France,6,1,0.166666666666667
+Bordeaux,Troyes,France,1,1,1
+Bordeaux,Valenciennes,France,3,3,1
+Borussia Dortmund,Bayer Leverkusen,Germany,2,1,0.5
+Borussia Dortmund,Bayern Munich,Germany,4,0,0
+Borussia Dortmund,Borussia Monchengladbach,Germany,6,2,0.333333333333333
+Borussia Dortmund,Eintracht Frankfurt,Germany,4,2,0.5
+Borussia Dortmund,FC Augsburg,Germany,7,5,0.714285714285714
+Borussia Dortmund,FC Cologne,Germany,4,1,0.25
+Borussia Dortmund,FC Ingolstadt 04,Germany,1,0,0
+Borussia Dortmund,Fortuna Dusseldorf,Germany,2,1,0.5
+Borussia Dortmund,Hamburg SV,Germany,7,4,0.571428571428571
+Borussia Dortmund,Hannover 96,Germany,6,4,0.666666666666667
+Borussia Dortmund,Hertha Berlin,Germany,4,1,0.25
+Borussia Dortmund,Kaiserslautern,Germany,2,1,0.5
+Borussia Dortmund,Mainz,Germany,7,7,1
+Borussia Dortmund,Nurnberg,Germany,2,0,0
+Borussia Dortmund,SC Freiburg,Germany,4,4,1
+Borussia Dortmund,SC Paderborn,Germany,1,0,0
+Borussia Dortmund,Schalke 04,Germany,7,3,0.428571428571429
+Borussia Dortmund,SpVgg Greuther Furth,Germany,2,2,1
+Borussia Dortmund,SV Darmstadt 98,Germany,1,0,0
+Borussia Dortmund,TSG Hoffenheim,Germany,8,3,0.375
+Borussia Dortmund,TSV Eintracht Braunschweig,Germany,1,1,1
+Borussia Dortmund,VfB Stuttgart,Germany,8,5,0.625
+Borussia Dortmund,VfL Wolfsburg,Germany,11,6,0.545454545454545
+Borussia Dortmund,Werder Bremen,Germany,7,6,0.857142857142857
+Borussia Monchengladbach,Bayer Leverkusen,Germany,7,3,0.428571428571429
+Borussia Monchengladbach,Bayern Munich,Germany,5,2,0.4
+Borussia Monchengladbach,Borussia Dortmund,Germany,6,2,0.333333333333333
+Borussia Monchengladbach,Eintracht Frankfurt,Germany,3,2,0.666666666666667
+Borussia Monchengladbach,FC Augsburg,Germany,7,1,0.142857142857143
+Borussia Monchengladbach,FC Cologne,Germany,1,0,0
+Borussia Monchengladbach,Fortuna Dusseldorf,Germany,1,1,1
+Borussia Monchengladbach,Hamburg SV,Germany,5,1,0.2
+Borussia Monchengladbach,Hannover 96,Germany,5,3,0.6
+Borussia Monchengladbach,Hertha Berlin,Germany,4,4,1
+Borussia Monchengladbach,Kaiserslautern,Germany,1,1,1
+Borussia Monchengladbach,Mainz,Germany,5,2,0.4
+Borussia Monchengladbach,Nurnberg,Germany,3,1,0.333333333333333
+Borussia Monchengladbach,RB Leipzig,Germany,1,0,0
+Borussia Monchengladbach,SC Freiburg,Germany,3,0,0
+Borussia Monchengladbach,SC Paderborn,Germany,1,1,1
+Borussia Monchengladbach,Schalke 04,Germany,5,3,0.6
+Borussia Monchengladbach,SpVgg Greuther Furth,Germany,1,1,1
+Borussia Monchengladbach,SV Darmstadt 98,Germany,1,1,1
+Borussia Monchengladbach,TSG Hoffenheim,Germany,9,4,0.444444444444444
+Borussia Monchengladbach,TSV Eintracht Braunschweig,Germany,2,1,0.5
+Borussia Monchengladbach,VfB Stuttgart,Germany,5,1,0.2
+Borussia Monchengladbach,VfL Wolfsburg,Germany,6,1,0.166666666666667
+Borussia Monchengladbach,Werder Bremen,Germany,7,3,0.428571428571429
+Bournemouth,Arsenal,England,2,0,0
+Bournemouth,Aston Villa,England,1,1,1
+Bournemouth,Burnley,England,1,0,0
+Bournemouth,Chelsea,England,1,0,0
+Bournemouth,Crystal Palace,England,2,1,0.5
+Bournemouth,Everton,England,2,0,0
+Bournemouth,Hull,England,2,1,0.5
+Bournemouth,Leicester City,England,1,0,0
+Bournemouth,Liverpool,England,2,1,0.5
+Bournemouth,Manchester City,England,1,0,0
+Bournemouth,Manchester Utd,England,3,1,0.333333333333333
+Bournemouth,Newcastle,England,1,1,1
+Bournemouth,Norwich City,England,1,0,0
+Bournemouth,Southampton,England,1,0,0
+Bournemouth,Stoke City,England,2,0,0
+Bournemouth,Sunderland,England,2,0,0
+Bournemouth,Swansea,England,2,1,0.5
+Bournemouth,Tottenham,England,1,0,0
+Bournemouth,Watford,England,3,0,0
+Bournemouth,West Brom,England,2,1,0.5
+Bournemouth,West Ham,England,2,1,0.5
+Brest,AC Ajaccio,France,2,0,0
+Brest,AS Nancy Lorraine,France,2,0,0
+Brest,Bordeaux,France,2,0,0
+Brest,Caen,France,1,0,0
+Brest,Dijon FCO,France,1,0,0
+Brest,Evian Thonon Gaillard,France,1,0,0
+Brest,Lille,France,2,1,0.5
+Brest,Lorient,France,2,1,0.5
+Brest,Lyon,France,2,0,0
+Brest,Marseille,France,2,0,0
+Brest,Montpellier,France,3,0,0
+Brest,Nice,France,1,0,0
+Brest,Paris Saint-Germain,France,1,0,0
+Brest,Sochaux,France,2,1,0.5
+Brest,St Etienne,France,2,0,0
+Brest,Stade Rennes,France,2,0,0
+Brest,Toulouse,France,1,0,0
+Brest,Troyes,France,2,1,0.5
+Brest,Valenciennes,France,2,1,0.5
+Burnley,Arsenal,England,1,0,0
+Burnley,Aston Villa,England,1,0,0
+Burnley,Bournemouth,England,1,1,1
+Burnley,Chelsea,England,2,0,0
+Burnley,Crystal Palace,England,2,1,0.5
+Burnley,Everton,England,2,1,0.5
+Burnley,Hull,England,1,0,0
+Burnley,Leicester City,England,1,0,0
+Burnley,Manchester City,England,3,0,0
+Burnley,Manchester Utd,England,1,0,0
+Burnley,Newcastle,England,2,0,0
+Burnley,QPR,England,1,1,1
+Burnley,Southampton,England,1,0,0
+Burnley,Stoke City,England,1,1,1
+Burnley,Sunderland,England,1,1,1
+Burnley,Tottenham,England,2,0,0
+Burnley,West Brom,England,1,0,0
+Burnley,West Ham,England,1,0,0
+Caen,AC Ajaccio,France,1,0,0
+Caen,AJ Auxerre,France,2,1,0.5
+Caen,Angers,France,1,0,0
+Caen,AS Monaco,France,4,0,0
+Caen,AS Nancy Lorraine,France,1,0,0
+Caen,Bastia,France,2,0,0
+Caen,Bordeaux,France,3,1,0.333333333333333
+Caen,Brest,France,1,0,0
+Caen,Dijon FCO,France,1,0,0
+Caen,Evian Thonon Gaillard,France,3,2,0.666666666666667
+Caen,Guingamp,France,4,1,0.25
+Caen,Lens,France,1,1,1
+Caen,Lille,France,3,0,0
+Caen,Lorient,France,4,2,0.5
+Caen,Lyon,France,3,2,0.666666666666667
+Caen,Marseille,France,5,1,0.2
+Caen,Metz,France,1,0,0
+Caen,Montpellier,France,5,2,0.4
+Caen,Nantes,France,3,2,0.666666666666667
+Caen,Nice,France,4,0,0
+Caen,Paris Saint-Germain,France,3,0,0
+Caen,Sochaux,France,2,1,0.5
+Caen,St Etienne,France,2,1,0.5
+Caen,Stade de Reims,France,1,1,1
+Caen,Stade Rennes,France,3,1,0.333333333333333
+Caen,Toulouse,France,1,0,0
+Caen,Troyes,France,2,2,1
+Caen,Valenciennes,France,1,0,0
+Cagliari,AC Milan,Italy,5,0,0
+Cagliari,AS Roma,Italy,6,3,0.5
+Cagliari,Atalanta,Italy,5,1,0.2
+Cagliari,Bologna,Italy,2,0,0
+Cagliari,Catania,Italy,2,1,0.5
+Cagliari,Cesena,Italy,2,1,0.5
+Cagliari,Crotone,Italy,1,1,1
+Cagliari,Empoli,Italy,1,0,0
+Cagliari,Fiorentina,Italy,5,2,0.4
+Cagliari,Genoa,Italy,7,4,0.571428571428571
+Cagliari,Hellas Verona,Italy,2,0,0
+Cagliari,Internazionale,Italy,8,2,0.25
+Cagliari,Juventus,Italy,6,0,0
+Cagliari,Lazio,Italy,4,0,0
+Cagliari,Lecce,Italy,1,0,0
+Cagliari,Livorno,Italy,2,0,0
+Cagliari,Napoli,Italy,4,0,0
+Cagliari,Novara,Italy,1,1,1
+Cagliari,Palermo,Italy,5,2,0.4
+Cagliari,Parma,Italy,1,0,0
+Cagliari,Sampdoria,Italy,4,2,0.5
+Cagliari,Sassuolo,Italy,5,2,0.4
+Cagliari,Siena,Italy,1,1,1
+Cagliari,Torino,Italy,6,2,0.333333333333333
+Cagliari,Udinese,Italy,4,2,0.5
+Cagliari,US Pescara,Italy,2,0,0
+Cardiff,Chelsea,England,2,0,0
+Cardiff,Everton,England,1,0,0
+Cardiff,Fulham,England,1,1,1
+Cardiff,Liverpool,England,2,0,0
+Cardiff,Manchester City,England,1,0,0
+Cardiff,Manchester Utd,England,1,0,0
+Cardiff,Newcastle,England,1,0,0
+Cardiff,Norwich City,England,1,1,1
+Cardiff,Stoke City,England,1,0,0
+Cardiff,Sunderland,England,1,0,0
+Cardiff,West Brom,England,1,0,0
+Carpi,AS Roma,Italy,2,0,0
+Carpi,Atalanta,Italy,1,0,0
+Carpi,Bologna,Italy,1,0,0
+Carpi,Chievo Verona,Italy,1,0,0
+Carpi,Fiorentina,Italy,1,0,0
+Carpi,Frosinone,Italy,2,1,0.5
+Carpi,Genoa,Italy,2,2,1
+Carpi,Hellas Verona,Italy,1,1,1
+Carpi,Internazionale,Italy,2,0,0
+Carpi,Juventus,Italy,1,0,0
+Carpi,Lazio,Italy,1,0,0
+Carpi,Palermo,Italy,2,0,0
+Carpi,Sampdoria,Italy,2,1,0.5
+Carpi,Sassuolo,Italy,1,0,0
+Carpi,Torino,Italy,1,1,1
+Carpi,Udinese,Italy,1,1,1
+Catania,AC Milan,Italy,4,0,0
+Catania,AS Roma,Italy,4,1,0.25
+Catania,Atalanta,Italy,4,2,0.5
+Catania,Bologna,Italy,1,1,1
+Catania,Cagliari,Italy,2,0,0
+Catania,Chievo Verona,Italy,3,1,0.333333333333333
+Catania,Fiorentina,Italy,3,1,0.333333333333333
+Catania,Genoa,Italy,2,1,0.5
+Catania,Internazionale,Italy,3,1,0.333333333333333
+Catania,Juventus,Italy,2,0,0
+Catania,Lazio,Italy,4,1,0.25
+Catania,Lecce,Italy,1,0,0
+Catania,Livorno,Italy,1,0,0
+Catania,Napoli,Italy,4,1,0.25
+Catania,Novara,Italy,2,1,0.5
+Catania,Palermo,Italy,3,0,0
+Catania,Parma,Italy,3,1,0.333333333333333
+Catania,Sampdoria,Italy,3,2,0.666666666666667
+Catania,Sassuolo,Italy,1,0,0
+Catania,Siena,Italy,1,1,1
+Catania,Torino,Italy,3,0,0
+Catania,Udinese,Italy,3,1,0.333333333333333
+Catania,US Pescara,Italy,1,0,0
+Celta Vigo,Almeria,Spain,3,2,0.666666666666667
+Celta Vigo,Athletic Bilbao,Spain,6,0,0
+Celta Vigo,Atletico Madrid,Spain,3,0,0
+Celta Vigo,Barcelona,Spain,5,2,0.4
+Celta Vigo,Cordoba,Spain,1,0,0
+Celta Vigo,Deportivo La Coruna,Spain,5,2,0.4
+Celta Vigo,Eibar,Spain,2,1,0.5
+Celta Vigo,Elche,Spain,1,0,0
+Celta Vigo,Espanyol,Spain,3,1,0.333333333333333
+Celta Vigo,Getafe,Spain,5,2,0.4
+Celta Vigo,Granada,Spain,7,4,0.571428571428571
+Celta Vigo,Las Palmas,Spain,3,0,0
+Celta Vigo,Levante,Spain,3,2,0.666666666666667
+Celta Vigo,Malaga,Spain,2,1,0.5
+Celta Vigo,Mallorca,Spain,1,0,0
+Celta Vigo,Osasuna,Spain,1,0,0
+Celta Vigo,Rayo Vallecano,Spain,2,1,0.5
+Celta Vigo,Real Betis,Spain,5,2,0.4
+Celta Vigo,Real Madrid,Spain,5,0,0
+Celta Vigo,Real Sociedad,Spain,7,1,0.142857142857143
+Celta Vigo,Real Valladolid,Spain,2,2,1
+Celta Vigo,Real Zaragoza,Spain,1,1,1
+Celta Vigo,Sevilla,Spain,4,1,0.25
+Celta Vigo,Sporting Gijon,Spain,2,2,1
+Celta Vigo,Valencia,Spain,7,2,0.285714285714286
+Celta Vigo,Villarreal,Spain,3,1,0.333333333333333
+Cesena,AC Milan,Italy,2,0,0
+Cesena,AS Roma,Italy,2,0,0
+Cesena,Atalanta,Italy,3,0,0
+Cesena,Cagliari,Italy,2,0,0
+Cesena,Chievo Verona,Italy,1,0,0
+Cesena,Empoli,Italy,1,0,0
+Cesena,Fiorentina,Italy,2,0,0
+Cesena,Genoa,Italy,2,0,0
+Cesena,Hellas Verona,Italy,2,0,0
+Cesena,Internazionale,Italy,2,0,0
+Cesena,Juventus,Italy,1,0,0
+Cesena,Lazio,Italy,2,1,0.5
+Cesena,Napoli,Italy,3,0,0
+Cesena,Novara,Italy,1,1,1
+Cesena,Palermo,Italy,2,0,0
+Cesena,Parma,Italy,2,1,0.5
+Cesena,Sampdoria,Italy,1,0,0
+Cesena,Sassuolo,Italy,2,0,0
+Cesena,Torino,Italy,1,0,0
+Cesena,Udinese,Italy,2,0,0
+Chelsea,Aston Villa,England,1,1,1
+Chelsea,Bournemouth,England,1,1,1
+Chelsea,Burnley,England,2,1,0.5
+Chelsea,Cardiff,England,2,2,1
+Chelsea,Crystal Palace,England,3,2,0.666666666666667
+Chelsea,Everton,England,3,1,0.333333333333333
+Chelsea,Fulham,England,1,1,1
+Chelsea,Hull,England,1,1,1
+Chelsea,Leicester City,England,3,1,0.333333333333333
+Chelsea,Liverpool,England,6,2,0.333333333333333
+Chelsea,Manchester City,England,4,2,0.5
+Chelsea,Manchester Utd,England,3,1,0.333333333333333
+Chelsea,Newcastle,England,3,1,0.333333333333333
+Chelsea,Norwich City,England,2,2,1
+Chelsea,QPR,England,1,1,1
+Chelsea,Southampton,England,5,2,0.4
+Chelsea,Stoke City,England,4,2,0.5
+Chelsea,Sunderland,England,5,3,0.6
+Chelsea,Swansea,England,3,1,0.333333333333333
+Chelsea,Tottenham,England,3,1,0.333333333333333
+Chelsea,Watford,England,2,1,0.5
+Chelsea,West Brom,England,4,2,0.5
+Chelsea,West Ham,England,3,1,0.333333333333333
+Chievo Verona,AC Milan,Italy,2,0,0
+Chievo Verona,AS Roma,Italy,2,0,0
+Chievo Verona,Atalanta,Italy,5,0,0
+Chievo Verona,Bologna,Italy,2,0,0
+Chievo Verona,Carpi,Italy,1,1,1
+Chievo Verona,Catania,Italy,3,2,0.666666666666667
+Chievo Verona,Cesena,Italy,1,1,1
+Chievo Verona,Empoli,Italy,3,1,0.333333333333333
+Chievo Verona,Fiorentina,Italy,6,1,0.166666666666667
+Chievo Verona,Frosinone,Italy,1,1,1
+Chievo Verona,Genoa,Italy,6,3,0.5
+Chievo Verona,Hellas Verona,Italy,3,0,0
+Chievo Verona,Internazionale,Italy,4,1,0.25
+Chievo Verona,Juventus,Italy,6,0,0
+Chievo Verona,Lazio,Italy,4,0,0
+Chievo Verona,Lecce,Italy,1,0,0
+Chievo Verona,Livorno,Italy,1,1,1
+Chievo Verona,Napoli,Italy,4,0,0
+Chievo Verona,Novara,Italy,2,1,0.5
+Chievo Verona,Palermo,Italy,4,1,0.25
+Chievo Verona,Parma,Italy,5,0,0
+Chievo Verona,Sampdoria,Italy,6,3,0.5
+Chievo Verona,Sassuolo,Italy,3,1,0.333333333333333
+Chievo Verona,Siena,Italy,2,0,0
+Chievo Verona,Torino,Italy,4,1,0.25
+Chievo Verona,Udinese,Italy,8,2,0.25
+Cordoba,Almeria,Spain,2,0,0
+Cordoba,Celta Vigo,Spain,1,0,0
+Cordoba,Deportivo La Coruna,Spain,1,0,0
+Cordoba,Eibar,Spain,1,0,0
+Cordoba,Getafe,Spain,2,0,0
+Cordoba,Malaga,Spain,1,0,0
+Cordoba,Rayo Vallecano,Spain,1,0,0
+Cordoba,Real Madrid,Spain,1,0,0
+Cordoba,Real Sociedad,Spain,2,0,0
+Cordoba,Sevilla,Spain,1,0,0
+Cordoba,Valencia,Spain,1,0,0
+Crotone,AC Milan,Italy,1,0,0
+Crotone,Atalanta,Italy,1,0,0
+Crotone,Cagliari,Italy,1,0,0
+Crotone,Empoli,Italy,1,0,0
+Crotone,Fiorentina,Italy,1,0,0
+Crotone,Genoa,Italy,2,0,0
+Crotone,Napoli,Italy,1,0,0
+Crotone,Palermo,Italy,1,0,0
+Crotone,Sampdoria,Italy,1,0,0
+Crotone,Sassuolo,Italy,1,0,0
+Crotone,US Pescara,Italy,1,1,1
+Crystal Palace,Arsenal,England,4,0,0
+Crystal Palace,Aston Villa,England,1,1,1
+Crystal Palace,Bournemouth,England,2,0,0
+Crystal Palace,Burnley,England,2,1,0.5
+Crystal Palace,Chelsea,England,3,1,0.333333333333333
+Crystal Palace,Everton,England,4,2,0.5
+Crystal Palace,Fulham,England,2,0,0
+Crystal Palace,Hull,England,1,0,0
+Crystal Palace,Leicester City,England,1,0,0
+Crystal Palace,Liverpool,England,7,3,0.428571428571429
+Crystal Palace,Manchester City,England,2,1,0.5
+Crystal Palace,Manchester Utd,England,2,0,0
+Crystal Palace,Middlesbrough,England,1,1,1
+Crystal Palace,Newcastle,England,3,1,0.333333333333333
+Crystal Palace,Norwich City,England,2,1,0.5
+Crystal Palace,QPR,England,1,1,1
+Crystal Palace,Southampton,England,2,0,0
+Crystal Palace,Stoke City,England,5,4,0.8
+Crystal Palace,Sunderland,England,4,2,0.5
+Crystal Palace,Swansea,England,5,0,0
+Crystal Palace,Tottenham,England,2,1,0.5
+Crystal Palace,Watford,England,2,0,0
+Crystal Palace,West Brom,England,3,1,0.333333333333333
+Crystal Palace,West Ham,England,4,1,0.25
+Deportivo La Coruna,Athletic Bilbao,Spain,5,0,0
+Deportivo La Coruna,Atletico Madrid,Spain,2,0,0
+Deportivo La Coruna,Barcelona,Spain,3,0,0
+Deportivo La Coruna,Celta Vigo,Spain,5,1,0.2
+Deportivo La Coruna,Cordoba,Spain,1,0,0
+Deportivo La Coruna,Eibar,Spain,2,1,0.5
+Deportivo La Coruna,Espanyol,Spain,1,0,0
+Deportivo La Coruna,Getafe,Spain,4,0,0
+Deportivo La Coruna,Granada,Spain,5,0,0
+Deportivo La Coruna,Las Palmas,Spain,2,0,0
+Deportivo La Coruna,Leganes,Spain,1,0,0
+Deportivo La Coruna,Levante,Spain,2,1,0.5
+Deportivo La Coruna,Malaga,Spain,4,0,0
+Deportivo La Coruna,Mallorca,Spain,1,1,1
+Deportivo La Coruna,Osasuna,Spain,1,0,0
+Deportivo La Coruna,Rayo Vallecano,Spain,5,2,0.4
+Deportivo La Coruna,Real Betis,Spain,4,1,0.25
+Deportivo La Coruna,Real Madrid,Spain,4,0,0
+Deportivo La Coruna,Real Sociedad,Spain,4,1,0.25
+Deportivo La Coruna,Real Zaragoza,Spain,2,1,0.5
+Deportivo La Coruna,Sevilla,Spain,6,0,0
+Deportivo La Coruna,Sporting Gijon,Spain,3,1,0.333333333333333
+Deportivo La Coruna,Valencia,Spain,5,0,0
+Deportivo La Coruna,Villarreal,Spain,2,0,0
+Dijon FCO,AC Ajaccio,France,2,0,0
+Dijon FCO,AJ Auxerre,France,1,0,0
+Dijon FCO,Angers,France,1,0,0
+Dijon FCO,AS Monaco,France,1,0,0
+Dijon FCO,AS Nancy Lorraine,France,1,1,1
+Dijon FCO,Bordeaux,France,2,0,0
+Dijon FCO,Brest,France,1,0,0
+Dijon FCO,Caen,France,1,0,0
+Dijon FCO,Evian Thonon Gaillard,France,1,1,1
+Dijon FCO,Guingamp,France,1,0,0
+Dijon FCO,Lyon,France,3,1,0.333333333333333
+Dijon FCO,Marseille,France,2,0,0
+Dijon FCO,Montpellier,France,4,0,0
+Dijon FCO,Nice,France,2,0,0
+Dijon FCO,Paris Saint-Germain,France,1,0,0
+Dijon FCO,St Etienne,France,2,0,0
+Dijon FCO,Stade Rennes,France,1,0,0
+Dijon FCO,Toulouse,France,1,0,0
+Dijon FCO,Valenciennes,France,1,0,0
+Eibar,Almeria,Spain,1,1,1
+Eibar,Athletic Bilbao,Spain,2,0,0
+Eibar,Atletico Madrid,Spain,3,0,0
+Eibar,Barcelona,Spain,1,0,0
+Eibar,Celta Vigo,Spain,2,0,0
+Eibar,Cordoba,Spain,1,0,0
+Eibar,Deportivo La Coruna,Spain,2,0,0
+Eibar,Espanyol,Spain,3,2,0.666666666666667
+Eibar,Getafe,Spain,4,2,0.5
+Eibar,Granada,Spain,4,3,0.75
+Eibar,Leganes,Spain,1,0,0
+Eibar,Levante,Spain,3,0,0
+Eibar,Malaga,Spain,2,0,0
+Eibar,Osasuna,Spain,1,0,0
+Eibar,Rayo Vallecano,Spain,2,0,0
+Eibar,Real Betis,Spain,2,1,0.5
+Eibar,Real Madrid,Spain,1,0,0
+Eibar,Real Sociedad,Spain,2,1,0.5
+Eibar,Sevilla,Spain,3,0,0
+Eibar,Sporting Gijon,Spain,1,1,1
+Eibar,Valencia,Spain,2,0,0
+Eibar,Villarreal,Spain,4,1,0.25
+Eintracht Frankfurt,Bayer Leverkusen,Germany,6,3,0.5
+Eintracht Frankfurt,Bayern Munich,Germany,1,0,0
+Eintracht Frankfurt,Borussia Dortmund,Germany,4,1,0.25
+Eintracht Frankfurt,Borussia Monchengladbach,Germany,3,1,0.333333333333333
+Eintracht Frankfurt,FC Augsburg,Germany,6,1,0.166666666666667
+Eintracht Frankfurt,FC Cologne,Germany,4,2,0.5
+Eintracht Frankfurt,FC Ingolstadt 04,Germany,1,0,0
+Eintracht Frankfurt,Fortuna Dusseldorf,Germany,1,1,1
+Eintracht Frankfurt,Hamburg SV,Germany,5,3,0.6
+Eintracht Frankfurt,Hannover 96,Germany,4,2,0.5
+Eintracht Frankfurt,Hertha Berlin,Germany,3,0,0
+Eintracht Frankfurt,Mainz,Germany,5,1,0.2
+Eintracht Frankfurt,Nurnberg,Germany,3,2,0.666666666666667
+Eintracht Frankfurt,SC Freiburg,Germany,3,1,0.333333333333333
+Eintracht Frankfurt,SC Paderborn,Germany,1,0,0
+Eintracht Frankfurt,Schalke 04,Germany,3,0,0
+Eintracht Frankfurt,SpVgg Greuther Furth,Germany,2,1,0.5
+Eintracht Frankfurt,SV Darmstadt 98,Germany,1,1,1
+Eintracht Frankfurt,TSG Hoffenheim,Germany,4,2,0.5
+Eintracht Frankfurt,VfB Stuttgart,Germany,8,2,0.25
+Eintracht Frankfurt,VfL Wolfsburg,Germany,7,1,0.142857142857143
+Eintracht Frankfurt,Werder Bremen,Germany,5,4,0.8
+Elche,Almeria,Spain,2,0,0
+Elche,Athletic Bilbao,Spain,3,1,0.333333333333333
+Elche,Celta Vigo,Spain,1,0,0
+Elche,Espanyol,Spain,3,1,0.333333333333333
+Elche,Getafe,Spain,1,0,0
+Elche,Granada,Spain,1,0,0
+Elche,Levante,Spain,2,0,0
+Elche,Malaga,Spain,2,1,0.5
+Elche,Osasuna,Spain,1,0,0
+Elche,Rayo Vallecano,Spain,1,1,1
+Elche,Real Betis,Spain,1,1,1
+Elche,Real Madrid,Spain,2,0,0
+Elche,Real Sociedad,Spain,1,0,0
+Elche,Real Valladolid,Spain,1,0,0
+Elche,Sevilla,Spain,2,0,0
+Elche,Valencia,Spain,3,1,0.333333333333333
+Elche,Villarreal,Spain,2,0,0
+Empoli,AC Milan,Italy,5,0,0
+Empoli,AS Roma,Italy,3,0,0
+Empoli,Atalanta,Italy,2,0,0
+Empoli,Bologna,Italy,1,1,1
+Empoli,Cagliari,Italy,1,0,0
+Empoli,Cesena,Italy,1,0,0
+Empoli,Chievo Verona,Italy,3,0,0
+Empoli,Crotone,Italy,1,1,1
+Empoli,Fiorentina,Italy,3,0,0
+Empoli,Frosinone,Italy,1,0,0
+Empoli,Genoa,Italy,2,0,0
+Empoli,Hellas Verona,Italy,1,0,0
+Empoli,Internazionale,Italy,2,0,0
+Empoli,Juventus,Italy,1,0,0
+Empoli,Lazio,Italy,1,1,1
+Empoli,Napoli,Italy,4,1,0.25
+Empoli,Parma,Italy,1,0,0
+Empoli,Sampdoria,Italy,3,0,0
+Empoli,Sassuolo,Italy,3,1,0.333333333333333
+Empoli,Udinese,Italy,3,1,0.333333333333333
+Espanyol,Almeria,Spain,2,0,0
+Espanyol,Athletic Bilbao,Spain,7,4,0.571428571428571
+Espanyol,Atletico Madrid,Spain,3,1,0.333333333333333
+Espanyol,Barcelona,Spain,3,0,0
+Espanyol,Celta Vigo,Spain,3,0,0
+Espanyol,Deportivo La Coruna,Spain,1,0,0
+Espanyol,Eibar,Spain,3,0,0
+Espanyol,Elche,Spain,3,1,0.333333333333333
+Espanyol,Getafe,Spain,3,0,0
+Espanyol,Granada,Spain,6,3,0.5
+Espanyol,Levante,Spain,7,1,0.142857142857143
+Espanyol,Malaga,Spain,6,1,0.166666666666667
+Espanyol,Mallorca,Spain,2,1,0.5
+Espanyol,Osasuna,Spain,3,1,0.333333333333333
+Espanyol,Racing Santander,Spain,1,1,1
+Espanyol,Rayo Vallecano,Spain,7,5,0.714285714285714
+Espanyol,Real Betis,Spain,2,1,0.5
+Espanyol,Real Madrid,Spain,4,0,0
+Espanyol,Real Sociedad,Spain,6,1,0.166666666666667
+Espanyol,Real Valladolid,Spain,2,1,0.5
+Espanyol,Real Zaragoza,Spain,2,0,0
+Espanyol,Sevilla,Spain,7,0,0
+Espanyol,Sporting Gijon,Spain,4,3,0.75
+Espanyol,Valencia,Spain,9,1,0.111111111111111
+Espanyol,Villarreal,Spain,4,0,0
+Everton,Arsenal,England,4,1,0.25
+Everton,Aston Villa,England,3,2,0.666666666666667
+Everton,Bournemouth,England,2,1,0.5
+Everton,Burnley,England,2,1,0.5
+Everton,Cardiff,England,1,1,1
+Everton,Chelsea,England,3,1,0.333333333333333
+Everton,Crystal Palace,England,4,0,0
+Everton,Fulham,England,2,2,1
+Everton,Hull,England,3,1,0.333333333333333
+Everton,Leicester City,England,4,0,0
+Everton,Liverpool,England,3,0,0
+Everton,Manchester City,England,4,0,0
+Everton,Manchester Utd,England,2,0,0
+Everton,Middlesbrough,England,1,1,1
+Everton,Newcastle,England,1,0,0
+Everton,Norwich City,England,1,0,0
+Everton,QPR,England,2,2,1
+Everton,Southampton,England,2,1,0.5
+Everton,Stoke City,England,2,0,0
+Everton,Sunderland,England,2,1,0.5
+Everton,Swansea,England,5,2,0.4
+Everton,Tottenham,England,3,0,0
+Everton,Watford,England,3,0,0
+Everton,West Brom,England,3,2,0.666666666666667
+Everton,West Ham,England,4,2,0.5
+Evian Thonon Gaillard,AC Ajaccio,France,5,2,0.4
+Evian Thonon Gaillard,AJ Auxerre,France,1,1,1
+Evian Thonon Gaillard,AS Monaco,France,2,0,0
+Evian Thonon Gaillard,AS Nancy Lorraine,France,3,0,0
+Evian Thonon Gaillard,Bastia,France,3,2,0.666666666666667
+Evian Thonon Gaillard,Bordeaux,France,5,0,0
+Evian Thonon Gaillard,Brest,France,1,0,0
+Evian Thonon Gaillard,Caen,France,3,0,0
+Evian Thonon Gaillard,Dijon FCO,France,1,0,0
+Evian Thonon Gaillard,Guingamp,France,2,0,0
+Evian Thonon Gaillard,Lens,France,1,1,1
+Evian Thonon Gaillard,Lille,France,3,1,0.333333333333333
+Evian Thonon Gaillard,Lorient,France,4,1,0.25
+Evian Thonon Gaillard,Lyon,France,5,1,0.2
+Evian Thonon Gaillard,Marseille,France,3,0,0
+Evian Thonon Gaillard,Metz,France,1,1,1
+Evian Thonon Gaillard,Montpellier,France,5,2,0.4
+Evian Thonon Gaillard,Nantes,France,1,0,0
+Evian Thonon Gaillard,Nice,France,4,0,0
+Evian Thonon Gaillard,Paris Saint-Germain,France,3,0,0
+Evian Thonon Gaillard,Sochaux,France,5,1,0.2
+Evian Thonon Gaillard,St Etienne,France,4,0,0
+Evian Thonon Gaillard,Stade de Reims,France,5,1,0.2
+Evian Thonon Gaillard,Stade Rennes,France,6,1,0.166666666666667
+Evian Thonon Gaillard,Toulouse,France,4,2,0.5
+Evian Thonon Gaillard,Valenciennes,France,2,1,0.5
+FC Augsburg,Bayer Leverkusen,Germany,9,0,0
+FC Augsburg,Bayern Munich,Germany,5,0,0
+FC Augsburg,Borussia Dortmund,Germany,7,0,0
+FC Augsburg,Borussia Monchengladbach,Germany,7,3,0.428571428571429
+FC Augsburg,Eintracht Frankfurt,Germany,6,1,0.166666666666667
+FC Augsburg,FC Cologne,Germany,2,2,1
+FC Augsburg,FC Ingolstadt 04,Germany,1,0,0
+FC Augsburg,Fortuna Dusseldorf,Germany,1,1,1
+FC Augsburg,Hamburg SV,Germany,4,2,0.5
+FC Augsburg,Hannover 96,Germany,3,0,0
+FC Augsburg,Hertha Berlin,Germany,1,0,0
+FC Augsburg,Kaiserslautern,Germany,1,0,0
+FC Augsburg,Mainz,Germany,7,2,0.285714285714286
+FC Augsburg,Nurnberg,Germany,1,0,0
+FC Augsburg,RB Leipzig,Germany,1,0,0
+FC Augsburg,SC Freiburg,Germany,5,2,0.4
+FC Augsburg,SC Paderborn,Germany,1,0,0
+FC Augsburg,Schalke 04,Germany,8,1,0.125
+FC Augsburg,SpVgg Greuther Furth,Germany,2,1,0.5
+FC Augsburg,SV Darmstadt 98,Germany,1,0,0
+FC Augsburg,TSG Hoffenheim,Germany,5,2,0.4
+FC Augsburg,TSV Eintracht Braunschweig,Germany,1,1,1
+FC Augsburg,VfB Stuttgart,Germany,5,2,0.4
+FC Augsburg,VfL Wolfsburg,Germany,4,1,0.25
+FC Augsburg,Werder Bremen,Germany,9,5,0.555555555555556
+FC Cologne,Bayer Leverkusen,Germany,5,2,0.4
+FC Cologne,Bayern Munich,Germany,4,0,0
+FC Cologne,Borussia Dortmund,Germany,4,2,0.5
+FC Cologne,Borussia Monchengladbach,Germany,1,1,1
+FC Cologne,Eintracht Frankfurt,Germany,4,2,0.5
+FC Cologne,FC Augsburg,Germany,2,0,0
+FC Cologne,FC Ingolstadt 04,Germany,3,1,0.333333333333333
+FC Cologne,Hamburg SV,Germany,3,2,0.666666666666667
+FC Cologne,Hannover 96,Germany,2,0,0
+FC Cologne,Hertha Berlin,Germany,2,0,0
+FC Cologne,Kaiserslautern,Germany,1,0,0
+FC Cologne,Mainz,Germany,2,1,0.5
+FC Cologne,Nurnberg,Germany,2,0,0
+FC Cologne,RB Leipzig,Germany,1,0,0
+FC Cologne,SC Freiburg,Germany,1,0,0
+FC Cologne,Schalke 04,Germany,4,2,0.5
+FC Cologne,SV Darmstadt 98,Germany,1,1,1
+FC Cologne,TSG Hoffenheim,Germany,4,2,0.5
+FC Cologne,VfB Stuttgart,Germany,3,1,0.333333333333333
+FC Cologne,VfL Wolfsburg,Germany,4,0,0
+FC Cologne,Werder Bremen,Germany,5,0,0
+FC Ingolstadt 04,Bayer Leverkusen,Germany,1,1,1
+FC Ingolstadt 04,Bayern Munich,Germany,2,0,0
+FC Ingolstadt 04,Borussia Dortmund,Germany,1,0,0
+FC Ingolstadt 04,Eintracht Frankfurt,Germany,1,0,0
+FC Ingolstadt 04,FC Augsburg,Germany,1,1,1
+FC Ingolstadt 04,FC Cologne,Germany,3,0,0
+FC Ingolstadt 04,Hamburg SV,Germany,2,0,0
+FC Ingolstadt 04,Hannover 96,Germany,1,0,0
+FC Ingolstadt 04,Hertha Berlin,Germany,1,0,0
+FC Ingolstadt 04,SC Freiburg,Germany,1,0,0
+FC Ingolstadt 04,Schalke 04,Germany,1,0,0
+FC Ingolstadt 04,SV Darmstadt 98,Germany,1,1,1
+FC Ingolstadt 04,TSG Hoffenheim,Germany,3,0,0
+FC Ingolstadt 04,VfB Stuttgart,Germany,1,0,0
+FC Ingolstadt 04,VfL Wolfsburg,Germany,1,0,0
+FC Ingolstadt 04,Werder Bremen,Germany,1,0,0
+Fiorentina,AC Milan,Italy,5,3,0.6
+Fiorentina,AS Roma,Italy,6,1,0.166666666666667
+Fiorentina,Atalanta,Italy,4,3,0.75
+Fiorentina,Bologna,Italy,2,0,0
+Fiorentina,Cagliari,Italy,5,2,0.4
+Fiorentina,Carpi,Italy,1,1,1
+Fiorentina,Catania,Italy,3,1,0.333333333333333
+Fiorentina,Cesena,Italy,2,2,1
+Fiorentina,Chievo Verona,Italy,6,4,0.666666666666667
+Fiorentina,Crotone,Italy,1,0,0
+Fiorentina,Empoli,Italy,3,1,0.333333333333333
+Fiorentina,Frosinone,Italy,1,1,1
+Fiorentina,Genoa,Italy,5,2,0.4
+Fiorentina,Hellas Verona,Italy,4,3,0.75
+Fiorentina,Internazionale,Italy,7,3,0.428571428571429
+Fiorentina,Juventus,Italy,7,2,0.285714285714286
+Fiorentina,Lazio,Italy,2,0,0
+Fiorentina,Napoli,Italy,6,0,0
+Fiorentina,Novara,Italy,1,0,0
+Fiorentina,Palermo,Italy,4,4,1
+Fiorentina,Parma,Italy,4,0,0
+Fiorentina,Sampdoria,Italy,5,1,0.2
+Fiorentina,Sassuolo,Italy,5,3,0.6
+Fiorentina,Siena,Italy,2,2,1
+Fiorentina,Torino,Italy,7,1,0.142857142857143
+Fiorentina,Udinese,Italy,7,3,0.428571428571429
+Fiorentina,US Pescara,Italy,1,1,1
+Fortuna Dusseldorf,Bayer Leverkusen,Germany,2,0,0
+Fortuna Dusseldorf,Bayern Munich,Germany,1,0,0
+Fortuna Dusseldorf,Borussia Dortmund,Germany,2,0,0
+Fortuna Dusseldorf,Borussia Monchengladbach,Germany,1,0,0
+Fortuna Dusseldorf,Eintracht Frankfurt,Germany,1,0,0
+Fortuna Dusseldorf,FC Augsburg,Germany,1,0,0
+Fortuna Dusseldorf,Hamburg SV,Germany,1,0,0
+Fortuna Dusseldorf,Hannover 96,Germany,1,1,1
+Fortuna Dusseldorf,Mainz,Germany,1,0,0
+Fortuna Dusseldorf,Nurnberg,Germany,1,0,0
+Fortuna Dusseldorf,Schalke 04,Germany,2,0,0
+Fortuna Dusseldorf,TSG Hoffenheim,Germany,1,0,0
+Fortuna Dusseldorf,VfB Stuttgart,Germany,1,1,1
+Fortuna Dusseldorf,VfL Wolfsburg,Germany,2,0,0
+Fortuna Dusseldorf,Werder Bremen,Germany,2,0,0
+Frosinone,AC Milan,Italy,2,0,0
+Frosinone,AS Roma,Italy,1,0,0
+Frosinone,Carpi,Italy,2,1,0.5
+Frosinone,Chievo Verona,Italy,1,0,0
+Frosinone,Empoli,Italy,1,1,1
+Frosinone,Fiorentina,Italy,1,0,0
+Frosinone,Genoa,Italy,1,0,0
+Frosinone,Hellas Verona,Italy,2,2,1
+Frosinone,Juventus,Italy,1,0,0
+Frosinone,Napoli,Italy,1,0,0
+Frosinone,Palermo,Italy,1,0,0
+Frosinone,Sassuolo,Italy,1,0,0
+Frosinone,Torino,Italy,2,0,0
+Fulham,Aston Villa,England,1,1,1
+Fulham,Cardiff,England,1,0,0
+Fulham,Chelsea,England,1,0,0
+Fulham,Crystal Palace,England,2,1,0.5
+Fulham,Everton,England,2,0,0
+Fulham,Hull,England,1,0,0
+Fulham,Liverpool,England,1,0,0
+Fulham,Manchester City,England,1,0,0
+Fulham,Manchester Utd,England,2,0,0
+Fulham,Norwich City,England,1,1,1
+Fulham,Stoke City,England,1,0,0
+Fulham,Sunderland,England,1,0,0
+Fulham,Swansea,England,1,0,0
+Fulham,Tottenham,England,2,0,0
+Fulham,West Brom,England,1,0,0
+Fulham,West Ham,England,1,1,1
+Genoa,AC Milan,Italy,4,1,0.25
+Genoa,AS Roma,Italy,4,1,0.25
+Genoa,Atalanta,Italy,5,1,0.2
+Genoa,Bologna,Italy,2,1,0.5
+Genoa,Cagliari,Italy,7,2,0.285714285714286
+Genoa,Carpi,Italy,2,0,0
+Genoa,Catania,Italy,2,0,0
+Genoa,Cesena,Italy,2,1,0.5
+Genoa,Chievo Verona,Italy,6,3,0.5
+Genoa,Crotone,Italy,2,1,0.5
+Genoa,Empoli,Italy,2,0,0
+Genoa,Fiorentina,Italy,5,0,0
+Genoa,Frosinone,Italy,1,0,0
+Genoa,Hellas Verona,Italy,3,1,0.333333333333333
+Genoa,Internazionale,Italy,4,1,0.25
+Genoa,Juventus,Italy,4,1,0.25
+Genoa,Lazio,Italy,4,3,0.75
+Genoa,Lecce,Italy,1,0,0
+Genoa,Napoli,Italy,7,1,0.142857142857143
+Genoa,Novara,Italy,1,0,0
+Genoa,Palermo,Italy,5,0,0
+Genoa,Parma,Italy,5,1,0.2
+Genoa,Sampdoria,Italy,5,0,0
+Genoa,Sassuolo,Italy,4,1,0.25
+Genoa,Siena,Italy,2,0,0
+Genoa,Torino,Italy,7,2,0.285714285714286
+Genoa,Udinese,Italy,7,3,0.428571428571429
+Genoa,US Pescara,Italy,2,1,0.5
+Getafe,Almeria,Spain,1,0,0
+Getafe,Athletic Bilbao,Spain,2,1,0.5
+Getafe,Atletico Madrid,Spain,1,1,1
+Getafe,Barcelona,Spain,4,0,0
+Getafe,Celta Vigo,Spain,5,2,0.4
+Getafe,Cordoba,Spain,2,1,0.5
+Getafe,Deportivo La Coruna,Spain,4,3,0.75
+Getafe,Eibar,Spain,4,0,0
+Getafe,Elche,Spain,1,0,0
+Getafe,Espanyol,Spain,3,2,0.666666666666667
+Getafe,Granada,Spain,6,0,0
+Getafe,Levante,Spain,2,0,0
+Getafe,Malaga,Spain,4,0,0
+Getafe,Mallorca,Spain,3,2,0.666666666666667
+Getafe,Osasuna,Spain,3,1,0.333333333333333
+Getafe,Racing Santander,Spain,2,1,0.5
+Getafe,Rayo Vallecano,Spain,5,1,0.2
+Getafe,Real Betis,Spain,3,1,0.333333333333333
+Getafe,Real Madrid,Spain,6,1,0.166666666666667
+Getafe,Real Sociedad,Spain,6,3,0.5
+Getafe,Real Valladolid,Spain,2,1,0.5
+Getafe,Real Zaragoza,Spain,1,0,0
+Getafe,Sevilla,Spain,5,2,0.4
+Getafe,Sporting Gijon,Spain,3,1,0.333333333333333
+Getafe,Valencia,Spain,5,1,0.2
+Getafe,Villarreal,Spain,1,0,0
+GFC Ajaccio,AS Monaco,France,1,0,0
+GFC Ajaccio,Bastia,France,2,2,1
+GFC Ajaccio,Bordeaux,France,1,0,0
+GFC Ajaccio,Guingamp,France,1,0,0
+GFC Ajaccio,Lille,France,1,0,0
+GFC Ajaccio,Lorient,France,1,0,0
+GFC Ajaccio,Lyon,France,2,1,0.5
+GFC Ajaccio,Marseille,France,2,0,0
+GFC Ajaccio,Nantes,France,2,0,0
+GFC Ajaccio,Nice,France,1,1,1
+GFC Ajaccio,Stade de Reims,France,2,1,0.5
+GFC Ajaccio,Stade Rennes,France,1,0,0
+GFC Ajaccio,Toulouse,France,2,0,0
+GFC Ajaccio,Troyes,France,1,0,0
+Granada,Alaves,Spain,1,0,0
+Granada,Athletic Bilbao,Spain,4,0,0
+Granada,Atletico Madrid,Spain,2,0,0
+Granada,Barcelona,Spain,3,0,0
+Granada,Celta Vigo,Spain,7,1,0.142857142857143
+Granada,Deportivo La Coruna,Spain,5,1,0.2
+Granada,Eibar,Spain,4,0,0
+Granada,Elche,Spain,1,0,0
+Granada,Espanyol,Spain,6,1,0.166666666666667
+Granada,Getafe,Spain,6,3,0.5
+Granada,Las Palmas,Spain,3,1,0.333333333333333
+Granada,Levante,Spain,6,2,0.333333333333333
+Granada,Malaga,Spain,6,2,0.333333333333333
+Granada,Mallorca,Spain,3,1,0.333333333333333
+Granada,Osasuna,Spain,4,2,0.5
+Granada,Rayo Vallecano,Spain,4,0,0
+Granada,Real Betis,Spain,5,2,0.4
+Granada,Real Madrid,Spain,3,0,0
+Granada,Real Sociedad,Spain,5,1,0.2
+Granada,Real Valladolid,Spain,1,0,0
+Granada,Real Zaragoza,Spain,1,0,0
+Granada,Sevilla,Spain,7,4,0.571428571428571
+Granada,Sporting Gijon,Spain,2,0,0
+Granada,Valencia,Spain,5,0,0
+Granada,Villarreal,Spain,3,0,0
+Guingamp,AC Ajaccio,France,2,2,1
+Guingamp,Angers,France,1,0,0
+Guingamp,AS Monaco,France,4,0,0
+Guingamp,Bastia,France,2,0,0
+Guingamp,Bordeaux,France,5,1,0.2
+Guingamp,Caen,France,4,1,0.25
+Guingamp,Dijon FCO,France,1,0,0
+Guingamp,Evian Thonon Gaillard,France,2,1,0.5
+Guingamp,GFC Ajaccio,France,1,1,1
+Guingamp,Lille,France,2,1,0.5
+Guingamp,Lorient,France,4,1,0.25
+Guingamp,Lyon,France,4,1,0.25
+Guingamp,Marseille,France,3,1,0.333333333333333
+Guingamp,Metz,France,1,0,0
+Guingamp,Montpellier,France,6,0,0
+Guingamp,Nantes,France,1,0,0
+Guingamp,Nice,France,2,1,0.5
+Guingamp,Paris Saint-Germain,France,2,1,0.5
+Guingamp,Sochaux,France,1,1,1
+Guingamp,St Etienne,France,1,0,0
+Guingamp,Stade de Reims,France,4,1,0.25
+Guingamp,Stade Rennes,France,1,0,0
+Guingamp,Toulouse,France,4,2,0.5
+Guingamp,Valenciennes,France,1,0,0
+Hamburg SV,Bayer Leverkusen,Germany,5,1,0.2
+Hamburg SV,Bayern Munich,Germany,5,0,0
+Hamburg SV,Borussia Dortmund,Germany,7,3,0.428571428571429
+Hamburg SV,Borussia Monchengladbach,Germany,5,1,0.2
+Hamburg SV,Eintracht Frankfurt,Germany,5,0,0
+Hamburg SV,FC Augsburg,Germany,4,1,0.25
+Hamburg SV,FC Cologne,Germany,3,0,0
+Hamburg SV,FC Ingolstadt 04,Germany,2,0,0
+Hamburg SV,Fortuna Dusseldorf,Germany,1,1,1
+Hamburg SV,Hannover 96,Germany,6,2,0.333333333333333
+Hamburg SV,Hertha Berlin,Germany,1,0,0
+Hamburg SV,Kaiserslautern,Germany,1,0,0
+Hamburg SV,Mainz,Germany,7,2,0.285714285714286
+Hamburg SV,Nurnberg,Germany,3,1,0.333333333333333
+Hamburg SV,SC Freiburg,Germany,4,1,0.25
+Hamburg SV,Schalke 04,Germany,6,2,0.333333333333333
+Hamburg SV,SpVgg Greuther Furth,Germany,1,0,0
+Hamburg SV,SV Darmstadt 98,Germany,2,0,0
+Hamburg SV,TSG Hoffenheim,Germany,4,1,0.25
+Hamburg SV,TSV Eintracht Braunschweig,Germany,1,0,0
+Hamburg SV,VfB Stuttgart,Germany,5,2,0.4
+Hamburg SV,VfL Wolfsburg,Germany,7,0,0
+Hamburg SV,Werder Bremen,Germany,4,3,0.75
+Hannover 96,Bayer Leverkusen,Germany,4,1,0.25
+Hannover 96,Bayern Munich,Germany,4,1,0.25
+Hannover 96,Borussia Dortmund,Germany,6,1,0.166666666666667
+Hannover 96,Borussia Monchengladbach,Germany,5,2,0.4
+Hannover 96,Eintracht Frankfurt,Germany,4,1,0.25
+Hannover 96,FC Augsburg,Germany,3,2,0.666666666666667
+Hannover 96,FC Cologne,Germany,2,1,0.5
+Hannover 96,FC Ingolstadt 04,Germany,1,0,0
+Hannover 96,Fortuna Dusseldorf,Germany,1,0,0
+Hannover 96,Hamburg SV,Germany,6,3,0.5
+Hannover 96,Hertha Berlin,Germany,5,0,0
+Hannover 96,Kaiserslautern,Germany,2,1,0.5
+Hannover 96,Mainz,Germany,5,0,0
+Hannover 96,Nurnberg,Germany,4,2,0.5
+Hannover 96,SC Freiburg,Germany,6,2,0.333333333333333
+Hannover 96,SC Paderborn,Germany,1,0,0
+Hannover 96,Schalke 04,Germany,5,1,0.2
+Hannover 96,SpVgg Greuther Furth,Germany,1,1,1
+Hannover 96,SV Darmstadt 98,Germany,2,0,0
+Hannover 96,TSG Hoffenheim,Germany,6,1,0.166666666666667
+Hannover 96,VfB Stuttgart,Germany,6,3,0.5
+Hannover 96,VfL Wolfsburg,Germany,6,2,0.333333333333333
+Hannover 96,Werder Bremen,Germany,7,2,0.285714285714286
+Hellas Verona,AC Milan,Italy,5,2,0.4
+Hellas Verona,AS Roma,Italy,4,0,0
+Hellas Verona,Atalanta,Italy,4,3,0.75
+Hellas Verona,Bologna,Italy,1,1,1
+Hellas Verona,Cagliari,Italy,2,2,1
+Hellas Verona,Carpi,Italy,1,0,0
+Hellas Verona,Cesena,Italy,2,0,0
+Hellas Verona,Chievo Verona,Italy,3,1,0.333333333333333
+Hellas Verona,Empoli,Italy,1,1,1
+Hellas Verona,Fiorentina,Italy,4,0,0
+Hellas Verona,Frosinone,Italy,2,0,0
+Hellas Verona,Genoa,Italy,3,0,0
+Hellas Verona,Internazionale,Italy,3,0,0
+Hellas Verona,Juventus,Italy,4,1,0.25
+Hellas Verona,Lazio,Italy,5,1,0.2
+Hellas Verona,Livorno,Italy,2,2,1
+Hellas Verona,Napoli,Italy,2,0,0
+Hellas Verona,Palermo,Italy,2,1,0.5
+Hellas Verona,Parma,Italy,3,2,0.666666666666667
+Hellas Verona,Sampdoria,Italy,3,0,0
+Hellas Verona,Sassuolo,Italy,4,2,0.5
+Hellas Verona,Torino,Italy,4,0,0
+Hellas Verona,Udinese,Italy,4,2,0.5
+Hertha Berlin,Bayer Leverkusen,Germany,7,1,0.142857142857143
+Hertha Berlin,Bayern Munich,Germany,2,0,0
+Hertha Berlin,Borussia Dortmund,Germany,4,2,0.5
+Hertha Berlin,Borussia Monchengladbach,Germany,4,0,0
+Hertha Berlin,Eintracht Frankfurt,Germany,3,0,0
+Hertha Berlin,FC Augsburg,Germany,1,0,0
+Hertha Berlin,FC Cologne,Germany,2,2,1
+Hertha Berlin,FC Ingolstadt 04,Germany,1,1,1
+Hertha Berlin,Hamburg SV,Germany,1,0,0
+Hertha Berlin,Hannover 96,Germany,5,1,0.2
+Hertha Berlin,Kaiserslautern,Germany,2,0,0
+Hertha Berlin,Mainz,Germany,5,3,0.6
+Hertha Berlin,Nurnberg,Germany,1,0,0
+Hertha Berlin,SC Freiburg,Germany,4,1,0.25
+Hertha Berlin,SC Paderborn,Germany,1,0,0
+Hertha Berlin,Schalke 04,Germany,3,0,0
+Hertha Berlin,SV Darmstadt 98,Germany,1,0,0
+Hertha Berlin,TSG Hoffenheim,Germany,6,2,0.333333333333333
+Hertha Berlin,VfB Stuttgart,Germany,3,3,1
+Hertha Berlin,VfL Wolfsburg,Germany,6,2,0.333333333333333
+Hertha Berlin,Werder Bremen,Germany,5,1,0.2
+Hull,Arsenal,England,3,0,0
+Hull,Aston Villa,England,2,0,0
+Hull,Bournemouth,England,2,1,0.5
+Hull,Burnley,England,1,0,0
+Hull,Chelsea,England,1,0,0
+Hull,Crystal Palace,England,1,0,0
+Hull,Everton,England,3,0,0
+Hull,Fulham,England,1,0,0
+Hull,Leicester City,England,1,1,1
+Hull,Liverpool,England,2,1,0.5
+Hull,Manchester City,England,2,0,0
+Hull,Manchester Utd,England,2,0,0
+Hull,Newcastle,England,2,0,0
+Hull,QPR,England,1,1,1
+Hull,Southampton,England,2,1,0.5
+Hull,Stoke City,England,1,0,0
+Hull,Sunderland,England,2,1,0.5
+Hull,Swansea,England,2,0,0
+Hull,Tottenham,England,2,0,0
+Hull,West Brom,England,3,0,0
+Hull,West Ham,England,2,0,0
+Internazionale,AC Milan,Italy,4,1,0.25
+Internazionale,AS Roma,Italy,6,1,0.166666666666667
+Internazionale,Atalanta,Italy,8,1,0.125
+Internazionale,Bologna,Italy,5,2,0.4
+Internazionale,Cagliari,Italy,8,2,0.25
+Internazionale,Carpi,Italy,2,1,0.5
+Internazionale,Catania,Italy,3,1,0.333333333333333
+Internazionale,Cesena,Italy,2,1,0.5
+Internazionale,Chievo Verona,Italy,4,2,0.5
+Internazionale,Empoli,Italy,2,2,1
+Internazionale,Fiorentina,Italy,7,4,0.571428571428571
+Internazionale,Genoa,Italy,4,2,0.5
+Internazionale,Hellas Verona,Italy,3,1,0.333333333333333
+Internazionale,Juventus,Italy,7,2,0.285714285714286
+Internazionale,Lazio,Italy,7,3,0.428571428571429
+Internazionale,Lecce,Italy,1,1,1
+Internazionale,Livorno,Italy,1,0,0
+Internazionale,Napoli,Italy,6,1,0.166666666666667
+Internazionale,Novara,Italy,1,0,0
+Internazionale,Palermo,Italy,6,1,0.166666666666667
+Internazionale,Parma,Italy,3,0,0
+Internazionale,Sampdoria,Italy,4,2,0.5
+Internazionale,Sassuolo,Italy,1,0,0
+Internazionale,Siena,Italy,2,1,0.5
+Internazionale,Torino,Italy,4,1,0.25
+Internazionale,Udinese,Italy,6,4,0.666666666666667
+Internazionale,US Pescara,Italy,1,1,1
+Juventus,AC Milan,Italy,4,3,0.75
+Juventus,AS Roma,Italy,5,2,0.4
+Juventus,Atalanta,Italy,4,4,1
+Juventus,Bologna,Italy,4,2,0.5
+Juventus,Cagliari,Italy,6,3,0.5
+Juventus,Carpi,Italy,1,1,1
+Juventus,Catania,Italy,2,1,0.5
+Juventus,Cesena,Italy,1,0,0
+Juventus,Chievo Verona,Italy,6,4,0.666666666666667
+Juventus,Empoli,Italy,1,1,1
+Juventus,Fiorentina,Italy,7,5,0.714285714285714
+Juventus,Frosinone,Italy,1,0,0
+Juventus,Genoa,Italy,4,1,0.25
+Juventus,Hellas Verona,Italy,4,1,0.25
+Juventus,Internazionale,Italy,7,3,0.428571428571429
+Juventus,Lazio,Italy,3,2,0.666666666666667
+Juventus,Lecce,Italy,1,0,0
+Juventus,Napoli,Italy,6,3,0.5
+Juventus,Parma,Italy,3,2,0.666666666666667
+Juventus,Sampdoria,Italy,6,3,0.5
+Juventus,Sassuolo,Italy,3,2,0.666666666666667
+Juventus,Siena,Italy,1,1,1
+Juventus,Torino,Italy,5,4,0.8
+Juventus,Udinese,Italy,3,3,1
+Juventus,US Pescara,Italy,2,2,1
+Kaiserslautern,Bayer Leverkusen,Germany,1,0,0
+Kaiserslautern,Borussia Dortmund,Germany,2,0,0
+Kaiserslautern,Borussia Monchengladbach,Germany,1,0,0
+Kaiserslautern,FC Augsburg,Germany,1,0,0
+Kaiserslautern,FC Cologne,Germany,1,0,0
+Kaiserslautern,Hamburg SV,Germany,1,0,0
+Kaiserslautern,Hannover 96,Germany,2,0,0
+Kaiserslautern,Hertha Berlin,Germany,2,1,0.5
+Kaiserslautern,Mainz,Germany,1,1,1
+Kaiserslautern,Schalke 04,Germany,2,1,0.5
+Kaiserslautern,TSG Hoffenheim,Germany,2,0,0
+Las Palmas,Alaves,Spain,1,0,0
+Las Palmas,Athletic Bilbao,Spain,2,1,0.5
+Las Palmas,Barcelona,Spain,2,0,0
+Las Palmas,Celta Vigo,Spain,3,1,0.333333333333333
+Las Palmas,Deportivo La Coruna,Spain,2,1,0.5
+Las Palmas,Granada,Spain,3,2,0.666666666666667
+Las Palmas,Leganes,Spain,1,0,0
+Las Palmas,Levante,Spain,1,0,0
+Las Palmas,Malaga,Spain,1,0,0
+Las Palmas,Osasuna,Spain,1,0,0
+Las Palmas,Real Madrid,Spain,3,0,0
+Las Palmas,Real Sociedad,Spain,1,0,0
+Las Palmas,Sevilla,Spain,1,0,0
+Las Palmas,Sporting Gijon,Spain,2,0,0
+Las Palmas,Valencia,Spain,3,2,0.666666666666667
+Las Palmas,Villarreal,Spain,1,0,0
+Lazio,AC Milan,Italy,8,2,0.25
+Lazio,AS Roma,Italy,6,2,0.333333333333333
+Lazio,Atalanta,Italy,5,2,0.4
+Lazio,Bologna,Italy,3,1,0.333333333333333
+Lazio,Cagliari,Italy,4,4,1
+Lazio,Carpi,Italy,1,1,1
+Lazio,Catania,Italy,4,2,0.5
+Lazio,Cesena,Italy,2,1,0.5
+Lazio,Chievo Verona,Italy,4,2,0.5
+Lazio,Empoli,Italy,1,0,0
+Lazio,Fiorentina,Italy,2,2,1
+Lazio,Genoa,Italy,4,1,0.25
+Lazio,Hellas Verona,Italy,5,2,0.4
+Lazio,Internazionale,Italy,7,3,0.428571428571429
+Lazio,Juventus,Italy,3,0,0
+Lazio,Lecce,Italy,2,1,0.5
+Lazio,Napoli,Italy,6,2,0.333333333333333
+Lazio,Novara,Italy,1,0,0
+Lazio,Palermo,Italy,4,1,0.25
+Lazio,Parma,Italy,5,3,0.6
+Lazio,Sampdoria,Italy,4,1,0.25
+Lazio,Sassuolo,Italy,5,3,0.6
+Lazio,Siena,Italy,2,1,0.5
+Lazio,Torino,Italy,5,1,0.2
+Lazio,Udinese,Italy,3,2,0.666666666666667
+Lecce,AC Milan,Italy,1,0,0
+Lecce,AS Roma,Italy,2,1,0.5
+Lecce,Atalanta,Italy,1,0,0
+Lecce,Cagliari,Italy,1,1,1
+Lecce,Catania,Italy,1,1,1
+Lecce,Chievo Verona,Italy,1,0,0
+Lecce,Genoa,Italy,1,0,0
+Lecce,Internazionale,Italy,1,0,0
+Lecce,Juventus,Italy,1,0,0
+Lecce,Lazio,Italy,2,0,0
+Lecce,Napoli,Italy,1,0,0
+Lecce,Novara,Italy,1,0,0
+Lecce,Palermo,Italy,1,0,0
+Lecce,Parma,Italy,2,0,0
+Lecce,Siena,Italy,1,1,1
+Lecce,Udinese,Italy,1,0,0
+Leganes,Alaves,Spain,1,0,0
+Leganes,Barcelona,Spain,1,0,0
+Leganes,Deportivo La Coruna,Spain,1,1,1
+Leganes,Eibar,Spain,1,0,0
+Leganes,Las Palmas,Spain,1,0,0
+Leganes,Sevilla,Spain,1,0,0
+Leganes,Sporting Gijon,Spain,1,0,0
+Leganes,Valencia,Spain,1,0,0
+Leicester City,Arsenal,England,4,0,0
+Leicester City,Aston Villa,England,3,1,0.333333333333333
+Leicester City,Bournemouth,England,1,0,0
+Leicester City,Burnley,England,1,0,0
+Leicester City,Chelsea,England,3,1,0.333333333333333
+Leicester City,Crystal Palace,England,1,1,1
+Leicester City,Everton,England,4,2,0.5
+Leicester City,Hull,England,1,0,0
+Leicester City,Liverpool,England,3,0,0
+Leicester City,Manchester City,England,2,2,1
+Leicester City,Manchester Utd,England,5,1,0.2
+Leicester City,Middlesbrough,England,1,0,0
+Leicester City,Norwich City,England,1,1,1
+Leicester City,QPR,England,2,1,0.5
+Leicester City,Southampton,England,1,0,0
+Leicester City,Stoke City,England,2,0,0
+Leicester City,Sunderland,England,2,1,0.5
+Leicester City,Swansea,England,1,1,1
+Leicester City,Tottenham,England,4,0,0
+Leicester City,Watford,England,2,1,0.5
+Leicester City,West Brom,England,4,2,0.5
+Leicester City,West Ham,England,3,2,0.666666666666667
+Lens,Bastia,France,2,0,0
+Lens,Bordeaux,France,2,0,0
+Lens,Caen,France,1,0,0
+Lens,Evian Thonon Gaillard,France,1,0,0
+Lens,Lille,France,2,0,0
+Lens,Marseille,France,1,0,0
+Lens,Metz,France,1,0,0
+Lens,Montpellier,France,1,0,0
+Lens,Nice,France,1,0,0
+Lens,Paris Saint-Germain,France,2,0,0
+Lens,St Etienne,France,1,0,0
+Lens,Stade de Reims,France,1,1,1
+Levante,Almeria,Spain,2,1,0.5
+Levante,Athletic Bilbao,Spain,4,1,0.25
+Levante,Atletico Madrid,Spain,6,1,0.166666666666667
+Levante,Barcelona,Spain,3,0,0
+Levante,Celta Vigo,Spain,3,0,0
+Levante,Deportivo La Coruna,Spain,2,0,0
+Levante,Eibar,Spain,3,1,0.333333333333333
+Levante,Elche,Spain,2,1,0.5
+Levante,Espanyol,Spain,7,4,0.571428571428571
+Levante,Getafe,Spain,2,0,0
+Levante,Granada,Spain,6,3,0.5
+Levante,Las Palmas,Spain,1,1,1
+Levante,Malaga,Spain,4,1,0.25
+Levante,Mallorca,Spain,1,0,0
+Levante,Racing Santander,Spain,1,0,0
+Levante,Rayo Vallecano,Spain,6,3,0.5
+Levante,Real Betis,Spain,3,1,0.333333333333333
+Levante,Real Madrid,Spain,5,0,0
+Levante,Real Sociedad,Spain,6,3,0.5
+Levante,Real Valladolid,Spain,3,1,0.333333333333333
+Levante,Sevilla,Spain,5,1,0.2
+Levante,Valencia,Spain,2,0,0
+Lille,AC Ajaccio,France,4,4,1
+Lille,AJ Auxerre,France,2,1,0.5
+Lille,AS Monaco,France,4,1,0.25
+Lille,AS Nancy Lorraine,France,4,1,0.25
+Lille,Bastia,France,7,4,0.571428571428571
+Lille,Bordeaux,France,5,2,0.4
+Lille,Brest,France,2,1,0.5
+Lille,Caen,France,3,3,1
+Lille,Evian Thonon Gaillard,France,3,0,0
+Lille,GFC Ajaccio,France,1,1,1
+Lille,Guingamp,France,2,0,0
+Lille,Lens,France,2,1,0.5
+Lille,Lorient,France,2,1,0.5
+Lille,Lyon,France,5,3,0.6
+Lille,Marseille,France,4,1,0.25
+Lille,Metz,France,2,1,0.5
+Lille,Montpellier,France,3,3,1
+Lille,Nantes,France,1,0,0
+Lille,Nice,France,4,0,0
+Lille,Paris Saint-Germain,France,6,1,0.166666666666667
+Lille,Sochaux,France,3,0,0
+Lille,St Etienne,France,6,2,0.333333333333333
+Lille,Stade de Reims,France,4,1,0.25
+Lille,Stade Rennes,France,5,0,0
+Lille,Toulouse,France,6,2,0.333333333333333
+Lille,Troyes,France,4,0,0
+Lille,Valenciennes,France,2,2,1
+Liverpool,Arsenal,England,5,2,0.4
+Liverpool,Aston Villa,England,2,1,0.5
+Liverpool,Bournemouth,England,2,1,0.5
+Liverpool,Cardiff,England,2,2,1
+Liverpool,Chelsea,England,6,2,0.333333333333333
+Liverpool,Crystal Palace,England,7,3,0.428571428571429
+Liverpool,Everton,England,3,0,0
+Liverpool,Fulham,England,1,1,1
+Liverpool,Hull,England,2,1,0.5
+Liverpool,Leicester City,England,3,2,0.666666666666667
+Liverpool,Manchester City,England,5,3,0.6
+Liverpool,Manchester Utd,England,3,0,0
+Liverpool,Newcastle,England,3,1,0.333333333333333
+Liverpool,Norwich City,England,4,3,0.75
+Liverpool,QPR,England,2,2,1
+Liverpool,Southampton,England,3,1,0.333333333333333
+Liverpool,Stoke City,England,4,3,0.75
+Liverpool,Sunderland,England,3,1,0.333333333333333
+Liverpool,Swansea,England,5,3,0.6
+Liverpool,Tottenham,England,3,1,0.333333333333333
+Liverpool,Watford,England,1,1,1
+Liverpool,West Brom,England,6,3,0.5
+Liverpool,West Ham,England,4,2,0.5
+Livorno,AC Milan,Italy,1,0,0
+Livorno,Bologna,Italy,1,1,1
+Livorno,Cagliari,Italy,2,1,0.5
+Livorno,Catania,Italy,1,0,0
+Livorno,Chievo Verona,Italy,1,0,0
+Livorno,Hellas Verona,Italy,2,0,0
+Livorno,Internazionale,Italy,1,0,0
+Livorno,Napoli,Italy,1,0,0
+Livorno,Sampdoria,Italy,2,0,0
+Livorno,Sassuolo,Italy,2,2,1
+Livorno,Torino,Italy,2,0,0
+Livorno,Udinese,Italy,2,0,0
+Lorient,AC Ajaccio,France,3,1,0.333333333333333
+Lorient,AJ Auxerre,France,2,0,0
+Lorient,Angers,France,3,1,0.333333333333333
+Lorient,AS Monaco,France,3,2,0.666666666666667
+Lorient,AS Nancy Lorraine,France,3,1,0.333333333333333
+Lorient,Bastia,France,5,1,0.2
+Lorient,Bordeaux,France,7,1,0.142857142857143
+Lorient,Brest,France,2,1,0.5
+Lorient,Caen,France,4,2,0.5
+Lorient,Evian Thonon Gaillard,France,4,1,0.25
+Lorient,GFC Ajaccio,France,1,0,0
+Lorient,Guingamp,France,4,2,0.5
+Lorient,Lille,France,2,0,0
+Lorient,Lyon,France,5,0,0
+Lorient,Marseille,France,6,2,0.333333333333333
+Lorient,Metz,France,2,1,0.5
+Lorient,Montpellier,France,6,2,0.333333333333333
+Lorient,Nantes,France,5,1,0.2
+Lorient,Nice,France,6,1,0.166666666666667
+Lorient,Paris Saint-Germain,France,7,0,0
+Lorient,Sochaux,France,3,1,0.333333333333333
+Lorient,St Etienne,France,4,2,0.5
+Lorient,Stade de Reims,France,4,1,0.25
+Lorient,Stade Rennes,France,6,2,0.333333333333333
+Lorient,Toulouse,France,6,2,0.333333333333333
+Lorient,Troyes,France,3,2,0.666666666666667
+Lorient,Valenciennes,France,3,0,0
+Lyon,AC Ajaccio,France,5,1,0.2
+Lyon,AJ Auxerre,France,1,1,1
+Lyon,AS Monaco,France,6,3,0.5
+Lyon,AS Nancy Lorraine,France,2,1,0.5
+Lyon,Bastia,France,5,4,0.8
+Lyon,Bordeaux,France,6,2,0.333333333333333
+Lyon,Brest,France,2,0,0
+Lyon,Caen,France,3,1,0.333333333333333
+Lyon,Dijon FCO,France,3,2,0.666666666666667
+Lyon,Evian Thonon Gaillard,France,5,3,0.6
+Lyon,GFC Ajaccio,France,2,1,0.5
+Lyon,Guingamp,France,4,3,0.75
+Lyon,Lille,France,5,1,0.2
+Lyon,Lorient,France,5,2,0.4
+Lyon,Marseille,France,7,2,0.285714285714286
+Lyon,Metz,France,1,0,0
+Lyon,Montpellier,France,7,5,0.714285714285714
+Lyon,Nantes,France,3,2,0.666666666666667
+Lyon,Nice,France,6,2,0.333333333333333
+Lyon,Paris Saint-Germain,France,6,1,0.166666666666667
+Lyon,Sochaux,France,5,2,0.4
+Lyon,St Etienne,France,4,1,0.25
+Lyon,Stade de Reims,France,2,2,1
+Lyon,Stade Rennes,France,4,1,0.25
+Lyon,Toulouse,France,6,4,0.666666666666667
+Lyon,Troyes,France,3,3,1
+Lyon,Valenciennes,France,4,3,0.75
+Mainz,Bayer Leverkusen,Germany,6,1,0.166666666666667
+Mainz,Bayern Munich,Germany,6,2,0.333333333333333
+Mainz,Borussia Dortmund,Germany,7,0,0
+Mainz,Borussia Monchengladbach,Germany,5,1,0.2
+Mainz,Eintracht Frankfurt,Germany,5,3,0.6
+Mainz,FC Augsburg,Germany,7,3,0.428571428571429
+Mainz,FC Cologne,Germany,2,0,0
+Mainz,Fortuna Dusseldorf,Germany,1,0,0
+Mainz,Hamburg SV,Germany,7,5,0.714285714285714
+Mainz,Hannover 96,Germany,5,1,0.2
+Mainz,Hertha Berlin,Germany,5,1,0.2
+Mainz,Kaiserslautern,Germany,1,0,0
+Mainz,Nurnberg,Germany,5,2,0.4
+Mainz,RB Leipzig,Germany,1,0,0
+Mainz,SC Freiburg,Germany,5,3,0.6
+Mainz,SC Paderborn,Germany,1,0,0
+Mainz,Schalke 04,Germany,6,1,0.166666666666667
+Mainz,SV Darmstadt 98,Germany,2,2,1
+Mainz,TSG Hoffenheim,Germany,5,1,0.2
+Mainz,TSV Eintracht Braunschweig,Germany,1,0,0
+Mainz,VfB Stuttgart,Germany,7,4,0.571428571428571
+Mainz,VfL Wolfsburg,Germany,4,0,0
+Mainz,Werder Bremen,Germany,8,2,0.25
+Malaga,Alaves,Spain,1,0,0
+Malaga,Almeria,Spain,2,1,0.5
+Malaga,Athletic Bilbao,Spain,3,1,0.333333333333333
+Malaga,Atletico Madrid,Spain,5,0,0
+Malaga,Barcelona,Spain,5,0,0
+Malaga,Celta Vigo,Spain,2,0,0
+Malaga,Cordoba,Spain,1,1,1
+Malaga,Deportivo La Coruna,Spain,4,2,0.5
+Malaga,Eibar,Spain,2,2,1
+Malaga,Elche,Spain,2,1,0.5
+Malaga,Espanyol,Spain,6,2,0.333333333333333
+Malaga,Getafe,Spain,4,4,1
+Malaga,Granada,Spain,6,2,0.333333333333333
+Malaga,Las Palmas,Spain,1,0,0
+Malaga,Levante,Spain,4,3,0.75
+Malaga,Mallorca,Spain,3,2,0.666666666666667
+Malaga,Osasuna,Spain,3,0,0
+Malaga,Racing Santander,Spain,1,1,1
+Malaga,Rayo Vallecano,Spain,5,2,0.4
+Malaga,Real Betis,Spain,2,2,1
+Malaga,Real Madrid,Spain,6,1,0.166666666666667
+Malaga,Real Sociedad,Spain,7,1,0.142857142857143
+Malaga,Real Valladolid,Spain,4,1,0.25
+Malaga,Real Zaragoza,Spain,2,1,0.5
+Malaga,Sevilla,Spain,7,2,0.285714285714286
+Malaga,Sporting Gijon,Spain,2,1,0.5
+Malaga,Valencia,Spain,3,0,0
+Malaga,Villarreal,Spain,5,1,0.2
+Mallorca,Athletic Bilbao,Spain,2,0,0
+Mallorca,Atletico Madrid,Spain,3,1,0.333333333333333
+Mallorca,Barcelona,Spain,1,0,0
+Mallorca,Celta Vigo,Spain,1,0,0
+Mallorca,Deportivo La Coruna,Spain,1,0,0
+Mallorca,Espanyol,Spain,2,1,0.5
+Mallorca,Getafe,Spain,3,1,0.333333333333333
+Mallorca,Granada,Spain,3,1,0.333333333333333
+Mallorca,Levante,Spain,1,0,0
+Mallorca,Malaga,Spain,3,0,0
+Mallorca,Osasuna,Spain,4,0,0
+Mallorca,Racing Santander,Spain,1,1,1
+Mallorca,Rayo Vallecano,Spain,1,0,0
+Mallorca,Real Betis,Spain,1,1,1
+Mallorca,Real Madrid,Spain,3,0,0
+Mallorca,Real Sociedad,Spain,1,1,1
+Mallorca,Real Valladolid,Spain,2,1,0.5
+Mallorca,Real Zaragoza,Spain,2,0,0
+Mallorca,Sevilla,Spain,3,1,0.333333333333333
+Mallorca,Sporting Gijon,Spain,2,1,0.5
+Mallorca,Valencia,Spain,2,0,0
+Manchester City,Arsenal,England,6,2,0.333333333333333
+Manchester City,Aston Villa,England,1,1,1
+Manchester City,Bournemouth,England,1,1,1
+Manchester City,Burnley,England,3,2,0.666666666666667
+Manchester City,Cardiff,England,1,1,1
+Manchester City,Chelsea,England,4,0,0
+Manchester City,Crystal Palace,England,2,1,0.5
+Manchester City,Everton,England,4,2,0.5
+Manchester City,Fulham,England,1,1,1
+Manchester City,Hull,England,2,1,0.5
+Manchester City,Leicester City,England,2,0,0
+Manchester City,Liverpool,England,5,2,0.4
+Manchester City,Manchester Utd,England,2,1,0.5
+Manchester City,Middlesbrough,England,1,0,0
+Manchester City,Newcastle,England,2,1,0.5
+Manchester City,Norwich City,England,1,1,1
+Manchester City,QPR,England,1,0,0
+Manchester City,Southampton,England,5,2,0.4
+Manchester City,Stoke City,England,2,2,1
+Manchester City,Sunderland,England,5,4,0.8
+Manchester City,Swansea,England,6,5,0.833333333333333
+Manchester City,Tottenham,England,5,2,0.4
+Manchester City,Watford,England,1,1,1
+Manchester City,West Brom,England,4,4,1
+Manchester City,West Ham,England,5,2,0.4
+Manchester Utd,Arsenal,England,4,2,0.5
+Manchester Utd,Aston Villa,England,3,2,0.666666666666667
+Manchester Utd,Bournemouth,England,3,2,0.666666666666667
+Manchester Utd,Burnley,England,1,1,1
+Manchester Utd,Cardiff,England,1,0,0
+Manchester Utd,Chelsea,England,3,0,0
+Manchester Utd,Crystal Palace,England,2,2,1
+Manchester Utd,Everton,England,2,1,0.5
+Manchester Utd,Fulham,England,2,1,0.5
+Manchester Utd,Hull,England,2,2,1
+Manchester Utd,Leicester City,England,5,2,0.4
+Manchester Utd,Liverpool,England,3,2,0.666666666666667
+Manchester Utd,Manchester City,England,2,1,0.5
+Manchester Utd,Middlesbrough,England,1,1,1
+Manchester Utd,Newcastle,England,2,1,0.5
+Manchester Utd,Norwich City,England,1,0,0
+Manchester Utd,Southampton,England,4,2,0.5
+Manchester Utd,Stoke City,England,6,2,0.333333333333333
+Manchester Utd,Sunderland,England,4,2,0.5
+Manchester Utd,Swansea,England,5,2,0.4
+Manchester Utd,Tottenham,England,2,0,0
+Manchester Utd,Watford,England,2,1,0.5
+Manchester Utd,West Brom,England,1,0,0
+Manchester Utd,West Ham,England,5,2,0.4
+Marseille,AC Ajaccio,France,2,2,1
+Marseille,AJ Auxerre,France,1,0,0
+Marseille,Angers,France,2,0,0
+Marseille,AS Monaco,France,5,1,0.2
+Marseille,AS Nancy Lorraine,France,1,1,1
+Marseille,Bastia,France,6,4,0.666666666666667
+Marseille,Bordeaux,France,5,1,0.2
+Marseille,Brest,France,2,1,0.5
+Marseille,Caen,France,5,3,0.6
+Marseille,Dijon FCO,France,2,2,1
+Marseille,Evian Thonon Gaillard,France,3,2,0.666666666666667
+Marseille,GFC Ajaccio,France,2,0,0
+Marseille,Guingamp,France,3,2,0.666666666666667
+Marseille,Lens,France,1,1,1
+Marseille,Lille,France,4,2,0.5
+Marseille,Lorient,France,6,1,0.166666666666667
+Marseille,Lyon,France,7,1,0.142857142857143
+Marseille,Metz,France,1,1,1
+Marseille,Montpellier,France,6,2,0.333333333333333
+Marseille,Nantes,France,3,1,0.333333333333333
+Marseille,Nice,France,4,0,0
+Marseille,Paris Saint-Germain,France,6,0,0
+Marseille,Sochaux,France,3,1,0.333333333333333
+Marseille,St Etienne,France,5,2,0.4
+Marseille,Stade de Reims,France,3,0,0
+Marseille,Stade Rennes,France,7,2,0.285714285714286
+Marseille,Toulouse,France,6,2,0.333333333333333
+Marseille,Troyes,France,1,0,0
+Marseille,Valenciennes,France,4,1,0.25
+Metz,Bastia,France,1,1,1
+Metz,Bordeaux,France,1,0,0
+Metz,Caen,France,1,1,1
+Metz,Evian Thonon Gaillard,France,1,0,0
+Metz,Guingamp,France,1,0,0
+Metz,Lens,France,1,1,1
+Metz,Lille,France,2,1,0.5
+Metz,Lorient,France,2,0,0
+Metz,Lyon,France,1,1,1
+Metz,Marseille,France,1,0,0
+Metz,Montpellier,France,1,0,0
+Metz,Nantes,France,1,0,0
+Metz,Nice,France,1,0,0
+Metz,Paris Saint-Germain,France,2,0,0
+Metz,St Etienne,France,1,0,0
+Metz,Toulouse,France,2,2,1
+Middlesbrough,Crystal Palace,England,1,0,0
+Middlesbrough,Everton,England,1,0,0
+Middlesbrough,Leicester City,England,1,0,0
+Middlesbrough,Manchester City,England,1,0,0
+Middlesbrough,Manchester Utd,England,1,0,0
+Middlesbrough,Stoke City,England,1,0,0
+Middlesbrough,Sunderland,England,1,1,1
+Middlesbrough,Tottenham,England,1,0,0
+Middlesbrough,West Ham,England,2,0,0
+Montpellier,AC Ajaccio,France,3,1,0.333333333333333
+Montpellier,AJ Auxerre,France,2,2,1
+Montpellier,Angers,France,1,1,1
+Montpellier,AS Monaco,France,4,0,0
+Montpellier,Bastia,France,3,1,0.333333333333333
+Montpellier,Bordeaux,France,4,0,0
+Montpellier,Brest,France,3,2,0.666666666666667
+Montpellier,Caen,France,5,2,0.4
+Montpellier,Dijon FCO,France,4,2,0.5
+Montpellier,Evian Thonon Gaillard,France,5,0,0
+Montpellier,Guingamp,France,6,3,0.5
+Montpellier,Lens,France,1,0,0
+Montpellier,Lille,France,3,0,0
+Montpellier,Lorient,France,6,1,0.166666666666667
+Montpellier,Lyon,France,7,2,0.285714285714286
+Montpellier,Marseille,France,6,3,0.5
+Montpellier,Metz,France,1,1,1
+Montpellier,Nantes,France,3,1,0.333333333333333
+Montpellier,Nice,France,6,3,0.5
+Montpellier,Paris Saint-Germain,France,4,0,0
+Montpellier,Sochaux,France,4,4,1
+Montpellier,St Etienne,France,5,0,0
+Montpellier,Stade de Reims,France,6,5,0.833333333333333
+Montpellier,Stade Rennes,France,3,0,0
+Montpellier,Toulouse,France,5,1,0.2
+Montpellier,Troyes,France,3,1,0.333333333333333
+Montpellier,Valenciennes,France,3,1,0.333333333333333
+Nantes,AC Ajaccio,France,1,0,0
+Nantes,AS Monaco,France,1,0,0
+Nantes,AS Nancy Lorraine,France,1,0,0
+Nantes,Bordeaux,France,3,1,0.333333333333333
+Nantes,Caen,France,3,1,0.333333333333333
+Nantes,Evian Thonon Gaillard,France,1,1,1
+Nantes,GFC Ajaccio,France,2,1,0.5
+Nantes,Guingamp,France,1,0,0
+Nantes,Lille,France,1,0,0
+Nantes,Lorient,France,5,3,0.6
+Nantes,Lyon,France,3,0,0
+Nantes,Marseille,France,3,0,0
+Nantes,Metz,France,1,0,0
+Nantes,Montpellier,France,3,1,0.333333333333333
+Nantes,Nice,France,3,2,0.666666666666667
+Nantes,Paris Saint-Germain,France,3,0,0
+Nantes,St Etienne,France,2,1,0.5
+Nantes,Stade de Reims,France,3,0,0
+Nantes,Stade Rennes,France,4,1,0.25
+Nantes,Toulouse,France,6,0,0
+Nantes,Valenciennes,France,2,2,1
+Napoli,AC Milan,Italy,7,4,0.571428571428571
+Napoli,AS Roma,Italy,5,1,0.2
+Napoli,Atalanta,Italy,7,3,0.428571428571429
+Napoli,Bologna,Italy,5,1,0.2
+Napoli,Cagliari,Italy,4,2,0.5
+Napoli,Catania,Italy,4,2,0.5
+Napoli,Cesena,Italy,3,3,1
+Napoli,Chievo Verona,Italy,4,3,0.75
+Napoli,Crotone,Italy,1,1,1
+Napoli,Empoli,Italy,4,1,0.25
+Napoli,Fiorentina,Italy,6,3,0.5
+Napoli,Frosinone,Italy,1,1,1
+Napoli,Genoa,Italy,7,5,0.714285714285714
+Napoli,Hellas Verona,Italy,2,2,1
+Napoli,Internazionale,Italy,6,3,0.5
+Napoli,Juventus,Italy,6,1,0.166666666666667
+Napoli,Lazio,Italy,6,2,0.333333333333333
+Napoli,Lecce,Italy,1,1,1
+Napoli,Livorno,Italy,1,0,0
+Napoli,Novara,Italy,1,0,0
+Napoli,Palermo,Italy,3,1,0.333333333333333
+Napoli,Parma,Italy,5,3,0.6
+Napoli,Sampdoria,Italy,6,4,0.666666666666667
+Napoli,Sassuolo,Italy,4,1,0.25
+Napoli,Siena,Italy,3,2,0.666666666666667
+Napoli,Torino,Italy,6,5,0.833333333333333
+Napoli,Udinese,Italy,7,3,0.428571428571429
+Napoli,US Pescara,Italy,3,2,0.666666666666667
+Newcastle,Arsenal,England,2,0,0
+Newcastle,Aston Villa,England,1,0,0
+Newcastle,Bournemouth,England,1,0,0
+Newcastle,Burnley,England,2,0,0
+Newcastle,Cardiff,England,1,1,1
+Newcastle,Chelsea,England,3,1,0.333333333333333
+Newcastle,Crystal Palace,England,3,0,0
+Newcastle,Everton,England,1,1,1
+Newcastle,Hull,England,2,1,0.5
+Newcastle,Liverpool,England,3,0,0
+Newcastle,Manchester City,England,2,0,0
+Newcastle,Manchester Utd,England,2,0,0
+Newcastle,Norwich City,England,3,2,0.666666666666667
+Newcastle,QPR,England,1,0,0
+Newcastle,Southampton,England,4,0,0
+Newcastle,Stoke City,England,2,1,0.5
+Newcastle,Sunderland,England,2,0,0
+Newcastle,Swansea,England,3,0,0
+Newcastle,Tottenham,England,4,3,0.75
+Newcastle,Watford,England,2,0,0
+Newcastle,West Brom,England,2,1,0.5
+Newcastle,West Ham,England,2,2,1
+Nice,AC Ajaccio,France,1,0,0
+Nice,AJ Auxerre,France,1,0,0
+Nice,Angers,France,2,1,0.5
+Nice,AS Monaco,France,1,0,0
+Nice,AS Nancy Lorraine,France,2,1,0.5
+Nice,Bastia,France,5,1,0.2
+Nice,Bordeaux,France,7,3,0.428571428571429
+Nice,Brest,France,1,1,1
+Nice,Caen,France,4,2,0.5
+Nice,Dijon FCO,France,2,1,0.5
+Nice,Evian Thonon Gaillard,France,4,2,0.5
+Nice,GFC Ajaccio,France,1,0,0
+Nice,Guingamp,France,2,1,0.5
+Nice,Lens,France,1,1,1
+Nice,Lille,France,4,0,0
+Nice,Lorient,France,6,3,0.5
+Nice,Lyon,France,6,2,0.333333333333333
+Nice,Marseille,France,4,2,0.5
+Nice,Metz,France,1,1,1
+Nice,Montpellier,France,6,0,0
+Nice,Nantes,France,3,1,0.333333333333333
+Nice,Paris Saint-Germain,France,6,1,0.166666666666667
+Nice,Sochaux,France,1,0,0
+Nice,St Etienne,France,4,2,0.5
+Nice,Stade de Reims,France,2,0,0
+Nice,Stade Rennes,France,5,2,0.4
+Nice,Toulouse,France,3,3,1
+Nice,Troyes,France,4,2,0.5
+Nice,Valenciennes,France,1,0,0
+Norwich City,Arsenal,England,2,0,0
+Norwich City,Aston Villa,England,1,0,0
+Norwich City,Bournemouth,England,1,1,1
+Norwich City,Cardiff,England,1,0,0
+Norwich City,Chelsea,England,2,0,0
+Norwich City,Crystal Palace,England,2,0,0
+Norwich City,Everton,England,1,0,0
+Norwich City,Fulham,England,1,0,0
+Norwich City,Leicester City,England,1,0,0
+Norwich City,Liverpool,England,4,0,0
+Norwich City,Manchester City,England,1,0,0
+Norwich City,Manchester Utd,England,1,1,1
+Norwich City,Newcastle,England,3,1,0.333333333333333
+Norwich City,Southampton,England,1,0,0
+Norwich City,Stoke City,England,3,0,0
+Norwich City,Sunderland,England,1,1,1
+Norwich City,Swansea,England,1,0,0
+Norwich City,Watford,England,1,1,1
+Norwich City,West Ham,England,3,1,0.333333333333333
+Novara,AC Milan,Italy,1,0,0
+Novara,AS Roma,Italy,1,0,0
+Novara,Atalanta,Italy,1,0,0
+Novara,Cagliari,Italy,1,0,0
+Novara,Catania,Italy,2,0,0
+Novara,Cesena,Italy,1,0,0
+Novara,Chievo Verona,Italy,2,0,0
+Novara,Fiorentina,Italy,1,0,0
+Novara,Genoa,Italy,1,0,0
+Novara,Internazionale,Italy,1,1,1
+Novara,Lazio,Italy,1,1,1
+Novara,Lecce,Italy,1,0,0
+Novara,Napoli,Italy,1,0,0
+Novara,Palermo,Italy,1,0,0
+Novara,Parma,Italy,1,1,1
+Novara,Siena,Italy,1,0,0
+Nurnberg,Bayer Leverkusen,Germany,2,0,0
+Nurnberg,Bayern Munich,Germany,1,0,0
+Nurnberg,Borussia Dortmund,Germany,2,0,0
+Nurnberg,Borussia Monchengladbach,Germany,3,2,0.666666666666667
+Nurnberg,Eintracht Frankfurt,Germany,3,0,0
+Nurnberg,FC Augsburg,Germany,1,1,1
+Nurnberg,FC Cologne,Germany,2,2,1
+Nurnberg,Fortuna Dusseldorf,Germany,1,1,1
+Nurnberg,Hamburg SV,Germany,3,0,0
+Nurnberg,Hannover 96,Germany,4,0,0
+Nurnberg,Hertha Berlin,Germany,1,1,1
+Nurnberg,Mainz,Germany,5,1,0.2
+Nurnberg,SC Freiburg,Germany,3,0,0
+Nurnberg,Schalke 04,Germany,2,1,0.5
+Nurnberg,TSG Hoffenheim,Germany,3,2,0.666666666666667
+Nurnberg,TSV Eintracht Braunschweig,Germany,2,1,0.5
+Nurnberg,VfB Stuttgart,Germany,3,0,0
+Nurnberg,VfL Wolfsburg,Germany,5,0,0
+Nurnberg,Werder Bremen,Germany,4,1,0.25
+Osasuna,Almeria,Spain,1,1,1
+Osasuna,Athletic Bilbao,Spain,4,1,0.25
+Osasuna,Atletico Madrid,Spain,2,0,0
+Osasuna,Barcelona,Spain,3,1,0.333333333333333
+Osasuna,Celta Vigo,Spain,1,0,0
+Osasuna,Deportivo La Coruna,Spain,1,1,1
+Osasuna,Eibar,Spain,1,1,1
+Osasuna,Elche,Spain,1,1,1
+Osasuna,Espanyol,Spain,3,1,0.333333333333333
+Osasuna,Getafe,Spain,3,0,0
+Osasuna,Granada,Spain,4,1,0.25
+Osasuna,Las Palmas,Spain,1,0,0
+Osasuna,Malaga,Spain,3,0,0
+Osasuna,Mallorca,Spain,4,0,0
+Osasuna,Racing Santander,Spain,1,1,1
+Osasuna,Rayo Vallecano,Spain,2,1,0.5
+Osasuna,Real Betis,Spain,5,3,0.6
+Osasuna,Real Madrid,Spain,5,0,0
+Osasuna,Real Sociedad,Spain,1,0,0
+Osasuna,Real Valladolid,Spain,1,1,1
+Osasuna,Real Zaragoza,Spain,2,0,0
+Osasuna,Sevilla,Spain,4,1,0.25
+Osasuna,Sporting Gijon,Spain,3,1,0.333333333333333
+Osasuna,Valencia,Spain,3,0,0
+Osasuna,Villarreal,Spain,4,1,0.25
+Palermo,AC Milan,Italy,4,0,0
+Palermo,AS Roma,Italy,5,1,0.2
+Palermo,Atalanta,Italy,5,1,0.2
+Palermo,Bologna,Italy,4,2,0.5
+Palermo,Cagliari,Italy,5,1,0.2
+Palermo,Carpi,Italy,2,0,0
+Palermo,Catania,Italy,3,1,0.333333333333333
+Palermo,Cesena,Italy,2,1,0.5
+Palermo,Chievo Verona,Italy,4,1,0.25
+Palermo,Crotone,Italy,1,0,0
+Palermo,Fiorentina,Italy,4,0,0
+Palermo,Frosinone,Italy,1,1,1
+Palermo,Genoa,Italy,5,3,0.6
+Palermo,Hellas Verona,Italy,2,1,0.5
+Palermo,Internazionale,Italy,6,1,0.166666666666667
+Palermo,Lazio,Italy,4,1,0.25
+Palermo,Lecce,Italy,1,0,0
+Palermo,Napoli,Italy,3,1,0.333333333333333
+Palermo,Novara,Italy,1,0,0
+Palermo,Parma,Italy,4,1,0.25
+Palermo,Sampdoria,Italy,4,1,0.25
+Palermo,Sassuolo,Italy,3,1,0.333333333333333
+Palermo,Siena,Italy,2,0,0
+Palermo,Torino,Italy,5,0,0
+Palermo,Udinese,Italy,7,2,0.285714285714286
+Palermo,US Pescara,Italy,2,0,0
+Paris Saint-Germain,AC Ajaccio,France,4,3,0.75
+Paris Saint-Germain,AJ Auxerre,France,2,1,0.5
+Paris Saint-Germain,Angers,France,1,1,1
+Paris Saint-Germain,AS Monaco,France,4,0,0
+Paris Saint-Germain,AS Nancy Lorraine,France,3,2,0.666666666666667
+Paris Saint-Germain,Bastia,France,2,1,0.5
+Paris Saint-Germain,Bordeaux,France,4,0,0
+Paris Saint-Germain,Brest,France,1,1,1
+Paris Saint-Germain,Caen,France,3,1,0.333333333333333
+Paris Saint-Germain,Dijon FCO,France,1,1,1
+Paris Saint-Germain,Evian Thonon Gaillard,France,3,2,0.666666666666667
+Paris Saint-Germain,Guingamp,France,2,0,0
+Paris Saint-Germain,Lens,France,2,2,1
+Paris Saint-Germain,Lille,France,6,3,0.5
+Paris Saint-Germain,Lorient,France,7,6,0.857142857142857
+Paris Saint-Germain,Lyon,France,6,2,0.333333333333333
+Paris Saint-Germain,Marseille,France,6,5,0.833333333333333
+Paris Saint-Germain,Metz,France,2,2,1
+Paris Saint-Germain,Montpellier,France,4,1,0.25
+Paris Saint-Germain,Nantes,France,3,3,1
+Paris Saint-Germain,Nice,France,6,4,0.666666666666667
+Paris Saint-Germain,Sochaux,France,3,1,0.333333333333333
+Paris Saint-Germain,St Etienne,France,5,1,0.2
+Paris Saint-Germain,Stade de Reims,France,4,2,0.5
+Paris Saint-Germain,Stade Rennes,France,5,1,0.2
+Paris Saint-Germain,Toulouse,France,5,4,0.8
+Paris Saint-Germain,Troyes,France,1,1,1
+Paris Saint-Germain,Valenciennes,France,3,2,0.666666666666667
+Parma,AC Milan,Italy,7,2,0.285714285714286
+Parma,AS Roma,Italy,4,1,0.25
+Parma,Atalanta,Italy,3,1,0.333333333333333
+Parma,Bologna,Italy,3,1,0.333333333333333
+Parma,Cagliari,Italy,1,1,1
+Parma,Catania,Italy,3,0,0
+Parma,Cesena,Italy,2,0,0
+Parma,Chievo Verona,Italy,5,4,0.8
+Parma,Empoli,Italy,1,0,0
+Parma,Fiorentina,Italy,4,0,0
+Parma,Genoa,Italy,5,1,0.2
+Parma,Hellas Verona,Italy,3,0,0
+Parma,Internazionale,Italy,3,1,0.333333333333333
+Parma,Juventus,Italy,3,0,0
+Parma,Lazio,Italy,5,1,0.2
+Parma,Lecce,Italy,2,1,0.5
+Parma,Napoli,Italy,5,1,0.2
+Parma,Novara,Italy,1,0,0
+Parma,Palermo,Italy,4,3,0.75
+Parma,Sampdoria,Italy,3,1,0.333333333333333
+Parma,Sassuolo,Italy,3,1,0.333333333333333
+Parma,Siena,Italy,1,1,1
+Parma,Torino,Italy,4,3,0.75
+Parma,Udinese,Italy,4,0,0
+QPR,Arsenal,England,2,0,0
+QPR,Aston Villa,England,1,0,0
+QPR,Burnley,England,1,0,0
+QPR,Chelsea,England,1,0,0
+QPR,Crystal Palace,England,1,0,0
+QPR,Everton,England,2,0,0
+QPR,Hull,England,1,0,0
+QPR,Leicester City,England,2,1,0.5
+QPR,Liverpool,England,2,0,0
+QPR,Manchester City,England,1,0,0
+QPR,Newcastle,England,1,1,1
+QPR,Southampton,England,1,0,0
+QPR,Stoke City,England,2,0,0
+QPR,Swansea,England,1,0,0
+QPR,Tottenham,England,1,0,0
+QPR,West Brom,England,2,2,1
+Racing Santander,Athletic Bilbao,Spain,1,0,0
+Racing Santander,Espanyol,Spain,1,0,0
+Racing Santander,Getafe,Spain,2,0,0
+Racing Santander,Levante,Spain,1,0,0
+Racing Santander,Malaga,Spain,1,0,0
+Racing Santander,Mallorca,Spain,1,0,0
+Racing Santander,Osasuna,Spain,1,0,0
+Racing Santander,Rayo Vallecano,Spain,2,0,0
+Racing Santander,Real Betis,Spain,1,0,0
+Racing Santander,Real Zaragoza,Spain,1,0,0
+Racing Santander,Sevilla,Spain,1,0,0
+Racing Santander,Sporting Gijon,Spain,1,0,0
+Racing Santander,Valencia,Spain,2,0,0
+Racing Santander,Villarreal,Spain,1,0,0
+Rayo Vallecano,Almeria,Spain,1,1,1
+Rayo Vallecano,Athletic Bilbao,Spain,6,2,0.333333333333333
+Rayo Vallecano,Atletico Madrid,Spain,5,1,0.2
+Rayo Vallecano,Barcelona,Spain,4,0,0
+Rayo Vallecano,Celta Vigo,Spain,2,1,0.5
+Rayo Vallecano,Cordoba,Spain,1,1,1
+Rayo Vallecano,Deportivo La Coruna,Spain,5,1,0.2
+Rayo Vallecano,Eibar,Spain,2,1,0.5
+Rayo Vallecano,Elche,Spain,1,0,0
+Rayo Vallecano,Espanyol,Spain,7,0,0
+Rayo Vallecano,Getafe,Spain,5,3,0.6
+Rayo Vallecano,Granada,Spain,4,3,0.75
+Rayo Vallecano,Levante,Spain,6,3,0.5
+Rayo Vallecano,Malaga,Spain,5,2,0.4
+Rayo Vallecano,Mallorca,Spain,1,0,0
+Rayo Vallecano,Osasuna,Spain,2,0,0
+Rayo Vallecano,Racing Santander,Spain,2,1,0.5
+Rayo Vallecano,Real Betis,Spain,4,2,0.5
+Rayo Vallecano,Real Madrid,Spain,4,1,0.25
+Rayo Vallecano,Real Sociedad,Spain,4,1,0.25
+Rayo Vallecano,Real Valladolid,Spain,3,0,0
+Rayo Vallecano,Real Zaragoza,Spain,1,1,1
+Rayo Vallecano,Sevilla,Spain,6,1,0.166666666666667
+Rayo Vallecano,Sporting Gijon,Spain,4,1,0.25
+Rayo Vallecano,Valencia,Spain,4,0,0
+Rayo Vallecano,Villarreal,Spain,4,1,0.25
+RB Leipzig,Bayer Leverkusen,Germany,1,1,1
+RB Leipzig,Borussia Monchengladbach,Germany,1,0,0
+RB Leipzig,FC Augsburg,Germany,1,1,1
+RB Leipzig,FC Cologne,Germany,1,0,0
+RB Leipzig,Mainz,Germany,1,1,1
+RB Leipzig,SC Freiburg,Germany,1,1,1
+RB Leipzig,Schalke 04,Germany,1,1,1
+RB Leipzig,TSG Hoffenheim,Germany,1,0,0
+RB Leipzig,Werder Bremen,Germany,1,1,1
+Real Betis,Almeria,Spain,1,0,0
+Real Betis,Athletic Bilbao,Spain,7,3,0.428571428571429
+Real Betis,Atletico Madrid,Spain,3,0,0
+Real Betis,Barcelona,Spain,7,0,0
+Real Betis,Celta Vigo,Spain,5,0,0
+Real Betis,Deportivo La Coruna,Spain,4,1,0.25
+Real Betis,Eibar,Spain,2,0,0
+Real Betis,Elche,Spain,1,0,0
+Real Betis,Espanyol,Spain,2,0,0
+Real Betis,Getafe,Spain,3,1,0.333333333333333
+Real Betis,Granada,Spain,5,1,0.2
+Real Betis,Levante,Spain,3,1,0.333333333333333
+Real Betis,Malaga,Spain,2,0,0
+Real Betis,Mallorca,Spain,1,0,0
+Real Betis,Osasuna,Spain,5,2,0.4
+Real Betis,Racing Santander,Spain,1,0,0
+Real Betis,Rayo Vallecano,Spain,4,0,0
+Real Betis,Real Madrid,Spain,6,0,0
+Real Betis,Real Sociedad,Spain,5,0,0
+Real Betis,Real Valladolid,Spain,1,1,1
+Real Betis,Real Zaragoza,Spain,2,2,1
+Real Betis,Sevilla,Spain,4,1,0.25
+Real Betis,Sporting Gijon,Spain,3,1,0.333333333333333
+Real Betis,Valencia,Spain,3,3,1
+Real Betis,Villarreal,Spain,3,1,0.333333333333333
+Real Madrid,Alaves,Spain,1,1,1
+Real Madrid,Almeria,Spain,1,1,1
+Real Madrid,Athletic Bilbao,Spain,7,6,0.857142857142857
+Real Madrid,Atletico Madrid,Spain,6,3,0.5
+Real Madrid,Barcelona,Spain,8,3,0.375
+Real Madrid,Celta Vigo,Spain,5,5,1
+Real Madrid,Cordoba,Spain,1,1,1
+Real Madrid,Deportivo La Coruna,Spain,4,4,1
+Real Madrid,Eibar,Spain,1,0,0
+Real Madrid,Elche,Spain,2,2,1
+Real Madrid,Espanyol,Spain,4,2,0.5
+Real Madrid,Getafe,Spain,6,5,0.833333333333333
+Real Madrid,Granada,Spain,3,3,1
+Real Madrid,Las Palmas,Spain,3,2,0.666666666666667
+Real Madrid,Levante,Spain,5,5,1
+Real Madrid,Malaga,Spain,6,3,0.5
+Real Madrid,Mallorca,Spain,3,3,1
+Real Madrid,Osasuna,Spain,5,4,0.8
+Real Madrid,Rayo Vallecano,Spain,4,3,0.75
+Real Madrid,Real Betis,Spain,6,5,0.833333333333333
+Real Madrid,Real Sociedad,Spain,6,5,0.833333333333333
+Real Madrid,Real Valladolid,Spain,3,2,0.666666666666667
+Real Madrid,Real Zaragoza,Spain,2,1,0.5
+Real Madrid,Sevilla,Spain,8,5,0.625
+Real Madrid,Sporting Gijon,Spain,3,3,1
+Real Madrid,Valencia,Spain,7,2,0.285714285714286
+Real Madrid,Villarreal,Spain,5,1,0.2
+Real Sociedad,Almeria,Spain,3,0,0
+Real Sociedad,Athletic Bilbao,Spain,6,1,0.166666666666667
+Real Sociedad,Atletico Madrid,Spain,2,0,0
+Real Sociedad,Barcelona,Spain,7,2,0.285714285714286
+Real Sociedad,Celta Vigo,Spain,7,2,0.285714285714286
+Real Sociedad,Cordoba,Spain,2,1,0.5
+Real Sociedad,Deportivo La Coruna,Spain,4,0,0
+Real Sociedad,Eibar,Spain,2,1,0.5
+Real Sociedad,Elche,Spain,1,0,0
+Real Sociedad,Espanyol,Spain,6,2,0.333333333333333
+Real Sociedad,Getafe,Spain,6,0,0
+Real Sociedad,Granada,Spain,5,1,0.2
+Real Sociedad,Las Palmas,Spain,1,1,1
+Real Sociedad,Levante,Spain,6,0,0
+Real Sociedad,Malaga,Spain,7,3,0.428571428571429
+Real Sociedad,Mallorca,Spain,1,0,0
+Real Sociedad,Osasuna,Spain,1,0,0
+Real Sociedad,Rayo Vallecano,Spain,4,2,0.5
+Real Sociedad,Real Betis,Spain,5,3,0.6
+Real Sociedad,Real Madrid,Spain,6,1,0.166666666666667
+Real Sociedad,Real Valladolid,Spain,3,1,0.333333333333333
+Real Sociedad,Real Zaragoza,Spain,1,1,1
+Real Sociedad,Sevilla,Spain,5,4,0.8
+Real Sociedad,Sporting Gijon,Spain,4,3,0.75
+Real Sociedad,Valencia,Spain,5,4,0.8
+Real Sociedad,Villarreal,Spain,5,0,0
+Real Valladolid,Athletic Bilbao,Spain,3,0,0
+Real Valladolid,Atletico Madrid,Spain,1,0,0
+Real Valladolid,Barcelona,Spain,3,0,0
+Real Valladolid,Celta Vigo,Spain,2,0,0
+Real Valladolid,Elche,Spain,1,0,0
+Real Valladolid,Espanyol,Spain,2,0,0
+Real Valladolid,Getafe,Spain,2,1,0.5
+Real Valladolid,Granada,Spain,1,0,0
+Real Valladolid,Levante,Spain,3,0,0
+Real Valladolid,Malaga,Spain,4,0,0
+Real Valladolid,Mallorca,Spain,2,1,0.5
+Real Valladolid,Osasuna,Spain,1,0,0
+Real Valladolid,Rayo Vallecano,Spain,3,2,0.666666666666667
+Real Valladolid,Real Betis,Spain,1,0,0
+Real Valladolid,Real Madrid,Spain,3,0,0
+Real Valladolid,Real Sociedad,Spain,3,0,0
+Real Valladolid,Sevilla,Spain,4,1,0.25
+Real Valladolid,Valencia,Spain,3,0,0
+Real Valladolid,Villarreal,Spain,1,0,0
+Real Zaragoza,Athletic Bilbao,Spain,2,0,0
+Real Zaragoza,Atletico Madrid,Spain,2,0,0
+Real Zaragoza,Barcelona,Spain,2,0,0
+Real Zaragoza,Celta Vigo,Spain,1,0,0
+Real Zaragoza,Deportivo La Coruna,Spain,2,1,0.5
+Real Zaragoza,Espanyol,Spain,2,2,1
+Real Zaragoza,Getafe,Spain,1,0,0
+Real Zaragoza,Granada,Spain,1,1,1
+Real Zaragoza,Malaga,Spain,2,0,0
+Real Zaragoza,Mallorca,Spain,2,1,0.5
+Real Zaragoza,Osasuna,Spain,2,1,0.5
+Real Zaragoza,Racing Santander,Spain,1,1,1
+Real Zaragoza,Rayo Vallecano,Spain,1,0,0
+Real Zaragoza,Real Betis,Spain,2,0,0
+Real Zaragoza,Real Madrid,Spain,2,0,0
+Real Zaragoza,Real Sociedad,Spain,1,0,0
+Real Zaragoza,Sevilla,Spain,1,1,1
+Real Zaragoza,Sporting Gijon,Spain,2,1,0.5
+Real Zaragoza,Valencia,Spain,2,1,0.5
+Real Zaragoza,Villarreal,Spain,2,1,0.5
+Sampdoria,AC Milan,Italy,3,0,0
+Sampdoria,AS Roma,Italy,5,2,0.4
+Sampdoria,Atalanta,Italy,4,2,0.5
+Sampdoria,Bologna,Italy,4,0,0
+Sampdoria,Cagliari,Italy,4,0,0
+Sampdoria,Carpi,Italy,2,1,0.5
+Sampdoria,Catania,Italy,3,0,0
+Sampdoria,Cesena,Italy,1,0,0
+Sampdoria,Chievo Verona,Italy,6,2,0.333333333333333
+Sampdoria,Crotone,Italy,1,0,0
+Sampdoria,Empoli,Italy,3,0,0
+Sampdoria,Fiorentina,Italy,5,1,0.2
+Sampdoria,Genoa,Italy,5,3,0.6
+Sampdoria,Hellas Verona,Italy,3,2,0.666666666666667
+Sampdoria,Internazionale,Italy,4,0,0
+Sampdoria,Juventus,Italy,6,2,0.333333333333333
+Sampdoria,Lazio,Italy,4,1,0.25
+Sampdoria,Livorno,Italy,2,2,1
+Sampdoria,Napoli,Italy,6,0,0
+Sampdoria,Palermo,Italy,4,0,0
+Sampdoria,Parma,Italy,3,0,0
+Sampdoria,Sassuolo,Italy,5,2,0.4
+Sampdoria,Siena,Italy,1,1,1
+Sampdoria,Torino,Italy,4,0,0
+Sampdoria,Udinese,Italy,4,1,0.25
+Sampdoria,US Pescara,Italy,2,1,0.5
+Sassuolo,AC Milan,Italy,6,3,0.5
+Sassuolo,AS Roma,Italy,4,0,0
+Sassuolo,Atalanta,Italy,3,0,0
+Sassuolo,Bologna,Italy,2,1,0.5
+Sassuolo,Cagliari,Italy,5,1,0.2
+Sassuolo,Carpi,Italy,1,1,1
+Sassuolo,Catania,Italy,1,1,1
+Sassuolo,Cesena,Italy,2,1,0.5
+Sassuolo,Chievo Verona,Italy,3,0,0
+Sassuolo,Crotone,Italy,1,1,1
+Sassuolo,Empoli,Italy,3,2,0.666666666666667
+Sassuolo,Fiorentina,Italy,5,1,0.2
+Sassuolo,Frosinone,Italy,1,0,0
+Sassuolo,Genoa,Italy,4,2,0.5
+Sassuolo,Hellas Verona,Italy,4,1,0.25
+Sassuolo,Internazionale,Italy,1,1,1
+Sassuolo,Juventus,Italy,3,0,0
+Sassuolo,Lazio,Italy,5,1,0.2
+Sassuolo,Livorno,Italy,2,0,0
+Sassuolo,Napoli,Italy,4,1,0.25
+Sassuolo,Palermo,Italy,3,1,0.333333333333333
+Sassuolo,Parma,Italy,3,2,0.666666666666667
+Sassuolo,Sampdoria,Italy,5,2,0.4
+Sassuolo,Torino,Italy,3,1,0.333333333333333
+Sassuolo,Udinese,Italy,3,0,0
+Sassuolo,US Pescara,Italy,2,2,1
+SC Freiburg,Bayer Leverkusen,Germany,2,1,0.5
+SC Freiburg,Bayern Munich,Germany,1,0,0
+SC Freiburg,Borussia Dortmund,Germany,4,0,0
+SC Freiburg,Borussia Monchengladbach,Germany,3,2,0.666666666666667
+SC Freiburg,Eintracht Frankfurt,Germany,3,1,0.333333333333333
+SC Freiburg,FC Augsburg,Germany,5,1,0.2
+SC Freiburg,FC Cologne,Germany,1,1,1
+SC Freiburg,FC Ingolstadt 04,Germany,1,1,1
+SC Freiburg,Hamburg SV,Germany,4,1,0.25
+SC Freiburg,Hannover 96,Germany,6,3,0.5
+SC Freiburg,Hertha Berlin,Germany,4,1,0.25
+SC Freiburg,Mainz,Germany,5,0,0
+SC Freiburg,Nurnberg,Germany,3,2,0.666666666666667
+SC Freiburg,RB Leipzig,Germany,1,0,0
+SC Freiburg,SC Paderborn,Germany,1,0,0
+SC Freiburg,Schalke 04,Germany,5,2,0.4
+SC Freiburg,SpVgg Greuther Furth,Germany,1,1,1
+SC Freiburg,TSG Hoffenheim,Germany,6,1,0.166666666666667
+SC Freiburg,VfB Stuttgart,Germany,5,0,0
+SC Freiburg,VfL Wolfsburg,Germany,3,0,0
+SC Freiburg,Werder Bremen,Germany,7,3,0.428571428571429
+SC Paderborn,Bayer Leverkusen,Germany,1,0,0
+SC Paderborn,Borussia Dortmund,Germany,1,0,0
+SC Paderborn,Borussia Monchengladbach,Germany,1,0,0
+SC Paderborn,Eintracht Frankfurt,Germany,1,1,1
+SC Paderborn,FC Augsburg,Germany,1,1,1
+SC Paderborn,Hannover 96,Germany,1,1,1
+SC Paderborn,Hertha Berlin,Germany,1,1,1
+SC Paderborn,Mainz,Germany,1,0,0
+SC Paderborn,SC Freiburg,Germany,1,0,0
+SC Paderborn,Schalke 04,Germany,1,0,0
+SC Paderborn,VfB Stuttgart,Germany,1,0,0
+SC Paderborn,VfL Wolfsburg,Germany,2,0,0
+SC Paderborn,Werder Bremen,Germany,1,0,0
+Schalke 04,Bayer Leverkusen,Germany,4,1,0.25
+Schalke 04,Bayern Munich,Germany,4,0,0
+Schalke 04,Borussia Dortmund,Germany,7,3,0.428571428571429
+Schalke 04,Borussia Monchengladbach,Germany,5,1,0.2
+Schalke 04,Eintracht Frankfurt,Germany,3,0,0
+Schalke 04,FC Augsburg,Germany,8,4,0.5
+Schalke 04,FC Cologne,Germany,4,2,0.5
+Schalke 04,FC Ingolstadt 04,Germany,1,0,0
+Schalke 04,Fortuna Dusseldorf,Germany,2,1,0.5
+Schalke 04,Hamburg SV,Germany,6,4,0.666666666666667
+Schalke 04,Hannover 96,Germany,5,3,0.6
+Schalke 04,Hertha Berlin,Germany,3,2,0.666666666666667
+Schalke 04,Kaiserslautern,Germany,2,1,0.5
+Schalke 04,Mainz,Germany,6,3,0.5
+Schalke 04,Nurnberg,Germany,2,1,0.5
+Schalke 04,RB Leipzig,Germany,1,0,0
+Schalke 04,SC Freiburg,Germany,5,2,0.4
+Schalke 04,SC Paderborn,Germany,1,1,1
+Schalke 04,SpVgg Greuther Furth,Germany,1,0,0
+Schalke 04,SV Darmstadt 98,Germany,2,1,0.5
+Schalke 04,TSG Hoffenheim,Germany,7,2,0.285714285714286
+Schalke 04,TSV Eintracht Braunschweig,Germany,2,2,1
+Schalke 04,VfB Stuttgart,Germany,6,2,0.333333333333333
+Schalke 04,VfL Wolfsburg,Germany,5,3,0.6
+Schalke 04,Werder Bremen,Germany,7,4,0.571428571428571
+Sevilla,Alaves,Spain,1,1,1
+Sevilla,Almeria,Spain,3,3,1
+Sevilla,Athletic Bilbao,Spain,6,1,0.166666666666667
+Sevilla,Atletico Madrid,Spain,3,0,0
+Sevilla,Barcelona,Spain,8,1,0.125
+Sevilla,Celta Vigo,Spain,4,1,0.25
+Sevilla,Cordoba,Spain,1,1,1
+Sevilla,Deportivo La Coruna,Spain,6,4,0.666666666666667
+Sevilla,Eibar,Spain,3,1,0.333333333333333
+Sevilla,Elche,Spain,2,1,0.5
+Sevilla,Espanyol,Spain,7,5,0.714285714285714
+Sevilla,Getafe,Spain,5,1,0.2
+Sevilla,Granada,Spain,7,1,0.142857142857143
+Sevilla,Las Palmas,Spain,1,1,1
+Sevilla,Leganes,Spain,1,1,1
+Sevilla,Levante,Spain,5,2,0.4
+Sevilla,Malaga,Spain,7,3,0.428571428571429
+Sevilla,Mallorca,Spain,3,2,0.666666666666667
+Sevilla,Osasuna,Spain,4,3,0.75
+Sevilla,Racing Santander,Spain,1,0,0
+Sevilla,Rayo Vallecano,Spain,6,4,0.666666666666667
+Sevilla,Real Betis,Spain,4,1,0.25
+Sevilla,Real Madrid,Spain,8,3,0.375
+Sevilla,Real Sociedad,Spain,5,0,0
+Sevilla,Real Valladolid,Spain,4,1,0.25
+Sevilla,Real Zaragoza,Spain,1,0,0
+Sevilla,Sporting Gijon,Spain,3,1,0.333333333333333
+Sevilla,Valencia,Spain,7,3,0.428571428571429
+Sevilla,Villarreal,Spain,6,3,0.5
+Siena,AC Milan,Italy,3,0,0
+Siena,AS Roma,Italy,2,0,0
+Siena,Atalanta,Italy,3,1,0.333333333333333
+Siena,Bologna,Italy,2,0,0
+Siena,Cagliari,Italy,1,0,0
+Siena,Catania,Italy,1,0,0
+Siena,Chievo Verona,Italy,2,1,0.5
+Siena,Fiorentina,Italy,2,0,0
+Siena,Genoa,Italy,2,1,0.5
+Siena,Internazionale,Italy,2,1,0.5
+Siena,Juventus,Italy,1,0,0
+Siena,Lazio,Italy,2,0,0
+Siena,Lecce,Italy,1,0,0
+Siena,Napoli,Italy,3,0,0
+Siena,Novara,Italy,1,0,0
+Siena,Palermo,Italy,2,2,1
+Siena,Parma,Italy,1,0,0
+Siena,Sampdoria,Italy,1,0,0
+Siena,Torino,Italy,1,0,0
+Siena,Udinese,Italy,1,0,0
+Siena,US Pescara,Italy,1,1,1
+Sochaux,AC Ajaccio,France,2,0,0
+Sochaux,AJ Auxerre,France,1,0,0
+Sochaux,AS Monaco,France,2,0,0
+Sochaux,AS Nancy Lorraine,France,3,1,0.333333333333333
+Sochaux,Bastia,France,2,0,0
+Sochaux,Bordeaux,France,3,0,0
+Sochaux,Brest,France,2,1,0.5
+Sochaux,Caen,France,2,1,0.5
+Sochaux,Evian Thonon Gaillard,France,5,2,0.4
+Sochaux,Guingamp,France,1,0,0
+Sochaux,Lille,France,3,0,0
+Sochaux,Lorient,France,3,0,0
+Sochaux,Lyon,France,5,2,0.4
+Sochaux,Marseille,France,3,1,0.333333333333333
+Sochaux,Montpellier,France,4,0,0
+Sochaux,Nice,France,1,0,0
+Sochaux,Paris Saint-Germain,France,3,1,0.333333333333333
+Sochaux,St Etienne,France,3,1,0.333333333333333
+Sochaux,Stade Rennes,France,4,2,0.5
+Sochaux,Toulouse,France,2,0,0
+Sochaux,Troyes,France,1,1,1
+Sochaux,Valenciennes,France,4,0,0
+Southampton,Arsenal,England,2,0,0
+Southampton,Aston Villa,England,5,2,0.4
+Southampton,Bournemouth,England,1,1,1
+Southampton,Burnley,England,1,1,1
+Southampton,Chelsea,England,5,1,0.2
+Southampton,Crystal Palace,England,2,2,1
+Southampton,Everton,England,2,0,0
+Southampton,Hull,England,2,1,0.5
+Southampton,Leicester City,England,1,0,0
+Southampton,Liverpool,England,3,1,0.333333333333333
+Southampton,Manchester City,England,5,1,0.2
+Southampton,Manchester Utd,England,4,0,0
+Southampton,Newcastle,England,4,2,0.5
+Southampton,Norwich City,England,1,1,1
+Southampton,QPR,England,1,1,1
+Southampton,Stoke City,England,4,1,0.25
+Southampton,Sunderland,England,4,0,0
+Southampton,Swansea,England,1,1,1
+Southampton,Tottenham,England,5,1,0.2
+Southampton,Watford,England,1,0,0
+Southampton,West Brom,England,1,0,0
+Southampton,West Ham,England,3,1,0.333333333333333
+Sporting Gijon,Athletic Bilbao,Spain,3,1,0.333333333333333
+Sporting Gijon,Atletico Madrid,Spain,2,1,0.5
+Sporting Gijon,Barcelona,Spain,2,0,0
+Sporting Gijon,Celta Vigo,Spain,2,0,0
+Sporting Gijon,Deportivo La Coruna,Spain,3,1,0.333333333333333
+Sporting Gijon,Eibar,Spain,1,0,0
+Sporting Gijon,Espanyol,Spain,4,1,0.25
+Sporting Gijon,Getafe,Spain,3,1,0.333333333333333
+Sporting Gijon,Granada,Spain,2,0,0
+Sporting Gijon,Las Palmas,Spain,2,1,0.5
+Sporting Gijon,Leganes,Spain,1,1,1
+Sporting Gijon,Malaga,Spain,2,1,0.5
+Sporting Gijon,Mallorca,Spain,2,1,0.5
+Sporting Gijon,Osasuna,Spain,3,1,0.333333333333333
+Sporting Gijon,Racing Santander,Spain,1,0,0
+Sporting Gijon,Rayo Vallecano,Spain,4,2,0.5
+Sporting Gijon,Real Betis,Spain,3,1,0.333333333333333
+Sporting Gijon,Real Madrid,Spain,3,0,0
+Sporting Gijon,Real Sociedad,Spain,4,1,0.25
+Sporting Gijon,Real Zaragoza,Spain,2,0,0
+Sporting Gijon,Sevilla,Spain,3,1,0.333333333333333
+Sporting Gijon,Valencia,Spain,1,0,0
+Sporting Gijon,Villarreal,Spain,2,0,0
+SpVgg Greuther Furth,Borussia Dortmund,Germany,2,0,0
+SpVgg Greuther Furth,Borussia Monchengladbach,Germany,1,0,0
+SpVgg Greuther Furth,Eintracht Frankfurt,Germany,2,0,0
+SpVgg Greuther Furth,FC Augsburg,Germany,2,0,0
+SpVgg Greuther Furth,Hamburg SV,Germany,1,0,0
+SpVgg Greuther Furth,Hannover 96,Germany,1,0,0
+SpVgg Greuther Furth,SC Freiburg,Germany,1,0,0
+SpVgg Greuther Furth,Schalke 04,Germany,1,1,1
+SpVgg Greuther Furth,TSG Hoffenheim,Germany,1,0,0
+SpVgg Greuther Furth,VfL Wolfsburg,Germany,1,0,0
+SpVgg Greuther Furth,Werder Bremen,Germany,2,0,0
+St Etienne,AC Ajaccio,France,3,2,0.666666666666667
+St Etienne,AJ Auxerre,France,1,0,0
+St Etienne,Angers,France,2,2,1
+St Etienne,AS Monaco,France,5,0,0
+St Etienne,AS Nancy Lorraine,France,1,0,0
+St Etienne,Bastia,France,2,1,0.5
+St Etienne,Bordeaux,France,7,3,0.428571428571429
+St Etienne,Brest,France,2,1,0.5
+St Etienne,Caen,France,2,1,0.5
+St Etienne,Dijon FCO,France,2,1,0.5
+St Etienne,Evian Thonon Gaillard,France,4,3,0.75
+St Etienne,Guingamp,France,1,1,1
+St Etienne,Lens,France,1,0,0
+St Etienne,Lille,France,6,1,0.166666666666667
+St Etienne,Lorient,France,4,2,0.5
+St Etienne,Lyon,France,4,1,0.25
+St Etienne,Marseille,France,5,0,0
+St Etienne,Metz,France,1,1,1
+St Etienne,Montpellier,France,5,3,0.6
+St Etienne,Nantes,France,2,1,0.5
+St Etienne,Nice,France,4,0,0
+St Etienne,Paris Saint-Germain,France,5,1,0.2
+St Etienne,Sochaux,France,3,2,0.666666666666667
+St Etienne,Stade de Reims,France,5,2,0.4
+St Etienne,Stade Rennes,France,4,0,0
+St Etienne,Toulouse,France,6,0,0
+St Etienne,Troyes,France,1,0,0
+St Etienne,Valenciennes,France,2,2,1
+Stade de Reims,AC Ajaccio,France,3,1,0.333333333333333
+Stade de Reims,Angers,France,1,1,1
+Stade de Reims,AS Monaco,France,5,0,0
+Stade de Reims,AS Nancy Lorraine,France,1,1,1
+Stade de Reims,Bastia,France,5,3,0.6
+Stade de Reims,Bordeaux,France,3,2,0.666666666666667
+Stade de Reims,Caen,France,1,0,0
+Stade de Reims,Evian Thonon Gaillard,France,5,2,0.4
+Stade de Reims,GFC Ajaccio,France,2,0,0
+Stade de Reims,Guingamp,France,4,2,0.5
+Stade de Reims,Lens,France,1,0,0
+Stade de Reims,Lille,France,4,2,0.5
+Stade de Reims,Lorient,France,4,1,0.25
+Stade de Reims,Lyon,France,2,0,0
+Stade de Reims,Marseille,France,3,1,0.333333333333333
+Stade de Reims,Montpellier,France,6,1,0.166666666666667
+Stade de Reims,Nantes,France,3,2,0.666666666666667
+Stade de Reims,Nice,France,2,1,0.5
+Stade de Reims,Paris Saint-Germain,France,4,0,0
+Stade de Reims,St Etienne,France,5,0,0
+Stade de Reims,Stade Rennes,France,5,1,0.2
+Stade de Reims,Toulouse,France,6,0,0
+Stade de Reims,Troyes,France,4,0,0
+Stade de Reims,Valenciennes,France,2,1,0.5
+Stade Rennes,AC Ajaccio,France,4,2,0.5
+Stade Rennes,AJ Auxerre,France,1,0,0
+Stade Rennes,Angers,France,1,0,0
+Stade Rennes,AS Monaco,France,3,0,0
+Stade Rennes,AS Nancy Lorraine,France,2,1,0.5
+Stade Rennes,Bastia,France,3,1,0.333333333333333
+Stade Rennes,Bordeaux,France,6,0,0
+Stade Rennes,Brest,France,2,0,0
+Stade Rennes,Caen,France,3,1,0.333333333333333
+Stade Rennes,Dijon FCO,France,1,1,1
+Stade Rennes,Evian Thonon Gaillard,France,6,4,0.666666666666667
+Stade Rennes,GFC Ajaccio,France,1,0,0
+Stade Rennes,Guingamp,France,1,0,0
+Stade Rennes,Lille,France,5,0,0
+Stade Rennes,Lorient,France,6,0,0
+Stade Rennes,Lyon,France,4,2,0.5
+Stade Rennes,Marseille,France,7,2,0.285714285714286
+Stade Rennes,Montpellier,France,3,1,0.333333333333333
+Stade Rennes,Nantes,France,4,2,0.5
+Stade Rennes,Nice,France,5,3,0.6
+Stade Rennes,Paris Saint-Germain,France,5,2,0.4
+Stade Rennes,Sochaux,France,4,1,0.25
+Stade Rennes,St Etienne,France,4,1,0.25
+Stade Rennes,Stade de Reims,France,5,3,0.6
+Stade Rennes,Toulouse,France,5,2,0.4
+Stade Rennes,Troyes,France,4,2,0.5
+Stade Rennes,Valenciennes,France,4,0,0
+Stoke City,Arsenal,England,2,1,0.5
+Stoke City,Aston Villa,England,4,4,1
+Stoke City,Bournemouth,England,2,2,1
+Stoke City,Burnley,England,1,0,0
+Stoke City,Cardiff,England,1,0,0
+Stoke City,Chelsea,England,4,1,0.25
+Stoke City,Crystal Palace,England,5,0,0
+Stoke City,Everton,England,2,1,0.5
+Stoke City,Fulham,England,1,1,1
+Stoke City,Hull,England,1,0,0
+Stoke City,Leicester City,England,2,0,0
+Stoke City,Liverpool,England,4,1,0.25
+Stoke City,Manchester City,England,2,0,0
+Stoke City,Manchester Utd,England,6,1,0.166666666666667
+Stoke City,Middlesbrough,England,1,0,0
+Stoke City,Newcastle,England,2,0,0
+Stoke City,Norwich City,England,3,1,0.333333333333333
+Stoke City,QPR,England,2,1,0.5
+Stoke City,Southampton,England,4,1,0.25
+Stoke City,Sunderland,England,4,1,0.25
+Stoke City,Swansea,England,5,2,0.4
+Stoke City,Tottenham,England,2,1,0.5
+Stoke City,Watford,England,1,1,1
+Stoke City,West Brom,England,3,1,0.333333333333333
+Stoke City,West Ham,England,5,2,0.4
+Sunderland,Arsenal,Englang,3,0,0
+Sunderland,Aston Villa,Englang,2,1,0.5
+Sunderland,Bournemouth,Englang,2,1,0.5
+Sunderland,Burnley,Englang,1,0,0
+Sunderland,Cardiff,Englang,1,0,0
+Sunderland,Chelsea,Englang,5,2,0.4
+Sunderland,Crystal Palace,Englang,4,1,0.25
+Sunderland,Everton,Englang,2,0,0
+Sunderland,Fulham,Englang,1,1,1
+Sunderland,Hull,Englang,2,0,0
+Sunderland,Leicester City,Englang,2,1,0.5
+Sunderland,Liverpool,Englang,3,0,0
+Sunderland,Manchester City,Englang,5,0,0
+Sunderland,Manchester Utd,Englang,4,1,0.25
+Sunderland,Middlesbrough,Englang,1,0,0
+Sunderland,Newcastle,Englang,2,1,0.5
+Sunderland,Norwich City,Englang,1,0,0
+Sunderland,Southampton,Englang,4,1,0.25
+Sunderland,Stoke City,Englang,4,1,0.25
+Sunderland,Swansea,Englang,4,1,0.25
+Sunderland,Tottenham,Englang,5,0,0
+Sunderland,Watford,Englang,1,0,0
+Sunderland,West Brom,Englang,2,0,0
+Sunderland,West Ham,Englang,3,0,0
+SV Darmstadt 98,Bayer Leverkusen,Germany,2,0,0
+SV Darmstadt 98,Bayern Munich,Germany,1,0,0
+SV Darmstadt 98,Borussia Dortmund,Germany,1,0,0
+SV Darmstadt 98,Borussia Monchengladbach,Germany,1,0,0
+SV Darmstadt 98,Eintracht Frankfurt,Germany,1,0,0
+SV Darmstadt 98,FC Augsburg,Germany,1,0,0
+SV Darmstadt 98,FC Cologne,Germany,1,0,0
+SV Darmstadt 98,FC Ingolstadt 04,Germany,1,0,0
+SV Darmstadt 98,Hamburg SV,Germany,2,1,0.5
+SV Darmstadt 98,Hannover 96,Germany,2,1,0.5
+SV Darmstadt 98,Hertha Berlin,Germany,1,1,1
+SV Darmstadt 98,Mainz,Germany,2,0,0
+SV Darmstadt 98,Schalke 04,Germany,2,0,0
+SV Darmstadt 98,TSG Hoffenheim,Germany,1,0,0
+SV Darmstadt 98,VfB Stuttgart,Germany,1,0,0
+SV Darmstadt 98,VfL Wolfsburg,Germany,2,1,0.5
+SV Darmstadt 98,Werder Bremen,Germany,3,1,0.333333333333333
+Swansea,Arsenal,England,4,2,0.5
+Swansea,Aston Villa,England,3,2,0.666666666666667
+Swansea,Bournemouth,England,2,0,0
+Swansea,Chelsea,England,3,0,0
+Swansea,Crystal Palace,England,5,2,0.4
+Swansea,Everton,England,5,1,0.2
+Swansea,Fulham,England,1,1,1
+Swansea,Hull,England,2,1,0.5
+Swansea,Leicester City,England,1,0,0
+Swansea,Liverpool,England,5,2,0.4
+Swansea,Manchester City,England,6,0,0
+Swansea,Manchester Utd,England,5,3,0.6
+Swansea,Newcastle,England,3,2,0.666666666666667
+Swansea,Norwich City,England,1,0,0
+Swansea,QPR,England,1,0,0
+Swansea,Southampton,England,1,0,0
+Swansea,Stoke City,England,5,0,0
+Swansea,Sunderland,England,4,1,0.25
+Swansea,Tottenham,England,5,0,0
+Swansea,West Brom,England,3,0,0
+Swansea,West Ham,England,4,1,0.25
+Torino,AC Milan,Italy,7,0,0
+Torino,AS Roma,Italy,7,1,0.142857142857143
+Torino,Atalanta,Italy,5,4,0.8
+Torino,Bologna,Italy,4,2,0.5
+Torino,Cagliari,Italy,6,3,0.5
+Torino,Carpi,Italy,1,0,0
+Torino,Catania,Italy,3,2,0.666666666666667
+Torino,Cesena,Italy,1,1,1
+Torino,Chievo Verona,Italy,4,2,0.5
+Torino,Fiorentina,Italy,7,2,0.285714285714286
+Torino,Frosinone,Italy,2,2,1
+Torino,Genoa,Italy,7,2,0.285714285714286
+Torino,Hellas Verona,Italy,4,2,0.5
+Torino,Internazionale,Italy,4,1,0.25
+Torino,Juventus,Italy,5,1,0.2
+Torino,Lazio,Italy,5,0,0
+Torino,Livorno,Italy,2,1,0.5
+Torino,Napoli,Italy,6,0,0
+Torino,Palermo,Italy,5,3,0.6
+Torino,Parma,Italy,4,0,0
+Torino,Sampdoria,Italy,4,1,0.25
+Torino,Sassuolo,Italy,3,0,0
+Torino,Siena,Italy,1,1,1
+Torino,Udinese,Italy,3,1,0.333333333333333
+Tottenham,Arsenal,England,5,1,0.2
+Tottenham,Aston Villa,England,2,2,1
+Tottenham,Bournemouth,England,1,1,1
+Tottenham,Burnley,England,2,2,1
+Tottenham,Chelsea,England,3,1,0.333333333333333
+Tottenham,Crystal Palace,England,2,1,0.5
+Tottenham,Everton,England,3,1,0.333333333333333
+Tottenham,Fulham,England,2,2,1
+Tottenham,Hull,England,2,1,0.5
+Tottenham,Leicester City,England,4,2,0.5
+Tottenham,Liverpool,England,3,0,0
+Tottenham,Manchester City,England,5,2,0.4
+Tottenham,Manchester Utd,England,2,1,0.5
+Tottenham,Middlesbrough,England,1,1,1
+Tottenham,Newcastle,England,4,1,0.25
+Tottenham,QPR,England,1,1,1
+Tottenham,Southampton,England,5,3,0.6
+Tottenham,Stoke City,England,2,0,0
+Tottenham,Sunderland,England,5,4,0.8
+Tottenham,Swansea,England,5,4,0.8
+Tottenham,Watford,England,2,2,1
+Tottenham,West Brom,England,5,0,0
+Tottenham,West Ham,England,3,2,0.666666666666667
+Toulouse,AC Ajaccio,France,4,1,0.25
+Toulouse,Angers,France,1,0,0
+Toulouse,AS Monaco,France,3,1,0.333333333333333
+Toulouse,AS Nancy Lorraine,France,2,1,0.5
+Toulouse,Bastia,France,4,0,0
+Toulouse,Bordeaux,France,6,3,0.5
+Toulouse,Brest,France,1,1,1
+Toulouse,Caen,France,1,0,0
+Toulouse,Dijon FCO,France,1,0,0
+Toulouse,Evian Thonon Gaillard,France,4,1,0.25
+Toulouse,GFC Ajaccio,France,2,0,0
+Toulouse,Guingamp,France,4,1,0.25
+Toulouse,Lille,France,6,3,0.5
+Toulouse,Lorient,France,6,2,0.333333333333333
+Toulouse,Lyon,France,6,1,0.166666666666667
+Toulouse,Marseille,France,6,0,0
+Toulouse,Metz,France,2,0,0
+Toulouse,Montpellier,France,5,0,0
+Toulouse,Nantes,France,6,2,0.333333333333333
+Toulouse,Nice,France,3,0,0
+Toulouse,Paris Saint-Germain,France,5,0,0
+Toulouse,Sochaux,France,2,2,1
+Toulouse,St Etienne,France,6,3,0.5
+Toulouse,Stade de Reims,France,6,3,0.5
+Toulouse,Stade Rennes,France,5,2,0.4
+Toulouse,Troyes,France,1,0,0
+Toulouse,Valenciennes,France,2,1,0.5
+Troyes,AC Ajaccio,France,1,1,1
+Troyes,AS Monaco,France,1,0,0
+Troyes,AS Nancy Lorraine,France,1,0,0
+Troyes,Bastia,France,2,0,0
+Troyes,Bordeaux,France,1,0,0
+Troyes,Brest,France,2,1,0.5
+Troyes,Caen,France,2,0,0
+Troyes,GFC Ajaccio,France,1,1,1
+Troyes,Lille,France,4,1,0.25
+Troyes,Lorient,France,3,0,0
+Troyes,Lyon,France,3,0,0
+Troyes,Marseille,France,1,0,0
+Troyes,Montpellier,France,3,0,0
+Troyes,Nice,France,4,0,0
+Troyes,Paris Saint-Germain,France,1,0,0
+Troyes,Sochaux,France,1,0,0
+Troyes,St Etienne,France,1,0,0
+Troyes,Stade de Reims,France,4,2,0.5
+Troyes,Stade Rennes,France,4,1,0.25
+Troyes,Toulouse,France,1,0,0
+Troyes,Valenciennes,France,1,0,0
+TSG Hoffenheim,Bayer Leverkusen,Germany,4,0,0
+TSG Hoffenheim,Bayern Munich,Germany,5,0,0
+TSG Hoffenheim,Borussia Dortmund,Germany,8,1,0.125
+TSG Hoffenheim,Borussia Monchengladbach,Germany,9,2,0.222222222222222
+TSG Hoffenheim,Eintracht Frankfurt,Germany,4,2,0.5
+TSG Hoffenheim,FC Augsburg,Germany,5,2,0.4
+TSG Hoffenheim,FC Cologne,Germany,4,0,0
+TSG Hoffenheim,FC Ingolstadt 04,Germany,3,2,0.666666666666667
+TSG Hoffenheim,Fortuna Dusseldorf,Germany,1,0,0
+TSG Hoffenheim,Hamburg SV,Germany,4,1,0.25
+TSG Hoffenheim,Hannover 96,Germany,6,5,0.833333333333333
+TSG Hoffenheim,Hertha Berlin,Germany,6,2,0.333333333333333
+TSG Hoffenheim,Kaiserslautern,Germany,2,1,0.5
+TSG Hoffenheim,Mainz,Germany,5,1,0.2
+TSG Hoffenheim,Nurnberg,Germany,3,1,0.333333333333333
+TSG Hoffenheim,RB Leipzig,Germany,1,0,0
+TSG Hoffenheim,SC Freiburg,Germany,6,2,0.333333333333333
+TSG Hoffenheim,Schalke 04,Germany,7,3,0.428571428571429
+TSG Hoffenheim,SpVgg Greuther Furth,Germany,1,0,0
+TSG Hoffenheim,SV Darmstadt 98,Germany,1,0,0
+TSG Hoffenheim,TSV Eintracht Braunschweig,Germany,1,1,1
+TSG Hoffenheim,VfB Stuttgart,Germany,6,2,0.333333333333333
+TSG Hoffenheim,VfL Wolfsburg,Germany,8,3,0.375
+TSG Hoffenheim,Werder Bremen,Germany,11,0,0
+TSV Eintracht Braunschweig,Bayer Leverkusen,Germany,1,0,0
+TSV Eintracht Braunschweig,Borussia Dortmund,Germany,1,0,0
+TSV Eintracht Braunschweig,Borussia Monchengladbach,Germany,2,0,0
+TSV Eintracht Braunschweig,FC Augsburg,Germany,1,0,0
+TSV Eintracht Braunschweig,Hamburg SV,Germany,1,1,1
+TSV Eintracht Braunschweig,Mainz,Germany,1,1,1
+TSV Eintracht Braunschweig,Nurnberg,Germany,2,0,0
+TSV Eintracht Braunschweig,Schalke 04,Germany,2,0,0
+TSV Eintracht Braunschweig,TSG Hoffenheim,Germany,1,0,0
+TSV Eintracht Braunschweig,VfB Stuttgart,Germany,1,0,0
+TSV Eintracht Braunschweig,VfL Wolfsburg,Germany,1,0,0
+Udinese,AC Milan,Italy,6,2,0.333333333333333
+Udinese,AS Roma,Italy,7,1,0.142857142857143
+Udinese,Atalanta,Italy,6,3,0.5
+Udinese,Bologna,Italy,4,2,0.5
+Udinese,Cagliari,Italy,4,1,0.25
+Udinese,Carpi,Italy,1,0,0
+Udinese,Catania,Italy,3,1,0.333333333333333
+Udinese,Cesena,Italy,2,1,0.5
+Udinese,Chievo Verona,Italy,8,3,0.375
+Udinese,Empoli,Italy,3,1,0.333333333333333
+Udinese,Fiorentina,Italy,7,2,0.285714285714286
+Udinese,Genoa,Italy,7,0,0
+Udinese,Hellas Verona,Italy,4,0,0
+Udinese,Internazionale,Italy,6,2,0.333333333333333
+Udinese,Juventus,Italy,3,0,0
+Udinese,Lazio,Italy,3,0,0
+Udinese,Lecce,Italy,1,1,1
+Udinese,Livorno,Italy,2,2,1
+Udinese,Napoli,Italy,7,1,0.142857142857143
+Udinese,Palermo,Italy,7,2,0.285714285714286
+Udinese,Parma,Italy,4,3,0.75
+Udinese,Sampdoria,Italy,4,1,0.25
+Udinese,Sassuolo,Italy,3,1,0.333333333333333
+Udinese,Siena,Italy,1,0,0
+Udinese,Torino,Italy,3,1,0.333333333333333
+Udinese,US Pescara,Italy,1,1,1
+US Pescara,AC Milan,Italy,1,0,0
+US Pescara,AS Roma,Italy,2,0,0
+US Pescara,Atalanta,Italy,1,0,0
+US Pescara,Bologna,Italy,2,0,0
+US Pescara,Cagliari,Italy,2,1,0.5
+US Pescara,Catania,Italy,1,1,1
+US Pescara,Crotone,Italy,1,0,0
+US Pescara,Fiorentina,Italy,1,0,0
+US Pescara,Genoa,Italy,2,0,0
+US Pescara,Internazionale,Italy,1,0,0
+US Pescara,Juventus,Italy,2,0,0
+US Pescara,Napoli,Italy,3,0,0
+US Pescara,Palermo,Italy,2,0,0
+US Pescara,Sampdoria,Italy,2,0,0
+US Pescara,Sassuolo,Italy,2,0,0
+US Pescara,Siena,Italy,1,0,0
+US Pescara,Udinese,Italy,1,0,0
+Valencia,Alaves,Spain,1,1,1
+Valencia,Almeria,Spain,4,2,0.5
+Valencia,Athletic Bilbao,Spain,7,1,0.142857142857143
+Valencia,Atletico Madrid,Spain,5,1,0.2
+Valencia,Barcelona,Spain,8,2,0.25
+Valencia,Celta Vigo,Spain,7,3,0.428571428571429
+Valencia,Cordoba,Spain,1,1,1
+Valencia,Deportivo La Coruna,Spain,5,1,0.2
+Valencia,Eibar,Spain,2,1,0.5
+Valencia,Elche,Spain,3,2,0.666666666666667
+Valencia,Espanyol,Spain,9,6,0.666666666666667
+Valencia,Getafe,Spain,5,2,0.4
+Valencia,Granada,Spain,5,3,0.6
+Valencia,Las Palmas,Spain,3,0,0
+Valencia,Leganes,Spain,1,1,1
+Valencia,Levante,Spain,2,0,0
+Valencia,Malaga,Spain,3,2,0.666666666666667
+Valencia,Mallorca,Spain,2,0,0
+Valencia,Osasuna,Spain,3,0,0
+Valencia,Racing Santander,Spain,2,1,0.5
+Valencia,Rayo Vallecano,Spain,4,2,0.5
+Valencia,Real Betis,Spain,3,0,0
+Valencia,Real Madrid,Spain,7,1,0.142857142857143
+Valencia,Real Sociedad,Spain,5,0,0
+Valencia,Real Valladolid,Spain,3,1,0.333333333333333
+Valencia,Real Zaragoza,Spain,2,0,0
+Valencia,Sevilla,Spain,7,3,0.428571428571429
+Valencia,Sporting Gijon,Spain,1,1,1
+Valencia,Villarreal,Spain,3,1,0.333333333333333
+Valenciennes,AC Ajaccio,France,5,1,0.2
+Valenciennes,AJ Auxerre,France,1,1,1
+Valenciennes,AS Monaco,France,2,1,0.5
+Valenciennes,AS Nancy Lorraine,France,2,0,0
+Valenciennes,Bastia,France,3,2,0.666666666666667
+Valenciennes,Bordeaux,France,3,0,0
+Valenciennes,Brest,France,2,1,0.5
+Valenciennes,Caen,France,1,1,1
+Valenciennes,Dijon FCO,France,1,1,1
+Valenciennes,Evian Thonon Gaillard,France,2,1,0.5
+Valenciennes,Guingamp,France,1,0,0
+Valenciennes,Lille,France,2,0,0
+Valenciennes,Lorient,France,3,1,0.333333333333333
+Valenciennes,Lyon,France,4,0,0
+Valenciennes,Marseille,France,4,1,0.25
+Valenciennes,Montpellier,France,3,0,0
+Valenciennes,Nantes,France,2,0,0
+Valenciennes,Nice,France,1,1,1
+Valenciennes,Paris Saint-Germain,France,3,0,0
+Valenciennes,Sochaux,France,4,1,0.25
+Valenciennes,St Etienne,France,2,0,0
+Valenciennes,Stade de Reims,France,2,0,0
+Valenciennes,Stade Rennes,France,4,2,0.5
+Valenciennes,Toulouse,France,2,0,0
+Valenciennes,Troyes,France,1,1,1
+VfB Stuttgart,Bayer Leverkusen,Germany,6,0,0
+VfB Stuttgart,Bayern Munich,Germany,4,0,0
+VfB Stuttgart,Borussia Dortmund,Germany,8,0,0
+VfB Stuttgart,Borussia Monchengladbach,Germany,5,1,0.2
+VfB Stuttgart,Eintracht Frankfurt,Germany,8,5,0.625
+VfB Stuttgart,FC Augsburg,Germany,5,3,0.6
+VfB Stuttgart,FC Cologne,Germany,3,1,0.333333333333333
+VfB Stuttgart,FC Ingolstadt 04,Germany,1,0,0
+VfB Stuttgart,Fortuna Dusseldorf,Germany,1,0,0
+VfB Stuttgart,Hamburg SV,Germany,5,2,0.4
+VfB Stuttgart,Hannover 96,Germany,6,2,0.333333333333333
+VfB Stuttgart,Hertha Berlin,Germany,3,0,0
+VfB Stuttgart,Mainz,Germany,7,1,0.142857142857143
+VfB Stuttgart,Nurnberg,Germany,3,0,0
+VfB Stuttgart,SC Freiburg,Germany,5,4,0.8
+VfB Stuttgart,SC Paderborn,Germany,1,1,1
+VfB Stuttgart,Schalke 04,Germany,6,3,0.5
+VfB Stuttgart,SV Darmstadt 98,Germany,1,0,0
+VfB Stuttgart,TSG Hoffenheim,Germany,6,3,0.5
+VfB Stuttgart,TSV Eintracht Braunschweig,Germany,1,0,0
+VfB Stuttgart,VfL Wolfsburg,Germany,5,2,0.4
+VfB Stuttgart,Werder Bremen,Germany,8,2,0.25
+VfL Wolfsburg,Bayer Leverkusen,Germany,10,6,0.6
+VfL Wolfsburg,Bayern Munich,Germany,4,1,0.25
+VfL Wolfsburg,Borussia Dortmund,Germany,11,3,0.272727272727273
+VfL Wolfsburg,Borussia Monchengladbach,Germany,6,4,0.666666666666667
+VfL Wolfsburg,Eintracht Frankfurt,Germany,7,3,0.428571428571429
+VfL Wolfsburg,FC Augsburg,Germany,4,1,0.25
+VfL Wolfsburg,FC Cologne,Germany,4,1,0.25
+VfL Wolfsburg,FC Ingolstadt 04,Germany,1,0,0
+VfL Wolfsburg,Fortuna Dusseldorf,Germany,2,1,0.5
+VfL Wolfsburg,Hamburg SV,Germany,7,2,0.285714285714286
+VfL Wolfsburg,Hannover 96,Germany,6,2,0.333333333333333
+VfL Wolfsburg,Hertha Berlin,Germany,6,3,0.5
+VfL Wolfsburg,Mainz,Germany,4,0,0
+VfL Wolfsburg,Nurnberg,Germany,5,3,0.6
+VfL Wolfsburg,SC Freiburg,Germany,3,2,0.666666666666667
+VfL Wolfsburg,SC Paderborn,Germany,2,1,0.5
+VfL Wolfsburg,Schalke 04,Germany,5,1,0.2
+VfL Wolfsburg,SpVgg Greuther Furth,Germany,1,0,0
+VfL Wolfsburg,SV Darmstadt 98,Germany,2,0,0
+VfL Wolfsburg,TSG Hoffenheim,Germany,8,3,0.375
+VfL Wolfsburg,TSV Eintracht Braunschweig,Germany,1,0,0
+VfL Wolfsburg,VfB Stuttgart,Germany,5,3,0.6
+VfL Wolfsburg,Werder Bremen,Germany,7,4,0.571428571428571
+Villarreal,Almeria,Spain,1,1,1
+Villarreal,Athletic Bilbao,Spain,4,1,0.25
+Villarreal,Atletico Madrid,Spain,1,0,0
+Villarreal,Barcelona,Spain,5,0,0
+Villarreal,Celta Vigo,Spain,3,2,0.666666666666667
+Villarreal,Deportivo La Coruna,Spain,2,1,0.5
+Villarreal,Eibar,Spain,4,1,0.25
+Villarreal,Elche,Spain,2,0,0
+Villarreal,Espanyol,Spain,4,3,0.75
+Villarreal,Getafe,Spain,1,0,0
+Villarreal,Granada,Spain,3,2,0.666666666666667
+Villarreal,Las Palmas,Spain,1,1,1
+Villarreal,Malaga,Spain,5,2,0.4
+Villarreal,Osasuna,Spain,4,2,0.5
+Villarreal,Racing Santander,Spain,1,0,0
+Villarreal,Rayo Vallecano,Spain,4,3,0.75
+Villarreal,Real Betis,Spain,3,0,0
+Villarreal,Real Madrid,Spain,5,0,0
+Villarreal,Real Sociedad,Spain,5,3,0.6
+Villarreal,Real Valladolid,Spain,1,1,1
+Villarreal,Real Zaragoza,Spain,2,0,0
+Villarreal,Sevilla,Spain,6,2,0.333333333333333
+Villarreal,Sporting Gijon,Spain,2,2,1
+Villarreal,Valencia,Spain,3,1,0.333333333333333
+Watford,Arsenal,England,1,0,0
+Watford,Aston Villa,England,2,2,1
+Watford,Bournemouth,England,3,0,0
+Watford,Chelsea,England,2,0,0
+Watford,Crystal Palace,England,2,1,0.5
+Watford,Everton,England,3,1,0.333333333333333
+Watford,Leicester City,England,2,1,0.5
+Watford,Liverpool,England,1,0,0
+Watford,Manchester City,England,1,0,0
+Watford,Manchester Utd,England,2,1,0.5
+Watford,Newcastle,England,2,2,1
+Watford,Norwich City,England,1,0,0
+Watford,Southampton,England,1,0,0
+Watford,Stoke City,England,1,0,0
+Watford,Sunderland,England,1,0,0
+Watford,Tottenham,England,2,0,0
+Watford,West Brom,England,1,0,0
+Watford,West Ham,England,2,1,0.5
+Werder Bremen,Bayer Leverkusen,Germany,6,3,0.5
+Werder Bremen,Bayern Munich,Germany,4,0,0
+Werder Bremen,Borussia Dortmund,Germany,7,1,0.142857142857143
+Werder Bremen,Borussia Monchengladbach,Germany,7,1,0.142857142857143
+Werder Bremen,Eintracht Frankfurt,Germany,5,0,0
+Werder Bremen,FC Augsburg,Germany,9,2,0.222222222222222
+Werder Bremen,FC Cologne,Germany,5,1,0.2
+Werder Bremen,FC Ingolstadt 04,Germany,1,1,1
+Werder Bremen,Fortuna Dusseldorf,Germany,2,1,0.5
+Werder Bremen,Hamburg SV,Germany,4,0,0
+Werder Bremen,Hannover 96,Germany,7,3,0.428571428571429
+Werder Bremen,Hertha Berlin,Germany,5,1,0.2
+Werder Bremen,Mainz,Germany,8,4,0.5
+Werder Bremen,Nurnberg,Germany,4,0,0
+Werder Bremen,RB Leipzig,Germany,1,0,0
+Werder Bremen,SC Freiburg,Germany,7,2,0.285714285714286
+Werder Bremen,SC Paderborn,Germany,1,0,0
+Werder Bremen,Schalke 04,Germany,7,1,0.142857142857143
+Werder Bremen,SpVgg Greuther Furth,Germany,2,0,0
+Werder Bremen,SV Darmstadt 98,Germany,3,0,0
+Werder Bremen,TSG Hoffenheim,Germany,11,5,0.454545454545455
+Werder Bremen,VfB Stuttgart,Germany,8,2,0.25
+Werder Bremen,VfL Wolfsburg,Germany,7,2,0.285714285714286
+West Brom,Arsenal,England,3,1,0.333333333333333
+West Brom,Aston Villa,England,3,0,0
+West Brom,Bournemouth,England,2,0,0
+West Brom,Burnley,England,1,0,0
+West Brom,Cardiff,England,1,0,0
+West Brom,Chelsea,England,4,0,0
+West Brom,Crystal Palace,England,3,1,0.333333333333333
+West Brom,Everton,England,3,0,0
+West Brom,Fulham,England,1,0,0
+West Brom,Hull,England,3,1,0.333333333333333
+West Brom,Leicester City,England,4,1,0.25
+West Brom,Liverpool,England,6,0,0
+West Brom,Manchester City,England,4,0,0
+West Brom,Manchester Utd,England,1,0,0
+West Brom,Newcastle,England,2,0,0
+West Brom,QPR,England,2,0,0
+West Brom,Southampton,England,1,1,1
+West Brom,Stoke City,England,3,1,0.333333333333333
+West Brom,Sunderland,England,2,0,0
+West Brom,Swansea,England,3,2,0.666666666666667
+West Brom,Tottenham,England,5,0,0
+West Brom,Watford,England,1,1,1
+West Brom,West Ham,England,5,1,0.2
+West Ham,Arsenal,England,5,0,0
+West Ham,Aston Villa,England,1,0,0
+West Ham,Bournemouth,England,2,1,0.5
+West Ham,Burnley,England,1,1,1
+West Ham,Chelsea,England,3,1,0.333333333333333
+West Ham,Crystal Palace,England,4,2,0.5
+West Ham,Everton,England,4,1,0.25
+West Ham,Fulham,England,1,0,0
+West Ham,Hull,England,2,1,0.5
+West Ham,Leicester City,England,3,0,0
+West Ham,Liverpool,England,4,1,0.25
+West Ham,Manchester City,England,5,2,0.4
+West Ham,Manchester Utd,England,5,1,0.2
+West Ham,Middlesbrough,England,2,1,0.5
+West Ham,Newcastle,England,2,0,0
+West Ham,Norwich City,England,3,0,0
+West Ham,Southampton,England,3,2,0.666666666666667
+West Ham,Stoke City,England,5,0,0
+West Ham,Sunderland,England,3,1,0.333333333333333
+West Ham,Swansea,England,4,2,0.5
+West Ham,Tottenham,England,3,0,0
+West Ham,Watford,England,2,1,0.5
+West Ham,West Brom,England,5,1,0.2
