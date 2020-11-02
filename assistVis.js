@@ -1,5 +1,5 @@
-let team1 = document.querySelector("#Team1").value;
-let team2 = document.querySelector("#Team2").value;
+// let team1 = document.querySelector("#Team1").value;
+// let team2 = document.querySelector("#Team2").value;
 
 let margin = { top: 40, right: 20, bottom: 40, left: 90 },
 width =
@@ -80,10 +80,10 @@ height = 300 - margin.top - margin.bottom;
       .attr('width', 230)
       .attr('border', 4)
 
-function updateAssist(){
+export function updateAssist(team1, team2){
   console.log("HERE")
-    team1 = document.querySelector("#Team1").value;
-    team2 = document.querySelector("#Team2").value;
+    // team1 = document.querySelector("#Team1").value;
+    // team2 = document.querySelector("#Team2").value;
     d3.csv('assists.csv', d3.autoType).then(data => {
     
     //filter team1
@@ -125,11 +125,12 @@ function updateAssist(){
             .attr("class", "bar")
             .attr("fill",function(d) {
                 if (d.event_team == team1){
-                    return 'blue';
+                    return d3.color('rgb(5, 48, 97)');
                 } else {
-                    return 'red';
+                    return d3.color('rgb(103, 0, 31)');
                 }
             })
+            .attr('opacity', 0.8)
             .attr("x", function(d) {
                 if (d.event_team == team1){
                     return x(d.assists);
@@ -194,11 +195,12 @@ function updateAssist(){
             .append('rect')
             .attr('fill', function(d){
                 if (d.event_team == team1){
-                    return 'blue'
+                  return d3.color('rgb(5, 48, 97)');
                 } else {
-                    return 'red'
+                  return d3.color('rgb(103, 0, 31)');
                 }
             }) 
+            .attr('opacity', 0.8)
             .attr('x', 230)
             .attr('y', function(d){
                 
@@ -267,11 +269,12 @@ function updateAssist(){
                 .attr("class", "bar2")
                 .attr("fill",function(d) {
                     if (d.event_team == team1){
-                        return 'blue';
+                      return d3.color('rgb(5, 48, 97)');
                     } else {
-                        return 'red';
+                      return d3.color('rgb(103, 0, 31)');
                     }
                 })
+                .attr('opacity', 0.8)
                 .attr("x", function(d) {
                     if (d.event_team == team1){
                         return x2(d.assists);
@@ -337,11 +340,12 @@ function updateAssist(){
                 .append('rect')
                 .attr('fill', function(d){
                     if (d.event_team == team1){
-                        return 'blue'
+                      return d3.color('rgb(5, 48, 97)');
                     } else {
-                        return 'red'
+                      return d3.color('rgb(103, 0, 31)');
                     }
-                }) 
+                })
+                .attr('opacity', 0.8) 
                 .attr('x', 230)
                 .attr('y', function(d){
                     

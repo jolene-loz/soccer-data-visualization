@@ -1,7 +1,9 @@
+import {updateAssist} from './assistVis.js' 
+import {updateGoal} from './goalLocation.js'
 export function HeatMap(container){// selector for a chart container e.g., ".chart"
 
     // initialization
-    var listeners = { brushed: null };
+    var listeners = { clicked: null };
 
     //create svg with margin convention
     const margin = ({top: 20, right: 20, bottom: 100, left: 100});
@@ -79,6 +81,13 @@ export function HeatMap(container){// selector for a chart container e.g., ".cha
         tooltip
             .style('display', 'none')
     };
+    var click = function(event,d){
+        console.log(event.target.__data__);
+        var team1 = event.target.__data__.team1;
+        var team2 = event.target.__data__.team2;
+        updateAssist(team1, team2);
+        updateGoal(team1, team2);
+    }
 
     var legend = svg.append("g");
 
@@ -112,7 +121,8 @@ export function HeatMap(container){// selector for a chart container e.g., ".cha
             .style("stroke", "none")
             .style("opacity", 0.8)
             .on('mouseover', d=>mouseover(d))
-            .on('mouseleave', mouseleave);
+            .on('mouseleave', mouseleave)
+            .on('click', click);
         
         squares.exit()
             .transition()
