@@ -213,7 +213,6 @@ export function updateGoal(team1, team2){
       })
         .attr('cy', function(d) {
           if (d.name === "Centre of the box"){
-            console.log("current y", d.y)
             return d.y * 0.4 //done
           } else if (d.name === 'Very close range'){
             return d.y * (0.02) //done 
@@ -332,7 +331,6 @@ export function updateGoal(team1, team2){
           })
           .attr('cy', function(d) {
             if (d.name === "Centre of the box"){
-              console.log("current y", d.y)
               return d.y * 0.4 //done
             } else if (d.name === 'Very close range'){
               return d.y * (0.02) //done 
