@@ -198,7 +198,7 @@ function updateAssist(){
                     return 'red'
                 }
             }) 
-            .attr('x', 200)
+            .attr('x', 215)
             .attr('y', function(d){
                 
                     if (d.event_team == team1){
@@ -340,7 +340,7 @@ function updateAssist(){
                         return 'red'
                     }
                 }) 
-                .attr('x', 200)
+                .attr('x', 214)
                 .attr('y', function(d){
                     
                         if (d.event_team == team1){

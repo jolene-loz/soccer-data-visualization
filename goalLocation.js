@@ -182,6 +182,7 @@ height = 300 - margin.top - margin.bottom;
     
 
     function ticked1() {
+     // svg5.selectAll('.label1').remove()
 
       //labelList1 = []
 
@@ -269,6 +270,7 @@ height = 300 - margin.top - margin.bottom;
      
 
     function ticked2() {
+      //svg5.selectAll('.label2').remove()
       svg5.selectAll(".goalLocation2")
         .remove()
         .exit()
