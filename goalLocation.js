@@ -68,7 +68,7 @@ export function updateGoal(team1, team2){
         2: "Defensive half",
         3: "Centre of the box",
         4: "Left Wing",
-        5:	"Right wing",
+        5:  "Right wing",
         6:	"Difficult angle and long range",
         7:	"Difficult angle on the left",
         8:	"Difficult angle on the right",
@@ -190,13 +190,17 @@ export function updateGoal(team1, team2){
         })
         .merge(team1)
         .attr('cx', function(d) {
-          return d.x - 200
+          if (d.name === "Centre of the box"){
+            return d.x - 275
+         } else if (d.name === 'Very close range'){
+           return d.x - 278
+         }
         })
         .attr('cy', function(d) {
           if (d.name === "Centre of the box"){
-             return d.y - 130
+             return d.y - 50
           } else if (d.name === 'Very close range'){
-            return d.y 
+            return d.y - 110
           } else if (d.name === "Penalty spot"){
             return d.y - 50
           }
@@ -299,10 +303,18 @@ export function updateGoal(team1, team2){
             })
             .merge(team2)
             .attr('cx', function(d) {
-              return d.x - 200
+              if (d.name === "Centre of the box"){
+                return d.x - 275
+             } else if (d.name === 'Very close range'){
+               return d.x - 278
+             }
             })
             .attr('cy', function(d) {
-              return d.y - 10
+              if (d.name === "Centre of the box"){
+                 return d.y - 50
+              } else if (d.name === 'Very close range'){
+                return d.y - 110
+              }
             })
             .attr('fill', d3.color('rgb(5, 48, 97)'))
             .attr('opacity', 0.8)
