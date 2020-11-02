@@ -173,10 +173,10 @@ function updateAssist(){
         svg
             .append("text")
             .attr("class", "axis-title")
-            .attr("x", 280)
+            .attr("x", margin.left)
             .attr("y", -15)
             .attr("dy", ".1em")
-            .style("text-anchor", "end")
+            .style("text-anchor", "begin")
             .text("Number of Sucessful Assist Types Teams 1 and 2");
 
             svg
@@ -316,10 +316,10 @@ function updateAssist(){
             svg2
                 .append("text")
                 .attr("class", "axis-title")
-                .attr("x", 290)
+                .attr("x", margin.left)
                 .attr("y", -15)
                 .attr("dy", ".1em")
-                .style("text-anchor", "end")
+                .style("text-anchor", "begin")
                 .text("Number of Failed Assist Types Teams 1 and 2");
 
                 svg2
