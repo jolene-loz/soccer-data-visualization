@@ -31,8 +31,8 @@ function updateGoal(){
 
 
   let margin = { top: 40, right: 20, bottom: 40, left: 90 },
-width = 500 - margin.left - margin.right,
-height = 300 - margin.top - margin.bottom;
+width = 800 - margin.left - margin.right,
+height = 400 - margin.top - margin.bottom;
 
   
   let team1 = document.querySelector("#Team1").value;
@@ -204,14 +204,14 @@ height = 300 - margin.top - margin.bottom;
       team1.enter()
         .append('circle')
         .attr('r', function(d) {
-          return d.radius
+          return d.radius * 2
         })
         .merge(team1)
         .attr('cx', function(d) {
-          return d.x
+          return d.x - 200
         })
         .attr('cy', function(d) {
-          return d.y
+          return d.y - 10
         })
         .attr('fill', 'blue')
         .attr('class', 'circle1')
@@ -248,10 +248,10 @@ height = 300 - margin.top - margin.bottom;
               .attr('font-size', 10)
 
       labels1.attr('x',(d) => {
-        return d.x
+        return d.x - 200
       })
       .attr('y', (d) => {
-        return d.y
+        return d.y - 10
       })
 
       team1.exit().remove()
@@ -287,14 +287,14 @@ height = 300 - margin.top - margin.bottom;
        team2.enter()
             .append('circle')
             .attr('r', function(d) {
-              return d.radius
+              return d.radius * 2
             })
             .merge(team2)
             .attr('cx', function(d) {
-              return d.x
+              return d.x - 200
             })
             .attr('cy', function(d) {
-              return d.y
+              return d.y - 10
             })
             .attr('fill', 'red')
             .attr('class','circle2')
@@ -328,15 +328,15 @@ height = 300 - margin.top - margin.bottom;
                       // console.log(labelList2)
                       return d.name
                     }})
-                  .attr('text-anchor', "middle")
+                  .attr('text-anchor', 'middle')
                   .attr('font-size', 10)
 
         
       labels2.attr('x',(d) => {
-        return d.x
+        return d.x - 200
       })
       .attr('y', (d) => {
-        return d.y
+        return d.y - 10
       });
  
       team2.exit().remove()
