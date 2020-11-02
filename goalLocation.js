@@ -40,27 +40,6 @@ height = 400 - margin.top - margin.bottom;
   console.log(team1)
  
 
-
-  svg4.select("text.axis-title").remove();
-  svg4
-  .append("text")
-  .attr("class", "axis-title")
-  .attr("x",0)
-  .attr("y", -15)
-  .attr("dy", ".1em")
-  .style("text-anchor", "begin")
-  .text("Locations where a goal was made for " + team1);
-
-  svg5.select("text.axis-title").remove();
-  svg5
-    .append("text")
-    .attr("class", "axis-title")
-    .attr("x", 0 )
-    .attr("y", -15)
-    .attr("dy", ".1em")
-    .style("text-anchor", "begin")
-    .text("Locations where a goal was made for " + team2);
-
     if (team1 != team2){
       svg5.attr('opacity', 1)
     } else {
