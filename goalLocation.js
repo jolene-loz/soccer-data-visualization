@@ -353,7 +353,7 @@ export function updateGoal(team1, team2){
             } else if (d.name === "More than 40 yards"){
               return d.y * 1.77
             }
-            else if (d.name == "Difficult Angle on the Right") {
+            else if (d.name == "Difficult Angle on the Right"){
                 return d.y * 0.9
             }
             else if (d.name == "Left Side of the Box") {
