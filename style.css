@@ -14,8 +14,12 @@ body{
 
 .goalLocation{
     background-image: url("soccer-goal.jpg");
+    width: 400px;
+    height: 600px;
 }
 
 .goalLocation2{
-    background-image: url("soccer-goal.jpg")
+    background-image: url("soccer-goal.jpg");
+    width: 400px;
+    height: 600px;
 }
