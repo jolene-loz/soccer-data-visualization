@@ -39,29 +39,35 @@ height = 400 - margin.top - margin.bottom;
   let team2 = document.querySelector("#Team2").value;
 
   console.log(team1)
+ 
 
 
   svg4.select("text.axis-title").remove();
   svg4
   .append("text")
   .attr("class", "axis-title")
-  .attr("x", 280)
+  .attr("x", margin.left)
   .attr("y", -15)
   .attr("dy", ".1em")
-  .style("text-anchor", "end")
-  .text("Locations where a goal was made for Team 1");
+  .style("text-anchor", "begin")
+  .text("Locations where a goal was made for " + team1);
 
   svg5.select("text.axis-title").remove();
   svg5
-  .append("text")
-  .attr("class", "axis-title")
-  .attr("x", 280)
-  .attr("y", -15)
-  .attr("dy", ".1em")
-  .style("text-anchor", "end")
-  .text("Locations where a goal was made for Team 2");
+    .append("text")
+    .attr("class", "axis-title")
+    .attr("x", margin.left )
+    .attr("y", -15)
+    .attr("dy", ".1em")
+    .style("text-anchor", "begin")
+    .text("Locations where a goal was made for " + team2);
 
-
+    if (team1 != team2){
+      svg5.attr('opacity', 1)
+    } else {
+      svg5.attr('opacity', 0)
+    }
+  
 
   d3.csv('game_goals_location_ontarget.csv', d3.autoType).then(data => {
     console.log(data)
@@ -268,6 +274,7 @@ height = 400 - margin.top - margin.bottom;
       .on('tick', ticked2)
       .restart()
 
+    
      
 
     function ticked2() {
